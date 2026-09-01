@@ -7,7 +7,7 @@ site_number	laboriosa_position_1based	laboriosa_and_bombus_terrestris_state	othe
 1	44	N	D	Bombus bifarius	XP_033307208.1	41	D	False	True
 1	44	N	D	Bombus vosnesenskii	XP_033351717.1	41	D	False	True
 1	44	N	D	Bombus pyrosoma	XP_043591548.1	41	D	False	True
-1	44	N	D	Osmia bicornis bicornis	XP_046142244.1	34	E	False	False
+1	44	N	D	Osmia bicornis bicornis	XP_046142244.1		-	False	False
 1	44	N	D	Bombus huntii	XP_050475552.1	41	D	False	True
 1	44	N	D	Bombus affinis	XP_050600501.1	41	N	True	False
 1	44	N	D	Bombus pascuorum	XP_060818789.1	42	N	True	False

@@ -1,12 +1,12 @@
 {
   "orthogroups_total": 10003,
   "complete_single_copy_orthogroups": 8273,
-  "callable_amino_acid_sites": 4902144,
-  "laboriosa_bombus_strict_sites": 2024,
-  "laboriosa_bombus_strict_site_orthogroups": 1311,
+  "callable_amino_acid_sites": 4903043,
+  "laboriosa_bombus_strict_sites": 2017,
+  "laboriosa_bombus_strict_site_orthogroups": 1307,
   "para_complete_single_copy_orthogroups": 1,
   "para_laboriosa_bombus_strict_sites": 0,
   "strict_copy_number_hits_laboriosa_bombus": 1,
-  "alignment_source": "OrthoFinder final MultipleSequenceAlignments",
+  "alignment_source": "pyfamsa recomputation from ordered primary proteins; one worker; refinement disabled",
   "interpretation_guardrail": "Descriptive foreground-sharing screen; not a phylogenetic association test or evidence of causality."
 }
