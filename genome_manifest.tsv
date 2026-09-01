@@ -1,0 +1,7 @@
+file	source_url	size_bytes	sha256
+GCF_014066325.1_genomic.fna.gz	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/014/066/325/GCF_014066325.1_ASM1406632v1/GCF_014066325.1_ASM1406632v1_genomic.fna.gz	71006392	8f56eb06bdf8f0d42da8221e887ec3e9f4ee689ef0c9061306107f9bbe55c12d
+GCF_014066325.1_genomic.gff.gz	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/014/066/325/GCF_014066325.1_ASM1406632v1/GCF_014066325.1_ASM1406632v1_genomic.gff.gz	5318011	1e9b87bf66e4b123f1243c9f3132c3785815a22799547725fe33db3f1d3a005c
+GCF_014066325.1_protein.faa.gz	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/014/066/325/GCF_014066325.1_ASM1406632v1/GCF_014066325.1_ASM1406632v1_protein.faa.gz	4488306	80706f78c0c02fb857b6c1f73100feb36e16942ab72cca07f031d8f4c50e2fce
+GCF_014066325.1_cds_from_genomic.fna.gz	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/014/066/325/GCF_014066325.1_ASM1406632v1/GCF_014066325.1_ASM1406632v1_cds_from_genomic.fna.gz	8306294	994934afb68ce0d4ba34f781ce70856a755a9b82ce45959ace05c10453ea97ee
+GCF_014066325.1_rna.fna.gz	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/014/066/325/GCF_014066325.1_ASM1406632v1/GCF_014066325.1_ASM1406632v1_rna.fna.gz	12986408	76993ded3cb4c1964489c50bd3130606a863812a8e205710508e8cc96b2e95e3
+GCF_014066325.1_assembly_report.txt	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/014/066/325/GCF_014066325.1_ASM1406632v1/GCF_014066325.1_ASM1406632v1_assembly_report.txt	456659	8bcde13df2206e41b32ddf52d3975d09c35632f6a3b25ba84c315755d4d7c66f

@@ -1,0 +1,7 @@
+name: laboriosa-gtx
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - biopython=1.88
+  - openpyxl=3.1.5

@@ -1,0 +1,18 @@
+.venv/
+.deps/
+.tools/
+.cache/
+__pycache__/
+*.py[cod]
+
+# Downloaded third-party inputs
+genomes/
+references/
+
+# Local logs and temporary files
+*.log
+*.part
+*.tmp
+local_input_manifest.tsv
+apis-laboriosa-inputs-*.tar
+.DS_Store
