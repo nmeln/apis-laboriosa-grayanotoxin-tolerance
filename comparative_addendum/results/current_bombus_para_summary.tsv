@@ -1,0 +1,2 @@
+current_accession	current_length_aa	matching_para_models_in_current_proteome	old_accession	old_length_aa	old_current_aligned_aa	old_current_identity_over_aligned	known_gtx_sites_checked	known_gtx_sites_matching_old	known_gtx_sites_matching_laboriosa	known_gtx_sites_matching_mellifera
+XP_048264504.1	2062	34	XP_020720206.1	2043	2043	0.99265786	16	16	16	16

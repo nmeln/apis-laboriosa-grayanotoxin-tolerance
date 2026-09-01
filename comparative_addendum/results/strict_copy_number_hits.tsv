@@ -1,0 +1,13 @@
+orthogroup	focal_apis	count_Apis_laboriosa	count_Apis_dorsata	count_Apis_mellifera	count_Apis_cerana	count_Apis_florea	count_Bombus_terrestris	other_apis_max	candidate_any	candidate_categories	laboriosa_descriptions
+OG0000069	Apis_cerana	1	1	1	2	1	6	1	False		XP_043793051.1 odorant receptor 13a-like [Apis laboriosa]
+OG0000155	Apis_cerana	1	1	1	2	1	4	1	False		XP_043786199.1 3-hydroxyacyl-CoA dehydrogenase type-2-like [Apis laboriosa]
+OG0000165	Apis_mellifera	1	1	2	1	1	3	1	False		XP_043794801.1 neprilysin-4-like [Apis laboriosa]
+OG0000194	Apis_florea	0	0	0	1	2	5	1	False		
+OG0000196	Apis_laboriosa	2	1	1	1	1	2	1	False		XP_043794861.1 LOW QUALITY PROTEIN: odorant receptor Or1-like [Apis laboriosa] | XP_043794863.1 odorant receptor Or1-like [Apis laboriosa]
+OG0000201	Apis_florea	1	1	1	0	2	3	1	False		XP_043791630.1 broad-complex core protein isoforms 1/2/3/4/5-like [Apis laboriosa]
+OG0000205	Apis_cerana	1	1	1	2	1	2	1	False		XP_043788027.1 scoloptoxin SSD14-like isoform X1 [Apis laboriosa]
+OG0000223	Apis_mellifera	1	1	2	1	1	2	1	False		XP_043791404.1 venom allergen 3-like [Apis laboriosa]
+OG0000240	Apis_florea	0	1	0	1	2	4	1	False		
+OG0000249	Apis_cerana	1	1	1	2	1	2	1	False		XP_043795802.1 60S ribosomal protein L23 [Apis laboriosa]
+OG0000252	Apis_mellifera	1	1	2	1	1	2	1	False		XP_043787097.1 protein glass [Apis laboriosa]
+OG0000340	Apis_dorsata	1	2	1	1	0	2	1	True	mucin	XP_043801598.1 mucin-17-like [Apis laboriosa]

@@ -1,0 +1,17 @@
+rat_position	rat_residue	region	current_bombus_position	current_bombus_residue	old_bombus_residue	current_matches_old	current_matches_apis_laboriosa	current_matches_apis_mellifera
+237	K	DI S4-S5 linker	257	K	K	True	True	True
+243	L	DI S4-S5 linker	263	V	V	True	True	True
+246	S	DI S4-S5 linker	266	S	S	True	True	True
+248	K	DI S4-S5 linker	268	K	K	True	True	True
+249	K	DI S4-S5 linker	269	N	N	True	True	True
+250	L	DI S4-S5 linker	270	L	L	True	True	True
+251	S	DI S4-S5 linker	271	R	R	True	True	True
+433	I	DI S6	419	V	V	True	True	True
+434	N	DI S6	420	N	N	True	True	True
+437	L	DI S6	423	L	L	True	True	True
+784	N	DII S6	1025	N	N	True	True	True
+1276	S	DIII S6	1553	S	S	True	True	True
+1463	T	DIV S4-S5 linker	1741	T	T	True	True	True
+1575	I	DIV S6	1849	L	L	True	True	True
+1579	F	DIV S6	1853	F	F	True	True	True
+1586	Y	DIV S6	1860	Y	Y	True	True	True

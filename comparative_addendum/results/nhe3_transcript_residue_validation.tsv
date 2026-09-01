@@ -1,0 +1,9 @@
+species	gene_parent	protein_accession	unigene	protein_position_1based	reference_protein_state	transcript_translation_state	state_matches
+Apis_laboriosa	gene-LOC122720353	XP_043802930.1	AL|c47374_g4	44	N	N	True
+Apis_laboriosa	gene-LOC122720353	XP_043802930.1	AL|c47374_g4	159	S	S	True
+Apis_laboriosa	gene-LOC122720353	XP_043802930.1	AL|c47374_g4	232	I	I	True
+Apis_laboriosa	gene-LOC122720353	XP_043802930.1	AL|c47374_g4	353	A	A	True
+Apis_dorsata	gene-LOC102675059	XP_006620153.1	AD|c42108_g2	44	D	D	True
+Apis_dorsata	gene-LOC102675059	XP_006620153.1	AD|c42108_g2	159	P	P	True
+Apis_dorsata	gene-LOC102675059	XP_006620153.1	AD|c42108_g2	232	V	V	True
+Apis_dorsata	gene-LOC102675059	XP_006620153.1	AD|c42108_g2	353	G	G	True

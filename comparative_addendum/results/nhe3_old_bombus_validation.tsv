@@ -1,0 +1,5 @@
+alignment_column_1based	laboriosa_position_1based	current_bombus_position_1based	old_bombus_position_1based	laboriosa_state	current_bombus_state	old_bombus_state	other_apis_state	old_matches_current_bombus	old_bombus_accession	current_bombus_accession
+44	44	41	41	N	N	N	D	True	XP_020720494.1	XP_048265247.1
+164	159	161	161	S	S	S	P	True	XP_020720494.1	XP_048265247.1
+237	232	234	234	I	I	I	V	True	XP_020720494.1	XP_048265247.1
+358	353	355	355	A	A	A	G	True	XP_020720494.1	XP_048265247.1

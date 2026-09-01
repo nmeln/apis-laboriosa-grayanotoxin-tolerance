@@ -1,0 +1,5 @@
+site_number	laboriosa_position_1based	current_bombus_position_1based	laboriosa_and_current_bombus_state	other_apis_state	additional_bombus_sequences_with_valid_state	additional_bombus_sequences_matching_focal_state
+1	44	41	N	D	8	3
+2	159	161	S	P	8	7
+3	232	234	I	V	8	8
+4	353	355	A	G	8	8

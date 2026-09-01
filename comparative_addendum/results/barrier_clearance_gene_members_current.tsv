@@ -1,0 +1,566 @@
+category	species	gene_parent	product
+ABCB_P_glycoprotein	Apis_laboriosa	gene-LOC122717982	ATP-binding cassette sub-family B member 10, mitochondrial
+ABCB_P_glycoprotein	Apis_laboriosa	gene-LOC122711022	ATP-binding cassette sub-family B member 6
+ABCB_P_glycoprotein	Apis_laboriosa	gene-LOC122718638	multidrug resistance protein homolog 49, transcript variant X1
+ABCB_P_glycoprotein	Apis_dorsata	gene-LOC102675561	ATP-binding cassette sub-family B member 10, mitochondrial
+ABCB_P_glycoprotein	Apis_dorsata	gene-LOC102681460	ATP-binding cassette sub-family B member 6, mitochondrial
+ABCB_P_glycoprotein	Apis_dorsata	gene-LOC102672391	ATP-binding cassette sub-family B member 7, mitochondrial
+ABCB_P_glycoprotein	Apis_dorsata	gene-LOC102675223	ATP-binding cassette sub-family B member 8, mitochondrial, transcript variant X1
+ABCB_P_glycoprotein	Apis_dorsata	gene-LOC102673741	multidrug resistance protein homolog 49
+ABCB_P_glycoprotein	Apis_mellifera	gene-LOC552744	ATP-binding cassette sub-family B member 10, mitochondrial
+ABCB_P_glycoprotein	Apis_mellifera	gene-LOC726867	ATP-binding cassette sub-family B member 6, mitochondrial
+ABCB_P_glycoprotein	Apis_mellifera	gene-LOC412749	ATP-binding cassette sub-family B member 7, mitochondrial, transcript variant X1
+ABCB_P_glycoprotein	Apis_mellifera	gene-LOC552433	ATP-binding cassette sub-family B member 8, mitochondrial
+ABCB_P_glycoprotein	Apis_mellifera	gene-LOC551167	multidrug resistance protein homolog 49, transcript variant X1
+ABCB_P_glycoprotein	Apis_cerana	gene-LOC107995924	ATP-binding cassette sub-family B member 10, mitochondrial
+ABCB_P_glycoprotein	Apis_florea	gene-LOC105734925	ATP-binding cassette sub-family B member 10, mitochondrial
+ABCB_P_glycoprotein	Bombus_terrestris	gene-LOC100650335	ATP-binding cassette sub-family B member 10, mitochondrial
+ABCB_P_glycoprotein	Bombus_terrestris	gene-LOC100652256	ATP-binding cassette sub-family B member 6
+ABCB_P_glycoprotein	Bombus_terrestris	gene-LOC100650108	multidrug resistance protein homolog 49, transcript variant X1
+ABCC_MRP	Apis_laboriosa	gene-LOC122719830	ATP-binding cassette sub-family C member 10, transcript variant X1
+ABCC_MRP	Apis_laboriosa	gene-LOC122713028	ATP-binding cassette sub-family C member 4-like
+ABCC_MRP	Apis_laboriosa	gene-LOC122717937	ATP-binding cassette sub-family C member 4-like
+ABCC_MRP	Apis_laboriosa	gene-LOC122717983	ATP-binding cassette sub-family C member 4-like, transcript variant X1
+ABCC_MRP	Apis_laboriosa	gene-LOC122712331	ATP-binding cassette sub-family C member Sur, transcript variant X1
+ABCC_MRP	Apis_laboriosa	gene-LOC122710824	multidrug resistance-associated protein 1, transcript variant X1
+ABCC_MRP	Apis_laboriosa	gene-LOC122715980	multidrug resistance-associated protein 5-like, transcript variant X1
+ABCC_MRP	Apis_laboriosa	gene-LOC122718161	probable multidrug resistance-associated protein lethal(2)03659
+ABCC_MRP	Apis_laboriosa	gene-LOC122719184	probable multidrug resistance-associated protein lethal(2)03659, transcript variant X1
+ABCC_MRP	Apis_dorsata	gene-LOC102678461	ATP-binding cassette sub-family C member Sur, transcript variant X1
+ABCC_MRP	Apis_dorsata	gene-LOC102672882	multidrug resistance-associated protein 1
+ABCC_MRP	Apis_dorsata	gene-LOC102681300	multidrug resistance-associated protein 4-like
+ABCC_MRP	Apis_dorsata	gene-LOC102678608	multidrug resistance-associated protein 4-like, transcript variant X1
+ABCC_MRP	Apis_dorsata	gene-LOC102680017	multidrug resistance-associated protein 4-like, transcript variant X1
+ABCC_MRP	Apis_dorsata	gene-LOC102680579	multidrug resistance-associated protein 7
+ABCC_MRP	Apis_dorsata	gene-LOC116186356	probable multidrug resistance-associated protein lethal(2)03659
+ABCC_MRP	Apis_dorsata	gene-LOC102671280	probable multidrug resistance-associated protein lethal(2)03659, transcript variant X1
+ABCC_MRP	Apis_dorsata	gene-LOC102676402	probable multidrug resistance-associated protein lethal(2)03659, transcript variant X1
+ABCC_MRP	Apis_mellifera	gene-LOC410944	ATP-binding cassette sub-family C member Sur, transcript variant X1
+ABCC_MRP	Apis_mellifera	gene-LOC412217	multidrug resistance-associated protein 1, transcript variant X1
+ABCC_MRP	Apis_mellifera	gene-LOC413959	multidrug resistance-associated protein 4
+ABCC_MRP	Apis_mellifera	gene-LOC551061	multidrug resistance-associated protein 4, transcript variant X1
+ABCC_MRP	Apis_mellifera	gene-LOC725051	multidrug resistance-associated protein 4, transcript variant X1
+ABCC_MRP	Apis_mellifera	gene-LOC725993	multidrug resistance-associated protein 7, transcript variant X1
+ABCC_MRP	Apis_mellifera	gene-LOC410269	probable multidrug resistance-associated protein lethal(2)03659
+ABCC_MRP	Apis_mellifera	gene-LOC409897	probable multidrug resistance-associated protein lethal(2)03659, transcript variant X1
+ABCC_MRP	Apis_cerana	gene-LOC107996119	ATP-binding cassette sub-family C member 10, transcript variant X1
+ABCC_MRP	Apis_cerana	gene-LOC108001091	ATP-binding cassette sub-family C member 4
+ABCC_MRP	Apis_cerana	gene-LOC107995947	ATP-binding cassette sub-family C member 4, transcript variant X1
+ABCC_MRP	Apis_cerana	gene-LOC107995966	ATP-binding cassette sub-family C member 4, transcript variant X1
+ABCC_MRP	Apis_cerana	gene-LOC107993272	ATP-binding cassette sub-family C member 5, transcript variant X1
+ABCC_MRP	Apis_cerana	gene-LOC107995785	putative multidrug resistance-associated protein lethal(2)03659, transcript variant X1
+ABCC_MRP	Apis_cerana	gene-LOC107996097	putative multidrug resistance-associated protein lethal(2)03659, transcript variant X1
+ABCC_MRP	Apis_florea	gene-LOC100863456	ATP-binding cassette sub-family C member 10, transcript variant X1
+ABCC_MRP	Apis_florea	gene-LOC100866883	ATP-binding cassette sub-family C member 4
+ABCC_MRP	Apis_florea	gene-LOC100867124	ATP-binding cassette sub-family C member 4
+ABCC_MRP	Apis_florea	gene-LOC100872958	ATP-binding cassette sub-family C member 4, transcript variant X1
+ABCC_MRP	Apis_florea	gene-LOC100864601	putative multidrug resistance-associated protein lethal(2)03659, transcript variant X1
+ABCC_MRP	Apis_florea	gene-LOC100865424	putative multidrug resistance-associated protein lethal(2)03659, transcript variant X1
+ABCC_MRP	Bombus_terrestris	gene-LOC100651558	ATP-binding cassette sub-family C member 10, transcript variant X1
+ABCC_MRP	Bombus_terrestris	gene-LOC100645209	ATP-binding cassette sub-family C member 4, transcript variant X1
+ABCC_MRP	Bombus_terrestris	gene-LOC100645338	ATP-binding cassette sub-family C member 4, transcript variant X1
+ABCC_MRP	Bombus_terrestris	gene-LOC100651734	ATP-binding cassette sub-family C member 4, transcript variant X1
+ABCC_MRP	Bombus_terrestris	gene-LOC105666350	ATP-binding cassette sub-family C member 5, transcript variant X1
+ABCC_MRP	Bombus_terrestris	gene-LOC100644751	ATP-binding cassette sub-family C member Sur, transcript variant X1
+ABCC_MRP	Bombus_terrestris	gene-LOC100646583	multidrug resistance-associated protein 1, transcript variant X1
+ABCC_MRP	Bombus_terrestris	gene-LOC100644974	probable multidrug resistance-associated protein lethal(2)03659, transcript variant X1
+ABCC_MRP	Bombus_terrestris	gene-LOC100650642	probable multidrug resistance-associated protein lethal(2)03659, transcript variant X1
+ABCG_half_transporter	Apis_laboriosa	gene-LOC122716896	ATP-binding cassette sub-family G member 1
+ABCG_half_transporter	Apis_laboriosa	gene-LOC122711105	ATP-binding cassette sub-family G member 1-like
+ABCG_half_transporter	Apis_laboriosa	gene-LOC122719983	ATP-binding cassette sub-family G member 1-like, transcript variant X1
+ABCG_half_transporter	Apis_laboriosa	gene-LOC122716754	ATP-binding cassette sub-family G member 4, transcript variant X1
+ABCG_half_transporter	Apis_laboriosa	gene-LOC122716756	ATP-binding cassette sub-family G member 4-like, transcript variant X1
+ABCG_half_transporter	Apis_laboriosa	gene-LOC122716895	ATP-binding cassette sub-family G member 4-like, transcript variant X1
+ABCG_half_transporter	Apis_laboriosa	gene-LOC122717367	ATP-binding cassette sub-family G member 5
+ABCG_half_transporter	Apis_laboriosa	gene-LOC122717049	ATP-binding cassette sub-family G member 5, transcript variant X1
+ABCG_half_transporter	Apis_dorsata	gene-LOC102676364	ATP-binding cassette sub-family G member 1, transcript variant X1
+ABCG_half_transporter	Apis_dorsata	gene-LOC102681104	ATP-binding cassette sub-family G member 1-like
+ABCG_half_transporter	Apis_dorsata	gene-LOC102677606	ATP-binding cassette sub-family G member 1-like, transcript variant X1
+ABCG_half_transporter	Apis_dorsata	gene-LOC102676814	ATP-binding cassette sub-family G member 4
+ABCG_half_transporter	Apis_dorsata	gene-LOC102680489	ATP-binding cassette sub-family G member 4, transcript variant X1
+ABCG_half_transporter	Apis_dorsata	gene-LOC102679638	ATP-binding cassette sub-family G member 4-like, transcript variant X1
+ABCG_half_transporter	Apis_dorsata	gene-LOC102680101	ATP-binding cassette sub-family G member 4-like, transcript variant X1
+ABCG_half_transporter	Apis_dorsata	gene-LOC102676209	ATP-binding cassette sub-family G member 5
+ABCG_half_transporter	Apis_dorsata	gene-LOC102676355	ATP-binding cassette sub-family G member 5, transcript variant X1
+ABCG_half_transporter	Apis_mellifera	gene-LOC412748	ATP-binding cassette sub-family G member 1
+ABCG_half_transporter	Apis_mellifera	gene-LOC414051	ATP-binding cassette sub-family G member 1, transcript variant X1
+ABCG_half_transporter	Apis_mellifera	gene-LOC724304	ATP-binding cassette sub-family G member 1, transcript variant X1
+ABCG_half_transporter	Apis_mellifera	gene-LOC411997	ATP-binding cassette sub-family G member 4, transcript variant X1
+ABCG_half_transporter	Apis_mellifera	gene-LOC550918	ATP-binding cassette sub-family G member 4, transcript variant X1
+ABCG_half_transporter	Apis_mellifera	gene-LOC552371	ATP-binding cassette sub-family G member 4, transcript variant X1
+ABCG_half_transporter	Apis_mellifera	gene-LOC726944	ATP-binding cassette sub-family G member 4, transcript variant X1
+ABCG_half_transporter	Apis_mellifera	gene-LOC413844	ATP-binding cassette sub-family G member 5
+ABCG_half_transporter	Apis_mellifera	gene-LOC726513	ATP-binding cassette sub-family G member 5, transcript variant X1
+ABCG_half_transporter	Apis_cerana	gene-LOC108001803	ATP-binding cassette sub-family G member 1
+ABCG_half_transporter	Apis_cerana	gene-LOC108000872	ATP-binding cassette sub-family G member 1, transcript variant X1
+ABCG_half_transporter	Apis_cerana	gene-LOC108000874	ATP-binding cassette sub-family G member 1, transcript variant X1
+ABCG_half_transporter	Apis_cerana	gene-LOC107999913	ATP-binding cassette sub-family G member 1-like
+ABCG_half_transporter	Apis_cerana	gene-LOC108001763	ATP-binding cassette sub-family G member 4, transcript variant X1
+ABCG_half_transporter	Apis_cerana	gene-LOC108001802	ATP-binding cassette sub-family G member 4, transcript variant X1
+ABCG_half_transporter	Apis_cerana	gene-LOC108001851	ATP-binding cassette sub-family G member 4, transcript variant X1
+ABCG_half_transporter	Apis_cerana	gene-LOC108001727	ATP-binding cassette sub-family G member 5
+ABCG_half_transporter	Apis_cerana	gene-LOC108001728	ATP-binding cassette sub-family G member 5, transcript variant X1
+ABCG_half_transporter	Apis_florea	gene-LOC100867712	ATP-binding cassette sub-family G member 1, transcript variant X1
+ABCG_half_transporter	Apis_florea	gene-LOC100867929	ATP-binding cassette sub-family G member 1, transcript variant X1
+ABCG_half_transporter	Apis_florea	gene-LOC100865973	ATP-binding cassette sub-family G member 4
+ABCG_half_transporter	Apis_florea	gene-LOC100864009	ATP-binding cassette sub-family G member 4, transcript variant X1
+ABCG_half_transporter	Apis_florea	gene-LOC100867439	ATP-binding cassette sub-family G member 4, transcript variant X1
+ABCG_half_transporter	Apis_florea	gene-LOC100867808	ATP-binding cassette sub-family G member 4, transcript variant X1
+ABCG_half_transporter	Apis_florea	gene-LOC100872012	ATP-binding cassette sub-family G member 4, transcript variant X1
+ABCG_half_transporter	Apis_florea	gene-LOC100870311	ATP-binding cassette sub-family G member 5
+ABCG_half_transporter	Apis_florea	gene-LOC100871104	ATP-binding cassette sub-family G member 5
+ABCG_half_transporter	Bombus_terrestris	gene-LOC100644848	ATP-binding cassette sub-family G member 1
+ABCG_half_transporter	Bombus_terrestris	gene-LOC100644723	ATP-binding cassette sub-family G member 1, transcript variant X1
+ABCG_half_transporter	Bombus_terrestris	gene-LOC100644744	ATP-binding cassette sub-family G member 1, transcript variant X1
+ABCG_half_transporter	Bombus_terrestris	gene-LOC100644985	ATP-binding cassette sub-family G member 1, transcript variant X1
+ABCG_half_transporter	Bombus_terrestris	gene-LOC125385011	ATP-binding cassette sub-family G member 1-like
+ABCG_half_transporter	Bombus_terrestris	gene-LOC100644506	ATP-binding cassette sub-family G member 4
+ABCG_half_transporter	Bombus_terrestris	gene-LOC100646359	ATP-binding cassette sub-family G member 4, transcript variant X1
+ABCG_half_transporter	Bombus_terrestris	gene-LOC100643668	ATP-binding cassette sub-family G member 5, transcript variant X1
+ABCG_half_transporter	Bombus_terrestris	gene-LOC100648840	ATP-binding cassette sub-family G member 5, transcript variant X1
+organic_anion_transport	Apis_laboriosa	gene-LOC122714185	solute carrier organic anion transporter family member 1A5-like, transcript variant X1
+organic_anion_transport	Apis_laboriosa	gene-LOC122710891	solute carrier organic anion transporter family member 4A1, transcript variant X1
+organic_anion_transport	Apis_laboriosa	gene-LOC122710879	solute carrier organic anion transporter family member 5A1, transcript variant X1
+organic_anion_transport	Apis_laboriosa	gene-LOC122713366	solute carrier organic anion transporter family member 74D, transcript variant X1
+organic_anion_transport	Apis_laboriosa	gene-LOC122714194	solute carrier organic anion transporter family member 74D, transcript variant X1
+organic_anion_transport	Apis_laboriosa	gene-LOC122714205	solute carrier organic anion transporter family member 74D, transcript variant X1
+organic_anion_transport	Apis_dorsata	gene-LOC102680902	solute carrier organic anion transporter family member 1A5-like
+organic_anion_transport	Apis_dorsata	gene-LOC102674815	solute carrier organic anion transporter family member 4A1, transcript variant X1
+organic_anion_transport	Apis_dorsata	gene-LOC102674330	solute carrier organic anion transporter family member 5A1, transcript variant X1
+organic_anion_transport	Apis_dorsata	gene-LOC102670847	solute carrier organic anion transporter family member 74D, transcript variant X1
+organic_anion_transport	Apis_dorsata	gene-LOC102679526	solute carrier organic anion transporter family member 74D, transcript variant X1
+organic_anion_transport	Apis_dorsata	gene-LOC102671071	solute carrier organic anion transporter family member 74D-like, transcript variant X1
+organic_anion_transport	Apis_mellifera	gene-LOC726470	solute carrier organic anion transporter family member 1A5, transcript variant X1
+organic_anion_transport	Apis_mellifera	gene-LOC409650	solute carrier organic anion transporter family member 2A1, transcript variant X1
+organic_anion_transport	Apis_mellifera	gene-LOC100577409	solute carrier organic anion transporter family member 3A1
+organic_anion_transport	Apis_mellifera	gene-LOC107965041	solute carrier organic anion transporter family member 4A1-like, transcript variant X1
+organic_anion_transport	Apis_mellifera	gene-LOC409649	solute carrier organic anion transporter family member 5A1, transcript variant X1
+organic_anion_transport	Apis_cerana	gene-LOC107994922	organic anion transporter 3, transcript variant X1
+organic_anion_transport	Apis_cerana	gene-Oatp26F	Organic anion transporting polypeptide 26F, transcript variant X1
+organic_anion_transport	Apis_cerana	gene-LOC107998865	Organic anion transporting polypeptide 30B, transcript variant X1
+organic_anion_transport	Apis_cerana	gene-Oatp33Ea	Organic anion transporting polypeptide 33Ea
+organic_anion_transport	Apis_cerana	gene-Oatp58Dc	Organic anion transporting polypeptide 58Dc, transcript variant X1
+organic_anion_transport	Apis_cerana	gene-Oatp74D	Organic anion transporting polypeptide 74D, transcript variant X1
+organic_anion_transport	Apis_cerana	gene-LOC108001520	solute carrier organic anion transporter family member 1A5, transcript variant X1
+organic_anion_transport	Apis_florea	gene-Oatp26F	Organic anion transporting polypeptide 26F, transcript variant X1
+organic_anion_transport	Apis_florea	gene-LOC100863111	Organic anion transporting polypeptide 30B, transcript variant X1
+organic_anion_transport	Apis_florea	gene-Oatp33Ea	Organic anion transporting polypeptide 33Ea, transcript variant X1
+organic_anion_transport	Apis_florea	gene-Oatp58Dc	Organic anion transporting polypeptide 58Dc
+organic_anion_transport	Apis_florea	gene-Oatp74D	Organic anion transporting polypeptide 74D, transcript variant X1
+organic_anion_transport	Apis_florea	gene-LOC100866726	solute carrier organic anion transporter family member 1A5
+organic_anion_transport	Bombus_terrestris	gene-LOC100652127	solute carrier organic anion transporter family member 1A5, transcript variant X1
+organic_anion_transport	Bombus_terrestris	gene-LOC100648366	solute carrier organic anion transporter family member 3A1, transcript variant X1
+organic_anion_transport	Bombus_terrestris	gene-LOC100648480	solute carrier organic anion transporter family member 4A1, transcript variant X1
+organic_anion_transport	Bombus_terrestris	gene-LOC100651334	solute carrier organic anion transporter family member 74D
+organic_anion_transport	Bombus_terrestris	gene-LOC100642340	solute carrier organic anion transporter family member 74D, transcript variant X1
+organic_anion_transport	Bombus_terrestris	gene-LOC100642848	solute carrier organic anion transporter family member 74D, transcript variant X1
+major_facilitator	Apis_laboriosa	gene-LOC122715846	major facilitator superfamily domain-containing protein 1-like
+major_facilitator	Apis_laboriosa	gene-LOC122712846	major facilitator superfamily domain-containing protein 10, transcript variant X1
+major_facilitator	Apis_laboriosa	gene-LOC122716902	major facilitator superfamily domain-containing protein 12-like
+major_facilitator	Apis_laboriosa	gene-LOC122718407	major facilitator superfamily domain-containing protein 12-like
+major_facilitator	Apis_laboriosa	gene-LOC122710305	major facilitator superfamily domain-containing protein 6, transcript variant X1
+major_facilitator	Apis_laboriosa	gene-LOC122712949	major facilitator superfamily domain-containing protein 6, transcript variant X1
+major_facilitator	Apis_laboriosa	gene-LOC122713946	major facilitator superfamily domain-containing protein 6, transcript variant X1
+major_facilitator	Apis_laboriosa	gene-LOC122710406	major facilitator superfamily domain-containing protein 8, transcript variant X1
+major_facilitator	Apis_dorsata	gene-LOC102680851	major facilitator superfamily domain-containing protein 1-like
+major_facilitator	Apis_dorsata	gene-LOC102673495	major facilitator superfamily domain-containing protein 10, transcript variant X1
+major_facilitator	Apis_dorsata	gene-LOC102672361	major facilitator superfamily domain-containing protein 12-like
+major_facilitator	Apis_dorsata	gene-LOC102677696	major facilitator superfamily domain-containing protein 12-like
+major_facilitator	Apis_dorsata	gene-LOC102677913	major facilitator superfamily domain-containing protein 6
+major_facilitator	Apis_dorsata	gene-LOC102675013	major facilitator superfamily domain-containing protein 6, transcript variant X1
+major_facilitator	Apis_dorsata	gene-LOC102674265	major facilitator superfamily domain-containing protein 6-like
+major_facilitator	Apis_dorsata	gene-LOC102678905	major facilitator superfamily domain-containing protein 6-like, transcript variant X1
+major_facilitator	Apis_dorsata	gene-LOC102675903	major facilitator superfamily domain-containing protein 8
+major_facilitator	Apis_mellifera	gene-LOC408634	major facilitator superfamily domain-containing protein 1
+major_facilitator	Apis_mellifera	gene-LOC552708	major facilitator superfamily domain-containing protein 10, transcript variant X1
+major_facilitator	Apis_mellifera	gene-LOC408674	major facilitator superfamily domain-containing protein 12
+major_facilitator	Apis_mellifera	gene-LOC551665	major facilitator superfamily domain-containing protein 12
+major_facilitator	Apis_mellifera	gene-LOC411196	major facilitator superfamily domain-containing protein 6
+major_facilitator	Apis_mellifera	gene-LOC410613	major facilitator superfamily domain-containing protein 6, transcript variant X1
+major_facilitator	Apis_mellifera	gene-LOC412430	major facilitator superfamily domain-containing protein 6, transcript variant X1
+major_facilitator	Apis_mellifera	gene-LOC725192	major facilitator superfamily domain-containing protein 6-A, transcript variant X1
+major_facilitator	Apis_mellifera	gene-LOC552144	major facilitator superfamily domain-containing protein 8, transcript variant X1
+major_facilitator	Apis_cerana	gene-LOC108002099	major facilitator superfamily domain-containing protein 1
+major_facilitator	Apis_cerana	gene-LOC108002860	major facilitator superfamily domain-containing protein 12
+major_facilitator	Apis_cerana	gene-LOC108004254	major facilitator superfamily domain-containing protein 12
+major_facilitator	Apis_cerana	gene-jef	major facilitator superfamily domain-containing protein 6 jef, transcript variant X1
+major_facilitator	Apis_cerana	gene-LOC108000755	major facilitator superfamily domain-containing protein 6, transcript variant X1
+major_facilitator	Apis_cerana	gene-rtet	major facilitator superfamily domain-containing protein rtet, transcript variant X1
+major_facilitator	Apis_cerana	gene-MFS10	major facilitator superfamily transporter 10, transcript variant X1
+major_facilitator	Apis_cerana	gene-MFS16	major facilitator superfamily transporter 16, transcript variant X1
+major_facilitator	Apis_cerana	gene-MFS18	major facilitator superfamily transporter 18, transcript variant X1
+major_facilitator	Apis_cerana	gene-MFS3	major facilitator superfamily transporter 3
+major_facilitator	Apis_cerana	gene-MFS9	major facilitator superfamily transporter 9, transcript variant X1
+major_facilitator	Apis_florea	gene-LOC100871986	major facilitator superfamily domain-containing protein 12
+major_facilitator	Apis_florea	gene-LOC100868934	major facilitator superfamily domain-containing protein 12, transcript variant X1
+major_facilitator	Apis_florea	gene-jef	major facilitator superfamily domain-containing protein 6 jef, transcript variant X1
+major_facilitator	Apis_florea	gene-LOC100866506	major facilitator superfamily domain-containing protein 6, transcript variant X1
+major_facilitator	Apis_florea	gene-rtet	major facilitator superfamily domain-containing protein rtet, transcript variant X1
+major_facilitator	Apis_florea	gene-MFS10	major facilitator superfamily transporter 10
+major_facilitator	Apis_florea	gene-MFS16	major facilitator superfamily transporter 16, transcript variant X1
+major_facilitator	Apis_florea	gene-MFS18	major facilitator superfamily transporter 18, transcript variant X1
+major_facilitator	Apis_florea	gene-MFS3	major facilitator superfamily transporter 3
+major_facilitator	Apis_florea	gene-MFS9	major facilitator superfamily transporter 9, transcript variant X1
+major_facilitator	Bombus_terrestris	gene-LOC100651709	major facilitator superfamily domain-containing protein 1
+major_facilitator	Bombus_terrestris	gene-LOC100648145	major facilitator superfamily domain-containing protein 10
+major_facilitator	Bombus_terrestris	gene-LOC100642988	major facilitator superfamily domain-containing protein 12, transcript variant X1
+major_facilitator	Bombus_terrestris	gene-LOC100643640	major facilitator superfamily domain-containing protein 12, transcript variant X1
+major_facilitator	Bombus_terrestris	gene-LOC100648477	major facilitator superfamily domain-containing protein 6, transcript variant X1
+major_facilitator	Bombus_terrestris	gene-LOC100651054	major facilitator superfamily domain-containing protein 6, transcript variant X1
+major_facilitator	Bombus_terrestris	gene-LOC100652175	major facilitator superfamily domain-containing protein 6, transcript variant X1
+major_facilitator	Bombus_terrestris	gene-LOC100648831	major facilitator superfamily domain-containing protein 8, transcript variant X1
+aquaporin	Apis_laboriosa	gene-LOC122720404	aquaporin AQPAe.a-like
+aquaporin	Apis_laboriosa	gene-LOC122710404	aquaporin AQPAn.G-like, transcript variant X1
+aquaporin	Apis_laboriosa	gene-LOC122720057	aquaporin AQPAn.G-like, transcript variant X1
+aquaporin	Apis_laboriosa	gene-LOC122710743	aquaporin-11
+aquaporin	Apis_laboriosa	gene-LOC122717163	aquaporin-like, transcript variant X1
+aquaporin	Apis_dorsata	gene-LOC102681154	aquaporin AQPAe.a-like
+aquaporin	Apis_dorsata	gene-LOC102679301	aquaporin AQPAn.G, transcript variant X1
+aquaporin	Apis_dorsata	gene-LOC102679924	aquaporin AQPAn.G-like, transcript variant X1
+aquaporin	Apis_dorsata	gene-LOC102681139	aquaporin-like, transcript variant X1
+aquaporin	Apis_dorsata	gene-LOC102681264	aquaporin-like, transcript variant X1
+aquaporin	Apis_mellifera	gene-LOC725165	aquaporin AQPAe.a, transcript variant X1
+aquaporin	Apis_mellifera	gene-LOC410915	aquaporin AQPAn.G, transcript variant X1
+aquaporin	Apis_mellifera	gene-LOC552149	aquaporin AQPAn.G, transcript variant X1
+aquaporin	Apis_mellifera	gene-LOC551806	aquaporin, transcript variant X1
+aquaporin	Apis_mellifera	gene-LOC107964089	aquaporin-11
+aquaporin	Apis_cerana	gene-AQP	aquaporin
+aquaporin	Apis_cerana	gene-LOC107996665	aquaporin AQPAe.a, transcript variant X1
+aquaporin	Apis_cerana	gene-LOC108001076	aquaporin AQPAn.G, transcript variant X1
+aquaporin	Apis_cerana	gene-LOC108001077	aquaporin AQPAn.G, transcript variant X1
+aquaporin	Apis_cerana	gene-LOC108001732	aquaporin, transcript variant X1
+aquaporin	Apis_florea	gene-LOC100867232	aquaporin AQPAn.G, transcript variant X1
+aquaporin	Apis_florea	gene-LOC100868157	aquaporin AQPAn.G, transcript variant X1
+aquaporin	Apis_florea	gene-LOC100872956	aquaporin AQPAn.G, transcript variant X1
+aquaporin	Apis_florea	gene-AQP	aquaporin, transcript variant X1
+aquaporin	Apis_florea	gene-LOC100863295	aquaporin, transcript variant X1
+aquaporin	Apis_florea	gene-LOC100863529	aquaporin-like, transcript variant X1
+aquaporin	Bombus_terrestris	gene-LOC100643968	aquaporin AQPAe.a-like
+aquaporin	Bombus_terrestris	gene-LOC100647412	aquaporin AQPAn.G, transcript variant X1
+aquaporin	Bombus_terrestris	gene-LOC100647837	aquaporin AQPAn.G, transcript variant X1
+aquaporin	Bombus_terrestris	gene-LOC100650947	aquaporin, transcript variant X1
+aquaporin	Bombus_terrestris	gene-LOC105666529	aquaporin-11, transcript variant X1
+sodium_hydrogen_exchange	Apis_laboriosa	gene-LOC122719139	Na(+)/H(+) exchange regulatory cofactor NHE-RF1, transcript variant X1
+sodium_hydrogen_exchange	Apis_laboriosa	gene-LOC122720353	sodium/hydrogen exchanger 3, transcript variant X1
+sodium_hydrogen_exchange	Apis_laboriosa	gene-LOC122716536	sodium/hydrogen exchanger 7, transcript variant X1
+sodium_hydrogen_exchange	Apis_laboriosa	gene-LOC122716663	sodium/hydrogen exchanger 8
+sodium_hydrogen_exchange	Apis_laboriosa	gene-LOC122711494	sodium/hydrogen exchanger 9B1-like
+sodium_hydrogen_exchange	Apis_laboriosa	gene-LOC122715780	sodium/hydrogen exchanger 9B2, transcript variant X1
+sodium_hydrogen_exchange	Apis_dorsata	gene-LOC102681906	Na(+)/H(+) exchange regulatory cofactor NHE-RF1, transcript variant X1
+sodium_hydrogen_exchange	Apis_dorsata	gene-LOC102672201	Na(+)/H(+) exchange regulatory cofactor NHE-RF1-like
+sodium_hydrogen_exchange	Apis_dorsata	gene-LOC102675059	sodium/hydrogen exchanger 3, transcript variant X1
+sodium_hydrogen_exchange	Apis_dorsata	gene-LOC102672747	sodium/hydrogen exchanger 7, transcript variant X1
+sodium_hydrogen_exchange	Apis_dorsata	gene-LOC102675826	sodium/hydrogen exchanger 8, transcript variant X1
+sodium_hydrogen_exchange	Apis_dorsata	gene-LOC102674237	sodium/hydrogen exchanger 9B1-like, transcript variant X1
+sodium_hydrogen_exchange	Apis_dorsata	gene-LOC102680323	sodium/hydrogen exchanger 9B2
+sodium_hydrogen_exchange	Apis_mellifera	gene-LOC413207	Na(+)/H(+) exchange regulatory cofactor NHE-RF1, transcript variant X1
+sodium_hydrogen_exchange	Apis_mellifera	gene-LOC408306	sodium/hydrogen exchanger 3, transcript variant X1
+sodium_hydrogen_exchange	Apis_mellifera	gene-LOC552330	sodium/hydrogen exchanger 7, transcript variant X1
+sodium_hydrogen_exchange	Apis_mellifera	gene-LOC414012	sodium/hydrogen exchanger 8
+sodium_hydrogen_exchange	Apis_mellifera	gene-LOC725900	sodium/hydrogen exchanger 9B1
+sodium_hydrogen_exchange	Apis_mellifera	gene-LOC410780	sodium/hydrogen exchanger 9B2, transcript variant X1
+sodium_hydrogen_exchange	Apis_cerana	gene-LOC107992496	Na(+)/H(+) exchange regulatory cofactor NHE-RF1, transcript variant X1
+sodium_hydrogen_exchange	Bombus_terrestris	gene-LOC100649320	Na(+)/H(+) exchange regulatory cofactor NHE-RF1
+sodium_hydrogen_exchange	Bombus_terrestris	gene-LOC100649965	sodium/hydrogen exchanger 7, transcript variant X1
+sodium_hydrogen_exchange	Bombus_terrestris	gene-LOC100648675	sodium/hydrogen exchanger 8
+sodium_hydrogen_exchange	Bombus_terrestris	gene-LOC100651105	sodium/hydrogen exchanger 9B1
+sodium_potassium_ATPase	Apis_laboriosa	gene-LOC122715186	sodium/potassium-transporting ATPase subunit alpha
+sodium_potassium_ATPase	Apis_laboriosa	gene-LOC122712799	sodium/potassium-transporting ATPase subunit alpha-B-like
+sodium_potassium_ATPase	Apis_laboriosa	gene-LOC122710465	sodium/potassium-transporting ATPase subunit alpha-like
+sodium_potassium_ATPase	Apis_laboriosa	gene-LOC122713304	sodium/potassium-transporting ATPase subunit beta-1-interacting protein, transcript variant X1
+sodium_potassium_ATPase	Apis_laboriosa	gene-LOC122710293	sodium/potassium-transporting ATPase subunit beta-2-like
+sodium_potassium_ATPase	Apis_laboriosa	gene-LOC122710478	sodium/potassium-transporting ATPase subunit beta-2-like
+sodium_potassium_ATPase	Apis_laboriosa	gene-LOC122713168	sodium/potassium-transporting ATPase subunit beta-2-like
+sodium_potassium_ATPase	Apis_laboriosa	gene-LOC122710371	sodium/potassium-transporting ATPase subunit beta-2-like, transcript variant X1
+sodium_potassium_ATPase	Apis_dorsata	gene-LOC102670609	sodium/potassium-transporting ATPase subunit alpha
+sodium_potassium_ATPase	Apis_dorsata	gene-LOC102672055	sodium/potassium-transporting ATPase subunit alpha-B-like
+sodium_potassium_ATPase	Apis_dorsata	gene-LOC102678945	sodium/potassium-transporting ATPase subunit alpha-like
+sodium_potassium_ATPase	Apis_dorsata	gene-LOC102673902	sodium/potassium-transporting ATPase subunit beta-2-like
+sodium_potassium_ATPase	Apis_dorsata	gene-LOC102674124	sodium/potassium-transporting ATPase subunit beta-2-like
+sodium_potassium_ATPase	Apis_mellifera	gene-LOC410913	sodium/potassium-transporting ATPase subunit alpha
+sodium_potassium_ATPase	Apis_mellifera	gene-LOC411083	sodium/potassium-transporting ATPase subunit alpha, transcript variant X1
+sodium_potassium_ATPase	Apis_mellifera	gene-LOC413471	sodium/potassium-transporting ATPase subunit alpha-B
+sodium_potassium_ATPase	Apis_mellifera	gene-LOC552749	sodium/potassium-transporting ATPase subunit beta-1-interacting protein, transcript variant X1
+sodium_potassium_ATPase	Apis_mellifera	gene-LOC408722	sodium/potassium-transporting ATPase subunit beta-2
+sodium_potassium_ATPase	Apis_mellifera	gene-LOC410905	sodium/potassium-transporting ATPase subunit beta-2
+sodium_potassium_ATPase	Apis_mellifera	gene-LOC725991	sodium/potassium-transporting ATPase subunit beta-2
+sodium_potassium_ATPase	Apis_cerana	gene-LOC108001106	sodium/potassium-transporting ATPase subunit alpha
+sodium_potassium_ATPase	Apis_cerana	gene-Atpalpha	sodium/potassium-transporting ATPase subunit alpha, transcript variant X1
+sodium_potassium_ATPase	Apis_cerana	gene-LOC108002557	sodium/potassium-transporting ATPase subunit alpha-B
+sodium_potassium_ATPase	Apis_cerana	gene-NKAIN	sodium/potassium-transporting ATPase subunit beta-1-interacting protein, transcript variant X1
+sodium_potassium_ATPase	Apis_cerana	gene-LOC108001082	sodium/potassium-transporting ATPase subunit beta-2
+sodium_potassium_ATPase	Apis_cerana	gene-LOC108001104	sodium/potassium-transporting ATPase subunit beta-2
+sodium_potassium_ATPase	Apis_cerana	gene-LOC108001110	sodium/potassium-transporting ATPase subunit beta-2, transcript variant X1
+sodium_potassium_ATPase	Apis_florea	gene-LOC100867880	sodium/potassium-transporting ATPase subunit alpha
+sodium_potassium_ATPase	Apis_florea	gene-Atpalpha	sodium/potassium-transporting ATPase subunit alpha, transcript variant X1
+sodium_potassium_ATPase	Apis_florea	gene-LOC100863468	sodium/potassium-transporting ATPase subunit alpha-B
+sodium_potassium_ATPase	Apis_florea	gene-NKAIN	sodium/potassium-transporting ATPase subunit beta-1-interacting protein, transcript variant X1
+sodium_potassium_ATPase	Apis_florea	gene-LOC100869290	sodium/potassium-transporting ATPase subunit beta-1-like
+sodium_potassium_ATPase	Apis_florea	gene-LOC100869212	sodium/potassium-transporting ATPase subunit beta-2
+sodium_potassium_ATPase	Apis_florea	gene-LOC100869332	sodium/potassium-transporting ATPase subunit beta-2
+sodium_potassium_ATPase	Apis_florea	gene-LOC100866621	sodium/potassium-transporting ATPase subunit beta-2-like, transcript variant X1
+sodium_potassium_ATPase	Bombus_terrestris	gene-LOC110119661	sodium/potassium-transporting ATPase subunit alpha
+sodium_potassium_ATPase	Bombus_terrestris	gene-LOC100647333	sodium/potassium-transporting ATPase subunit alpha, transcript variant X1
+sodium_potassium_ATPase	Bombus_terrestris	gene-LOC100643682	sodium/potassium-transporting ATPase subunit alpha-like
+sodium_potassium_ATPase	Bombus_terrestris	gene-LOC100649362	sodium/potassium-transporting ATPase subunit beta-1
+sodium_potassium_ATPase	Bombus_terrestris	gene-LOC100642457	sodium/potassium-transporting ATPase subunit beta-1-interacting protein, transcript variant X1
+sodium_potassium_ATPase	Bombus_terrestris	gene-LOC100649123	sodium/potassium-transporting ATPase subunit beta-2
+sodium_potassium_ATPase	Bombus_terrestris	gene-LOC100649482	sodium/potassium-transporting ATPase subunit beta-2
+sodium_potassium_ATPase	Bombus_terrestris	gene-LOC110119183	sodium/potassium-transporting ATPase subunit beta-2, transcript variant X1
+V_type_proton_ATPase	Apis_laboriosa	gene-LOC122714442	V-type proton ATPase 116 kDa subunit a1, transcript variant X1
+V_type_proton_ATPase	Apis_laboriosa	gene-LOC122716659	V-type proton ATPase 116 kDa subunit a1-like, transcript variant X1
+V_type_proton_ATPase	Apis_laboriosa	gene-LOC122718730	V-type proton ATPase 16 kDa proteolipid subunit
+V_type_proton_ATPase	Apis_laboriosa	gene-LOC122720691	V-type proton ATPase 21 kDa proteolipid subunit-like
+V_type_proton_ATPase	Apis_laboriosa	gene-LOC122713496	V-type proton ATPase catalytic subunit A, transcript variant X1
+V_type_proton_ATPase	Apis_laboriosa	gene-LOC122713995	V-type proton ATPase subunit B
+V_type_proton_ATPase	Apis_laboriosa	gene-LOC122715243	V-type proton ATPase subunit C
+V_type_proton_ATPase	Apis_laboriosa	gene-LOC122718946	V-type proton ATPase subunit d
+V_type_proton_ATPase	Apis_laboriosa	gene-LOC122713215	V-type proton ATPase subunit D 1
+V_type_proton_ATPase	Apis_laboriosa	gene-LOC122720204	V-type proton ATPase subunit E
+V_type_proton_ATPase	Apis_laboriosa	gene-LOC122713027	V-type proton ATPase subunit e 2-like
+V_type_proton_ATPase	Apis_laboriosa	gene-LOC122716220	V-type proton ATPase subunit F
+V_type_proton_ATPase	Apis_laboriosa	gene-LOC122720010	V-type proton ATPase subunit G
+V_type_proton_ATPase	Apis_laboriosa	gene-LOC122718652	V-type proton ATPase subunit H, transcript variant X1
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102680098	V-type proton ATPase 116 kDa subunit a
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102678078	V-type proton ATPase 116 kDa subunit a-like, transcript variant X1
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102679198	V-type proton ATPase 16 kDa proteolipid subunit
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102672084	V-type proton ATPase 21 kDa proteolipid subunit-like
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102673131	V-type proton ATPase catalytic subunit A-like
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102679975	V-type proton ATPase subunit B
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102675218	V-type proton ATPase subunit C, transcript variant X1
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102672547	V-type proton ATPase subunit d
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102676189	V-type proton ATPase subunit D
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102680021	V-type proton ATPase subunit E
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102681408	V-type proton ATPase subunit e 2-like
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102680677	V-type proton ATPase subunit F
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102677967	V-type proton ATPase subunit G
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102677867	V-type proton ATPase subunit H, transcript variant X1
+V_type_proton_ATPase	Apis_dorsata	gene-LOC102681424	V-type proton ATPase subunit S1-like
+V_type_proton_ATPase	Apis_mellifera	gene-LOC412810	V-type proton ATPase 116 kDa subunit a, transcript variant X1
+V_type_proton_ATPase	Apis_mellifera	gene-LOC727630	V-type proton ATPase 116 kDa subunit a, transcript variant X1
+V_type_proton_ATPase	Apis_mellifera	gene-LOC409074	V-type proton ATPase 21 kDa proteolipid subunit
+V_type_proton_ATPase	Apis_mellifera	gene-LOC551093	V-type proton ATPase catalytic subunit A, transcript variant X1
+V_type_proton_ATPase	Apis_mellifera	gene-LOC551721	V-type proton ATPase subunit B
+V_type_proton_ATPase	Apis_mellifera	gene-LOC411892	V-type proton ATPase subunit C, transcript variant X1
+V_type_proton_ATPase	Apis_mellifera	gene-LOC409946	V-type proton ATPase subunit d
+V_type_proton_ATPase	Apis_mellifera	gene-LOC411295	V-type proton ATPase subunit D 1
+V_type_proton_ATPase	Apis_mellifera	gene-LOC552720	V-type proton ATPase subunit E
+V_type_proton_ATPase	Apis_mellifera	gene-LOC552410	V-type proton ATPase subunit e 2
+V_type_proton_ATPase	Apis_mellifera	gene-LOC552476	V-type proton ATPase subunit F
+V_type_proton_ATPase	Apis_mellifera	gene-LOC551961	V-type proton ATPase subunit G
+V_type_proton_ATPase	Apis_mellifera	gene-LOC409055	V-type proton ATPase subunit H, transcript variant X1
+V_type_proton_ATPase	Apis_cerana	gene-LOC108003557	V-type proton ATPase 21 kDa proteolipid subunit c'', transcript variant X1
+V_type_proton_ATPase	Apis_cerana	gene-LOC108000577	V-type proton ATPase catalytic subunit A, transcript variant X1
+V_type_proton_ATPase	Apis_cerana	gene-LOC108000752	V-type proton ATPase subunit e 2
+V_type_proton_ATPase	Apis_cerana	gene-LOC107996261	V-type proton ATPase subunit S1
+V_type_proton_ATPase	Apis_cerana	gene-Vha13	V-type proton ATPase subunit Vha13
+V_type_proton_ATPase	Apis_cerana	gene-Vha14-1	V-type proton ATPase subunit Vha14-1, transcript variant X1
+V_type_proton_ATPase	Apis_cerana	gene-Vha26	V-type proton ATPase subunit Vha26
+V_type_proton_ATPase	Apis_cerana	gene-Vha36-1	V-type proton ATPase subunit Vha36-1
+V_type_proton_ATPase	Apis_cerana	gene-Vha44	V-type proton ATPase subunit Vha44, transcript variant X1
+V_type_proton_ATPase	Apis_cerana	gene-Vha55	V-type proton ATPase subunit Vha55
+V_type_proton_ATPase	Apis_cerana	gene-VhaAC39-1	V-type proton ATPase subunit VhaAC39-1, transcript variant X1
+V_type_proton_ATPase	Apis_cerana	gene-VhaSFD	V-type proton ATPase subunit VhaSFD, transcript variant X1
+V_type_proton_ATPase	Apis_florea	gene-LOC100871003	V-type proton ATPase 21 kDa proteolipid subunit c'', transcript variant X1
+V_type_proton_ATPase	Apis_florea	gene-LOC100870173	V-type proton ATPase catalytic subunit A, transcript variant X1
+V_type_proton_ATPase	Apis_florea	gene-LOC100870098	V-type proton ATPase subunit e 2
+V_type_proton_ATPase	Apis_florea	gene-Vha13	V-type proton ATPase subunit Vha13
+V_type_proton_ATPase	Apis_florea	gene-Vha14-1	V-type proton ATPase subunit Vha14-1
+V_type_proton_ATPase	Apis_florea	gene-Vha26	V-type proton ATPase subunit Vha26
+V_type_proton_ATPase	Apis_florea	gene-Vha36-1	V-type proton ATPase subunit Vha36-1
+V_type_proton_ATPase	Apis_florea	gene-Vha44	V-type proton ATPase subunit Vha44, transcript variant X1
+V_type_proton_ATPase	Apis_florea	gene-Vha55	V-type proton ATPase subunit Vha55
+V_type_proton_ATPase	Apis_florea	gene-VhaAC39-1	V-type proton ATPase subunit VhaAC39-1
+V_type_proton_ATPase	Apis_florea	gene-VhaSFD	V-type proton ATPase subunit VhaSFD, transcript variant X1
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC100644609	V-type proton ATPase 116 kDa subunit a 1, transcript variant X1
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC100646782	V-type proton ATPase 116 kDa subunit a 1, transcript variant X1
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC100646343	V-type proton ATPase 16 kDa proteolipid subunit c
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC100646695	V-type proton ATPase 21 kDa proteolipid subunit c''
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC100643332	V-type proton ATPase catalytic subunit A, transcript variant X1
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC100644823	V-type proton ATPase subunit B
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC100644844	V-type proton ATPase subunit C, transcript variant X1
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC100643813	V-type proton ATPase subunit D
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC105665822	V-type proton ATPase subunit d
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC100648858	V-type proton ATPase subunit E
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC100649858	V-type proton ATPase subunit e
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC100651333	V-type proton ATPase subunit F, transcript variant X1
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC100644800	V-type proton ATPase subunit G
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC100648051	V-type proton ATPase subunit H, transcript variant X1
+V_type_proton_ATPase	Bombus_terrestris	gene-LOC100646562	V-type proton ATPase subunit S1
+contactin	Apis_laboriosa	gene-LOC122719733	contactin
+contactin	Apis_dorsata	gene-LOC102675605	contactin
+contactin	Apis_dorsata	gene-LOC102675270	contactin-associated protein-like 2, transcript variant X1
+contactin	Apis_mellifera	gene-LOC725169	contactin
+contactin	Apis_mellifera	gene-LOC411248	contactin-associated protein-like 3, transcript variant X1
+contactin	Apis_cerana	gene-LOC107996141	contactin
+contactin	Apis_florea	gene-LOC100872011	contactin, transcript variant X1
+contactin	Apis_florea	gene-LOC100866989	contactin-5, transcript variant X1
+contactin	Bombus_terrestris	gene-LOC100645501	contactin, transcript variant X1
+neuroglian	Apis_laboriosa	gene-LOC122714926	neuroglian, transcript variant X1
+neuroglian	Apis_dorsata	gene-LOC102671482	neuroglian, transcript variant X1
+neuroglian	Apis_mellifera	gene-LOC411829	neuroglian, transcript variant X1
+neuroglian	Apis_cerana	gene-Nrg	Neuroglian, transcript variant X1
+neuroglian	Apis_florea	gene-Nrg	Neuroglian, transcript variant X1
+neuroglian	Bombus_terrestris	gene-LOC100651562	neuroglian, transcript variant X1
+coracle	Apis_cerana	gene-cora	erythrocyte membrane protein band 4.1 like coracle, transcript variant X1
+coracle	Apis_florea	gene-cora	erythrocyte membrane protein band 4.1 like coracle, transcript variant X1
+mesh	Apis_laboriosa	gene-LOC122718710	protein mesh, transcript variant X1
+mesh	Apis_laboriosa	gene-LOC122715673	protein mesh-like
+mesh	Apis_dorsata	gene-LOC102675500	protein mesh, transcript variant X1
+mesh	Apis_dorsata	gene-LOC102677797	protein mesh-like, transcript variant X1
+mesh	Apis_mellifera	gene-LOC408878	protein mesh, transcript variant X1
+mesh	Apis_mellifera	gene-LOC725498	protein mesh, transcript variant X1
+mesh	Apis_cerana	gene-LOC107993294	protein mesh, transcript variant X1
+mesh	Apis_cerana	gene-mesh	sushi domain containing 2 mesh, transcript variant X1
+mesh	Apis_florea	gene-LOC105736202	protein mesh, transcript variant X1
+mesh	Apis_florea	gene-mesh	sushi domain containing 2 mesh, transcript variant X1
+mesh	Bombus_terrestris	gene-LOC100648133	protein mesh, transcript variant X1
+mesh	Bombus_terrestris	gene-LOC100644963	protein mesh-like, transcript variant X1
+snakeskin	Apis_laboriosa	gene-LOC122719451	protein snakeskin, transcript variant X1
+snakeskin	Apis_dorsata	gene-LOC102682001	protein snakeskin
+snakeskin	Apis_mellifera	gene-LOC100577641	protein snakeskin
+snakeskin	Apis_cerana	gene-Ssk	smooth septate junction protein snakeskin
+snakeskin	Apis_florea	gene-LOC100871751	protein snakeskin, transcript variant X1
+snakeskin	Apis_florea	gene-Ssk	smooth septate junction protein snakeskin, transcript variant X1
+snakeskin	Bombus_terrestris	gene-LOC100645608	protein snakeskin
+claudin_septate	Apis_cerana	gene-kune	claudin
+claudin_septate	Apis_cerana	gene-sinu	claudin family member sinuous
+claudin_septate	Apis_cerana	gene-pck	Claudin superfamily protein pickel
+claudin_septate	Apis_florea	gene-kune	claudin
+claudin_septate	Apis_florea	gene-sinu	claudin family member sinuous
+claudin_septate	Apis_florea	gene-pck	Claudin superfamily protein pickel, transcript variant X1
+chitin_synthase	Apis_laboriosa	gene-LOC122719633	chitin synthase chs-1-like
+chitin_synthase	Apis_laboriosa	gene-LOC122715935	chitin synthase chs-2-like
+chitin_synthase	Apis_laboriosa	gene-LOC122719631	chitin synthase chs-2-like, transcript variant X1
+chitin_synthase	Apis_dorsata	gene-LOC102681708	chitin synthase chs-2, transcript variant X1
+chitin_synthase	Apis_dorsata	gene-LOC102674343	chitin synthase chs-2-like
+chitin_synthase	Apis_mellifera	gene-LOC725284	chitin synthase chs-2
+chitin_synthase	Apis_mellifera	gene-LOC412215	chitin synthase chs-2, transcript variant X1
+chitin_synthase	Apis_cerana	gene-LOC108001990	chitin synthase chs-2, transcript variant X1
+chitin_synthase	Apis_florea	gene-LOC100866934	chitin synthase chs-2, transcript variant X1
+chitin_synthase	Bombus_terrestris	gene-LOC100651910	chitin synthase chs-2
+chitin_synthase	Bombus_terrestris	gene-LOC100647512	chitin synthase chs-2, transcript variant X1
+chitin_synthase	Bombus_terrestris	gene-LOC125385101	chitin synthase chs-2-like
+peritrophic_matrix_chitin_binding	Apis_laboriosa	gene-LOC122715803	peritrophin-1-like
+peritrophic_matrix_chitin_binding	Apis_dorsata	gene-LOC102672431	peritrophin-1-like
+peritrophic_matrix_chitin_binding	Apis_dorsata	gene-LOC102679180	peritrophin-1-like
+peritrophic_matrix_chitin_binding	Apis_dorsata	gene-LOC102679310	peritrophin-1-like
+peritrophic_matrix_chitin_binding	Apis_mellifera	gene-LOC724382	cuticular protein analogous to peritrophins 3-A
+peritrophic_matrix_chitin_binding	Apis_mellifera	gene-Cpap3-b	cuticular protein analogous to peritrophins 3-B
+peritrophic_matrix_chitin_binding	Apis_mellifera	gene-Cpap3-c	cuticular protein analogous to peritrophins 3-C
+peritrophic_matrix_chitin_binding	Apis_mellifera	gene-Cpap3-d	cuticular protein analogous to peritrophins 3-D
+peritrophic_matrix_chitin_binding	Apis_mellifera	gene-LOC413679	cuticular protein analogous to peritrophins 3-E
+peritrophic_matrix_chitin_binding	Apis_mellifera	gene-LOC100577577	peritrophin-1
+peritrophic_matrix_chitin_binding	Apis_mellifera	gene-LOC725725	peritrophin-1
+peritrophic_matrix_chitin_binding	Apis_cerana	gene-Gasp	Chitin binding Peritrophin-A domain-containing protein Gasp, transcript variant X1
+peritrophic_matrix_chitin_binding	Apis_cerana	gene-Vajk4	chitin-binding protein vajk4
+peritrophic_matrix_chitin_binding	Apis_cerana	gene-Cpap3-b	cuticular protein analogous to peritrophins 3-B
+peritrophic_matrix_chitin_binding	Apis_cerana	gene-Cpap3-d	cuticular protein analogous to peritrophins 3-D
+peritrophic_matrix_chitin_binding	Apis_cerana	gene-LOC108002017	peritrophin-1
+peritrophic_matrix_chitin_binding	Apis_cerana	gene-LOC108002091	peritrophin-1
+peritrophic_matrix_chitin_binding	Apis_florea	gene-Gasp	Chitin binding Peritrophin-A domain-containing protein Gasp, transcript variant X1
+peritrophic_matrix_chitin_binding	Apis_florea	gene-Vajk4	chitin-binding protein vajk4
+peritrophic_matrix_chitin_binding	Apis_florea	gene-Cpap3-b	cuticular protein analogous to peritrophins 3-B
+peritrophic_matrix_chitin_binding	Apis_florea	gene-Cpap3-d	cuticular protein analogous to peritrophins 3-D
+peritrophic_matrix_chitin_binding	Apis_florea	gene-LOC100864272	peritrophin-1
+peritrophic_matrix_chitin_binding	Apis_florea	gene-LOC105735998	peritrophin-1
+peritrophic_matrix_chitin_binding	Apis_florea	gene-LOC105736035	peritrophin-1
+peritrophic_matrix_chitin_binding	Bombus_terrestris	gene-LOC100642915	peritrophin-1
+peritrophic_matrix_chitin_binding	Bombus_terrestris	gene-LOC100643150	peritrophin-1, transcript variant X1
+mucin	Apis_laboriosa	gene-LOC122718641	mucin-1, transcript variant X1
+mucin	Apis_laboriosa	gene-LOC122718643	mucin-1-like, transcript variant X1
+mucin	Apis_laboriosa	gene-LOC122715729	mucin-12-like
+mucin	Apis_laboriosa	gene-LOC122717439	mucin-17
+mucin	Apis_laboriosa	gene-LOC122719661	mucin-17-like
+mucin	Apis_laboriosa	gene-LOC122716592	mucin-17-like, transcript variant X1
+mucin	Apis_laboriosa	gene-LOC122719140	mucin-17-like, transcript variant X1
+mucin	Apis_laboriosa	gene-LOC122715397	mucin-19-like
+mucin	Apis_laboriosa	gene-LOC122718074	mucin-19-like
+mucin	Apis_laboriosa	gene-LOC122719436	mucin-19-like, transcript variant X1
+mucin	Apis_laboriosa	gene-LOC122713985	mucin-2-like
+mucin	Apis_laboriosa	gene-LOC122720924	mucin-22-like
+mucin	Apis_laboriosa	gene-LOC122717815	mucin-5AC, transcript variant X1
+mucin	Apis_laboriosa	gene-LOC122713330	mucin-5AC-like
+mucin	Apis_laboriosa	gene-LOC122717147	mucin-5AC-like
+mucin	Apis_laboriosa	gene-LOC122718497	mucin-5AC-like
+mucin	Apis_dorsata	gene-LOC116186707	integumentary mucin A.1-like
+mucin	Apis_dorsata	gene-LOC116186711	integumentary mucin A.1-like
+mucin	Apis_dorsata	gene-LOC116186719	integumentary mucin A.1-like
+mucin	Apis_dorsata	gene-LOC116186721	integumentary mucin A.1-like
+mucin	Apis_dorsata	gene-LOC116186723	integumentary mucin A.1-like
+mucin	Apis_dorsata	gene-LOC116186724	integumentary mucin A.1-like
+mucin	Apis_dorsata	gene-LOC102674509	integumentary mucin C.1-like
+mucin	Apis_dorsata	gene-LOC116186682	integumentary mucin C.1-like
+mucin	Apis_dorsata	gene-LOC116186702	integumentary mucin C.1-like
+mucin	Apis_dorsata	gene-LOC116186713	integumentary mucin C.1-like
+mucin	Apis_dorsata	gene-LOC116186714	integumentary mucin C.1-like
+mucin	Apis_dorsata	gene-LOC116186794	integumentary mucin C.1-like
+mucin	Apis_dorsata	gene-LOC102670863	mucin-1-like, transcript variant X1
+mucin	Apis_dorsata	gene-LOC102680078	mucin-12
+mucin	Apis_dorsata	gene-LOC102681378	mucin-19-like, transcript variant X1
+mucin	Apis_dorsata	gene-LOC116184859	mucin-19-like, transcript variant X1
+mucin	Apis_dorsata	gene-LOC102670981	mucin-2-like
+mucin	Apis_dorsata	gene-LOC102676256	mucin-2-like
+mucin	Apis_dorsata	gene-LOC102674213	mucin-3A-like, transcript variant X1
+mucin	Apis_dorsata	gene-LOC102673910	mucin-5AC
+mucin	Apis_dorsata	gene-LOC102677863	mucin-5AC
+mucin	Apis_dorsata	gene-LOC102675107	mucin-5AC-like
+mucin	Apis_dorsata	gene-LOC116186694	mucin-5AC-like
+mucin	Apis_dorsata	gene-LOC102673843	mucin-5AC-like, transcript variant X1
+mucin	Apis_dorsata	gene-LOC102676050	mucin-5AC-like, transcript variant X1
+mucin	Apis_mellifera	gene-LOC102656037	integumentary mucin C.1
+mucin	Apis_mellifera	gene-LOC100576170	mucin-1
+mucin	Apis_mellifera	gene-LOC551924	mucin-1, transcript variant X1
+mucin	Apis_mellifera	gene-LOC412088	mucin-12, transcript variant X1
+mucin	Apis_mellifera	gene-LOC727052	mucin-17-like
+mucin	Apis_mellifera	gene-LOC102653655	mucin-19, transcript variant X1
+mucin	Apis_mellifera	gene-LOC410509	mucin-2, transcript variant X1
+mucin	Apis_mellifera	gene-LOC113218574	mucin-2-like
+mucin	Apis_mellifera	gene-LOC724395	mucin-3A
+mucin	Apis_mellifera	gene-LOC107963990	mucin-5AC
+mucin	Apis_mellifera	gene-LOC551920	mucin-5AC
+mucin	Apis_mellifera	gene-LOC408374	mucin-5AC, transcript variant X1
+mucin	Apis_mellifera	gene-LOC410882	mucin-5AC, transcript variant X1
+mucin	Apis_mellifera	gene-LOC552243	mucin-5AC, transcript variant X1
+mucin	Apis_mellifera	gene-LOC107965564	mucin-6, transcript variant X1
+mucin	Apis_cerana	gene-LOC114576921	integumentary mucin C.1
+mucin	Apis_cerana	gene-LOC107994172	mucin-1, transcript variant X1
+mucin	Apis_cerana	gene-LOC108000099	mucin-12-like, transcript variant X1
+mucin	Apis_cerana	gene-LOC108003100	mucin-19, transcript variant X1
+mucin	Apis_cerana	gene-LOC107999306	mucin-2
+mucin	Apis_cerana	gene-LOC108001152	mucin-2
+mucin	Apis_cerana	gene-LOC107994792	mucin-2, transcript variant X1
+mucin	Apis_cerana	gene-LOC107995568	mucin-2, transcript variant X1
+mucin	Apis_cerana	gene-LOC107997911	mucin-2, transcript variant X1
+mucin	Apis_cerana	gene-LOC107998647	mucin-2, transcript variant X1
+mucin	Apis_cerana	gene-LOC107999318	mucin-2, transcript variant X1
+mucin	Apis_cerana	gene-LOC108000831	mucin-2, transcript variant X1
+mucin	Apis_cerana	gene-LOC108001604	mucin-2, transcript variant X1
+mucin	Apis_cerana	gene-LOC107999409	mucin-4, transcript variant X1
+mucin	Apis_cerana	gene-LOC108001444	mucin-4, transcript variant X1
+mucin	Apis_cerana	gene-LOC107995488	mucin-5AC, transcript variant X1
+mucin	Apis_cerana	gene-LOC108003568	mucin-5AC, transcript variant X1
+mucin	Apis_cerana	gene-LOC108004022	mucin-5AC, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC105666821	integumentary mucin C.1-like
+mucin	Bombus_terrestris	gene-LOC100649769	mucin-1
+mucin	Bombus_terrestris	gene-LOC100645875	mucin-17, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC100648207	mucin-19, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC100649746	mucin-19, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC105667050	mucin-2-like
+mucin	Bombus_terrestris	gene-LOC125385922	mucin-2-like
+mucin	Bombus_terrestris	gene-LOC100642366	mucin-3A
+mucin	Bombus_terrestris	gene-LOC100642902	mucin-3A, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC100645257	mucin-3A, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC100647282	mucin-3A, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC100648918	mucin-3A, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC100651788	mucin-3A, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC100649009	mucin-4, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC105666870	mucin-5AC
+mucin	Bombus_terrestris	gene-LOC100643741	mucin-5AC, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC100649318	mucin-5AC, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC100649549	mucin-5AC, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC100649715	mucin-5AC, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC100650591	mucin-5AC, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC100651895	mucin-5AC, transcript variant X1
+mucin	Bombus_terrestris	gene-LOC100652307	mucin-5AC, transcript variant X1
+lipophorin	Apis_mellifera	gene-LOC412401	lipophorin receptor, transcript variant X1

@@ -1,0 +1,6 @@
+{
+  "alignment_columns": 2063,
+  "callable_amino_acid_sites": 2050,
+  "laboriosa_bombus_strict_shared_sites": 0,
+  "interpretation_guardrail": "Exact state-sharing screen only; no ancestral-state, phenotype-association, or causal inference."
+}

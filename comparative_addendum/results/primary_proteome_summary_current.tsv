@@ -1,0 +1,7 @@
+species	proteins_in_refseq_fasta	protein_accessions_mapped_to_gene	primary_gene_representatives	unmapped_protein_accessions	output_fasta
+Apis_laboriosa	20470	20470	9783	0	Apis_laboriosa.faa
+Apis_dorsata	20012	20012	10049	0	Apis_dorsata.faa
+Apis_mellifera	23471	23471	9934	0	Apis_mellifera.faa
+Apis_cerana	29224	29224	9969	0	Apis_cerana.faa
+Apis_florea	25418	25418	10171	0	Apis_florea.faa
+Bombus_terrestris	25755	25755	10310	0	Bombus_terrestris.faa

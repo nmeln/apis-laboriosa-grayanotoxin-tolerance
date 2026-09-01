@@ -1,0 +1,21 @@
+site_number	laboriosa_position_1based	laboriosa_and_bombus_terrestris_state	other_four_apis_state	external_taxon	external_accession	external_position_1based	external_state	matches_focal_state	matches_other_four_apis_state
+1	44	N	D	Dufourea novaeangliae	KZC09527.1	43	E	False	False
+1	44	N	D	Eufriesea mexicana	OAD61382.1	42	E	False	False
+1	44	N	D	Habropoda laboriosa	XP_017793857.1	45	D	False	True
+1	44	N	D	Nomia melanderi	XP_031830511.1	44	D	False	True
+1	44	N	D	Osmia bicornis bicornis	XP_046142244.1	34	E	False	False
+2	159	S	P	Dufourea novaeangliae	KZC09527.1	162	P	False	True
+2	159	S	P	Eufriesea mexicana	OAD61382.1	160	P	False	True
+2	159	S	P	Habropoda laboriosa	XP_017793857.1	162	P	False	True
+2	159	S	P	Nomia melanderi	XP_031830511.1	164	P	False	True
+2	159	S	P	Osmia bicornis bicornis	XP_046142244.1	151	P	False	True
+3	232	I	V	Dufourea novaeangliae	KZC09527.1	235	V	False	True
+3	232	I	V	Eufriesea mexicana	OAD61382.1	233	V	False	True
+3	232	I	V	Habropoda laboriosa	XP_017793857.1	235	L	False	False
+3	232	I	V	Nomia melanderi	XP_031830511.1	237	V	False	True
+3	232	I	V	Osmia bicornis bicornis	XP_046142244.1	224	V	False	True
+4	353	A	G	Dufourea novaeangliae	KZC09527.1	356	A	True	False
+4	353	A	G	Eufriesea mexicana	OAD61382.1	354	A	True	False
+4	353	A	G	Habropoda laboriosa	XP_017793857.1	356	A	True	False
+4	353	A	G	Nomia melanderi	XP_031830511.1	358	A	True	False
+4	353	A	G	Osmia bicornis bicornis	XP_046142244.1	345	A	True	False

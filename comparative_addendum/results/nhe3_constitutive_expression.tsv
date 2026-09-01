@@ -1,0 +1,3 @@
+species	category	gene_parent	product	best_unigene	exact_probe_hits	unique_gene_probes	probe_fraction	mapped	read_count	cpm	fpkm	fpkm_percentile	fpkm_rank_desc
+Apis_laboriosa	NHE3	gene-LOC122720353	sodium/hydrogen exchanger 3, transcript variant X1	AL|c47374_g4	72	120	0.600000	True	6112.40	93.349717	20.540000	95.732557	4532
+Apis_dorsata	NHE3	gene-LOC102675059	sodium/hydrogen exchanger 3, transcript variant X1	AD|c42108_g2	111	120	0.925000	True	6585.00	107.324855	24.970000	95.942393	3134
