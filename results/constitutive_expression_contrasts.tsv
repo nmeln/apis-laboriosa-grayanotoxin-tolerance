@@ -1,0 +1,18 @@
+category	laboriosa_sum_fpkm_unique	dorsata_sum_fpkm_unique	laboriosa_to_dorsata_fpkm_ratio	laboriosa_sum_cpm_unique	dorsata_sum_cpm_unique	laboriosa_to_dorsata_cpm_ratio	design_warning
+cytochrome_P450	8902.370000	1245.230000	7.149177	16797.449678	2623.863068	6.401801	one pooled untreated whole-worker library per species; descriptive only
+UDP_glycosyltransferase	84.410000	140.770000	0.599631	203.792066	341.027378	0.597583	one pooled untreated whole-worker library per species; descriptive only
+glutathione_S_transferase	313.200000	237.980000	1.316077	340.722496	407.720361	0.835677	one pooled untreated whole-worker library per species; descriptive only
+ABCB_P_glycoprotein	221.390000	298.250000	0.742297	985.315700	1631.000914	0.604117	one pooled untreated whole-worker library per species; descriptive only
+ABCC_MRP	411.100000	129.020000	3.186328	1841.841046	608.997249	3.024383	one pooled untreated whole-worker library per species; descriptive only
+ABCG_half_transporter	101.560000	110.250000	0.921179	245.347687	304.226115	0.806465	one pooled untreated whole-worker library per species; descriptive only
+organic_anion_transport	185.310000	47.750000	3.880838	713.547129	140.247589	5.087768	one pooled untreated whole-worker library per species; descriptive only
+major_facilitator	188.440000	117.610000	1.602245	683.812181	400.288299	1.708299	one pooled untreated whole-worker library per species; descriptive only
+aquaporin	325.430000	334.650000	0.972449	612.063445	552.775974	1.107254	one pooled untreated whole-worker library per species; descriptive only
+V_type_proton_ATPase	2672.210000	1633.770000	1.635610	5010.315900	2997.598694	1.671443	one pooled untreated whole-worker library per species; descriptive only
+chitin_synthase	64.890000	3.340000	19.428144	328.703285	7.073499	46.469687	one pooled untreated whole-worker library per species; descriptive only
+peritrophic_matrix_chitin_binding	7531.670000	15.290000	492.587966	2488.495995	6.486756	383.627193	one pooled untreated whole-worker library per species; descriptive only
+mucin	122.450000	357.210000	0.342796	427.804506	930.886086	0.459567	one pooled untreated whole-worker library per species; descriptive only
+Para	5.570000	6.360000	0.875786	26.543061	24.594261	1.079238	one pooled untreated whole-worker library per species; descriptive only
+DSC1_60E	3.990000	1.970000	2.025381	8.445520	14.717440	0.573844	one pooled untreated whole-worker library per species; descriptive only
+Nach_DEG_ENaC	46.870000	21.430000	2.187121	190.529240	34.927436	5.455002	one pooled untreated whole-worker library per species; descriptive only
+COMMD3	14.100000	18.690000	0.754414	93.847590	124.959706	0.751023	one pooled untreated whole-worker library per species; descriptive only

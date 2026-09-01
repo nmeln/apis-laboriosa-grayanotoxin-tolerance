@@ -1,0 +1,279 @@
+species	category	gene_parent	product	best_unigene	exact_probe_hits	unique_gene_probes	probe_fraction	mapped	read_count	cpm	fpkm	fpkm_percentile	fpkm_rank_desc
+Apis_laboriosa	major_facilitator	gene-LOC122710305	major facilitator superfamily domain-containing protein 6, transcript variant X1	AL|c44887_g1	91	94	0.968085	True	11412.00	174.286200	28.300000	96.898546	3294
+Apis_laboriosa	Nach_DEG_ENaC	gene-LOC122710401	sodium channel protein Nach-like	AL|c87536_g1	6	48	0.125000	True	2.00	0.030544	3.470000	79.876808	21367
+Apis_laboriosa	aquaporin	gene-LOC122710404	aquaporin AQPAn.G-like, transcript variant X1	AL|c46830_g4	77	95	0.810526	True	10109.00	154.386540	81.200000	98.975286	1089
+Apis_laboriosa	major_facilitator	gene-LOC122710406	major facilitator superfamily domain-containing protein 8, transcript variant X1	AL|c43793_g2	114	120	0.950000	True	1003.00	15.318004	7.540000	89.056849	11620
+Apis_laboriosa	Nach_DEG_ENaC	gene-LOC122710442	sodium channel protein Nach-like	AL|c46884_g5	40	48	0.833333	True	10951.00	167.245722	32.240000	97.272453	2897
+Apis_laboriosa	cytochrome_P450	gene-LOC122710674	probable cytochrome P450 304a1	AL|c5585_g1	42	47	0.893617	True	4090.00	62.463246	44.930000	98.104091	2014
+Apis_laboriosa	aquaporin	gene-LOC122710743	aquaporin-11	AL|c34332_g1	38	48	0.791667	True	2124.00	32.438126	35.130000	97.498493	2657
+Apis_laboriosa	UDP_glycosyltransferase	gene-LOC122710818	UDP-glycosyltransferase UGT5-like	AL|c40034_g2	12	48	0.250000	True	931.00	14.218406	16.840000	94.826514	5494
+Apis_laboriosa	ABCC_MRP	gene-LOC122710824	multidrug resistance-associated protein 1, transcript variant X1	AL|c37191_g1	60	120	0.500000	True	4016.00	61.333104	22.880000	96.133778	4106
+Apis_laboriosa	organic_anion_transport	gene-LOC122710879	solute carrier organic anion transporter family member 5A1, transcript variant X1	AL|c47456_g1	72	120	0.600000	True	9465.00	144.551252	23.690000	96.263751	3968
+Apis_laboriosa	organic_anion_transport	gene-LOC122710891	solute carrier organic anion transporter family member 4A1, transcript variant X1	AL|c45721_g3	73	120	0.608333	True	10778.00	164.603633	30.000000	97.074668	3107
+Apis_laboriosa	cytochrome_P450	gene-LOC122710962	cytochrome P450 9e2-like	AL|c37904_g1	46	48	0.958333	True	76091.00	1162.075994	417.500000	99.793739	220
+Apis_laboriosa	cytochrome_P450	gene-LOC122710963	cytochrome P450 9e2-like, transcript variant X1	AL|c40749_g1	27	93	0.290323	True	37222.00	568.461351	750.560000	99.885096	123
+Apis_laboriosa	cytochrome_P450	gene-LOC122710964	cytochrome P450 9e2-like	AL|c43493_g1	32	47	0.680851	True	509.00	7.773543	4.900000	84.427743	16535
+Apis_laboriosa	cytochrome_P450	gene-LOC122710965	cytochrome P450 9e2-like	AL|c26349_g1	33	48	0.687500	True	5724.00	87.417999	94.470000	99.134456	920
+Apis_laboriosa	cytochrome_P450	gene-LOC122710966	cytochrome P450 9e2-like	AL|c54603_g1	8	48	0.166667	True	5.00	0.076361	1.260000	59.569959	42928
+Apis_laboriosa	ABCB_P_glycoprotein	gene-LOC122711022	ATP-binding cassette sub-family B member 6	AL|c7043_g1	48	48	1.000000	True	6087.00	92.961803	33.010000	97.336498	2829
+Apis_laboriosa	cytochrome_P450	gene-LOC122711037	cytochrome P450 307a1-like	AL|c55980_g1	6	48	0.125000	True	2.00	0.030544	5.200000	85.161430	15756
+Apis_laboriosa	ABCG_half_transporter	gene-LOC122711105	ATP-binding cassette sub-family G member 1-like	AL|c45217_g1	27	48	0.562500	True	746.00	11.393052	7.820000	89.426989	11227
+Apis_laboriosa	cytochrome_P450	gene-LOC122711712	cytochrome P450 4g15	AL|c33563_g1	46	48	0.958333	True	690089.00	10539.168377	5658.960000	99.983047	19
+Apis_laboriosa	cytochrome_P450	gene-LOC122712180	probable cytochrome P450 6a14, transcript variant X1	AL|c20642_g2	91	92	0.989130	True	5579.00	85.203532	48.930000	98.239715	1870
+Apis_laboriosa	cytochrome_P450	gene-LOC122712182	probable cytochrome P450 6a13	AL|c43082_g1	30	46	0.652174	True	11605.00	177.233732	148.140000	99.457505	577
+Apis_laboriosa	cytochrome_P450	gene-LOC122712183	probable cytochrome P450 6a13	AL|c41748_g1	45	48	0.937500	True	10626.00	162.282261	102.300000	99.219221	830
+Apis_laboriosa	cytochrome_P450	gene-LOC122712184	probable cytochrome P450 6a14, transcript variant X1	AL|c45665_g1	85	120	0.708333	True	6546.00	99.971737	40.010000	97.829076	2306
+Apis_laboriosa	cytochrome_P450	gene-LOC122712185	probable cytochrome P450 6a14	AL|c40079_g2	31	48	0.645833	True	4986.00	76.147125	71.810000	98.849081	1223
+Apis_laboriosa	cytochrome_P450	gene-LOC122712186	probable cytochrome P450 6a14	AL|c39294_g1	40	48	0.833333	True	3165.00	48.336472	41.120000	97.883703	2248
+Apis_laboriosa	ABCC_MRP	gene-LOC122712331	ATP-binding cassette sub-family C member Sur, transcript variant X1	AL|c47473_g1	40	94	0.425532	True	26112.00	398.787352	92.560000	99.109027	947
+Apis_laboriosa	cytochrome_P450	gene-LOC122712384	cytochrome P450 315a1, mitochondrial, transcript variant X1	AL|c43668_g1	87	95	0.915789	True	1317.00	20.113471	5.420000	85.705809	15178
+Apis_laboriosa	glutathione_S_transferase	gene-LOC122712459	glutathione S-transferase 1-1, transcript variant X1	AL|c26236_g1	90	93	0.967742	True	1988.00	30.361108	27.900000	96.858989	3336
+Apis_laboriosa	glutathione_S_transferase	gene-LOC122712562	glutathione S-transferase-like	AL|c36605_g1	47	48	0.979167	True	283.00	4.322029	4.630000	83.669568	17340
+Apis_laboriosa	major_facilitator	gene-LOC122712846	major facilitator superfamily domain-containing protein 10, transcript variant X1	AL|c36642_g1	117	120	0.975000	True	7193.00	109.852842	27.770000	96.846745	3349
+Apis_laboriosa	major_facilitator	gene-LOC122712949	major facilitator superfamily domain-containing protein 6, transcript variant X1	AL|c47463_g1	68	92	0.739130	True	5961.00	91.037508	17.510000	95.012997	5296
+Apis_laboriosa	V_type_proton_ATPase	gene-LOC122713027	V-type proton ATPase subunit e 2-like	AL|c68380_g1	48	48	1.000000	True	5858.00	89.464472	129.210000	99.374623	665
+Apis_laboriosa	ABCC_MRP	gene-LOC122713028	ATP-binding cassette sub-family C member 4-like	AL|c43060_g1	48	48	1.000000	True	8307.00	126.866059	35.730000	97.550294	2602
+Apis_laboriosa	V_type_proton_ATPase	gene-LOC122713215	V-type proton ATPase subunit D 1	AL|c48342_g1	48	48	1.000000	True	10064.00	153.699292	144.540000	99.441493	594
+Apis_laboriosa	mucin	gene-LOC122713330	mucin-5AC-like	AL|c47556_g2	30	48	0.625000	True	111.00	1.695213	1.360000	61.499774	40879
+Apis_laboriosa	organic_anion_transport	gene-LOC122713366	solute carrier organic anion transporter family member 74D, transcript variant X1	AL|c40028_g1	48	120	0.400000	True	855.00	13.057720	5.870000	86.710744	14111
+Apis_laboriosa	Nach_DEG_ENaC	gene-LOC122713410	sodium channel protein Nach-like	AL|c88060_g1	8	48	0.166667	True	3.00	0.045817	2.870000	76.829980	24602
+Apis_laboriosa	cytochrome_P450	gene-LOC122713465	probable cytochrome P450 12a5, mitochondrial, transcript variant X1	AL|c42401_g1	93	94	0.989362	True	82.00	1.252319	0.850000	49.163653	53977
+Apis_laboriosa	V_type_proton_ATPase	gene-LOC122713496	V-type proton ATPase catalytic subunit A, transcript variant X1	AL|c33904_g1	88	95	0.926316	True	40889.00	624.464461	229.800000	99.643046	380
+Apis_laboriosa	Nach_DEG_ENaC	gene-LOC122713829	pickpocket protein 28-like	AL|c20058_g1	29	48	0.604167	True	37.00	0.565071	0.550000	35.790574	68176
+Apis_laboriosa	major_facilitator	gene-LOC122713946	major facilitator superfamily domain-containing protein 6, transcript variant X1	AL|c45049_g1	92	92	1.000000	True	14179.00	216.544342	61.900000	98.639994	1445
+Apis_laboriosa	mucin	gene-LOC122713985	mucin-2-like	AL|c45224_g1	24	48	0.500000	True	141.00	2.153378	1.870000	68.843241	33082
+Apis_laboriosa	V_type_proton_ATPase	gene-LOC122713995	V-type proton ATPase subunit B	AL|c3023_g1	48	48	1.000000	True	39484.00	603.007038	269.880000	99.696730	323
+Apis_laboriosa	Nach_DEG_ENaC	gene-LOC122714107	sodium channel protein Nach-like	AL|c47062_g1	23	48	0.479167	True	123.57	1.887184	1.140000	57.088231	45563
+Apis_laboriosa	organic_anion_transport	gene-LOC122714185	solute carrier organic anion transporter family member 1A5-like, transcript variant X1	AL|c46561_g1	104	120	0.866667	True	7079.00	108.111813	28.720000	96.944696	3245
+Apis_laboriosa	organic_anion_transport	gene-LOC122714194	solute carrier organic anion transporter family member 74D, transcript variant X1	AL|c44349_g1	82	88	0.931818	True	6154.00	93.985040	38.310000	97.725475	2416
+Apis_laboriosa	organic_anion_transport	gene-LOC122714205	solute carrier organic anion transporter family member 74D, transcript variant X1	AL|c43167_g1	92	120	0.766667	True	12391.00	189.237671	58.720000	98.557113	1533
+Apis_laboriosa	V_type_proton_ATPase	gene-LOC122714442	V-type proton ATPase 116 kDa subunit a1, transcript variant X1	AL|c38379_g1	119	120	0.991667	True	15231.00	232.610683	76.570000	98.920660	1147
+Apis_laboriosa	COMMD3	gene-LOC122714475	COMM domain-containing protein 3-like, transcript variant X1	AL|c42517_g1	90	94	0.957447	True	6145.00	93.847590	14.100000	93.927064	6449
+Apis_laboriosa	DSC1_60E	gene-LOC122714529	sodium channel protein 60E-like, transcript variant X1	AL|c47726_g1	35	120	0.291667	True	553.00	8.445520	3.990000	81.703963	19427
+Apis_laboriosa	glutathione_S_transferase	gene-LOC122714585	glutathione S-transferase 1-1-like	AL|c46794_g1	19	48	0.395833	True	2362.00	36.072906	5.740000	86.307640	14539
+Apis_laboriosa	cytochrome_P450	gene-LOC122715191	cytochrome P450 4c3-like	AL|c45941_g3	46	48	0.958333	True	8875.00	135.540661	55.180000	98.462929	1633
+Apis_laboriosa	cytochrome_P450	gene-LOC122715206	probable cytochrome P450 6a13	AL|c44633_g1	48	48	1.000000	True	1604.00	24.496588	8.220000	89.838570	10790
+Apis_laboriosa	V_type_proton_ATPase	gene-LOC122715243	V-type proton ATPase subunit C	AL|c44971_g1	38	48	0.791667	True	21509.00	328.489474	28.130000	96.884418	3309
+Apis_laboriosa	mucin	gene-LOC122715397	mucin-19-like	AL|c40748_g2	18	48	0.375000	True	62.00	0.946876	1.030000	54.385172	48433
+Apis_laboriosa	cytochrome_P450	gene-LOC122715570	probable cytochrome P450 6a14, transcript variant X1	AL|c45550_g2	94	120	0.783333	True	15289.00	233.496470	120.710000	99.334124	708
+Apis_laboriosa	mucin	gene-LOC122715729	mucin-12-like	AL|c39474_g2	13	48	0.270833	True	45.00	0.687248	0.620000	39.680342	64046
+Apis_laboriosa	peritrophic_matrix_chitin_binding	gene-LOC122715803	peritrophin-1-like	AL|c26087_g2	39	48	0.812500	True	162943.00	2488.495995	7531.670000	99.989640	12
+Apis_laboriosa	major_facilitator	gene-LOC122715846	major facilitator superfamily domain-containing protein 1-like	AL|c17941_g1	47	48	0.979167	True	1597.00	24.389683	12.260000	93.108612	7318
+Apis_laboriosa	chitin_synthase	gene-LOC122715935	chitin synthase chs-2-like	AL|c46587_g1	46	48	0.958333	True	679.00	10.369815	3.230000	78.597800	22725
+Apis_laboriosa	ABCC_MRP	gene-LOC122715980	multidrug resistance-associated protein 5-like, transcript variant X1	AL|c28824_g1	70	120	0.583333	True	3929.00	60.004423	23.010000	96.160149	4078
+Apis_laboriosa	V_type_proton_ATPase	gene-LOC122716220	V-type proton ATPase subunit F	AL|c58393_g1	48	48	1.000000	True	6947.00	106.095884	134.920000	99.402878	635
+Apis_laboriosa	cytochrome_P450	gene-LOC122716271	cytochrome P450 4C1-like	AL|c22301_g1	48	48	1.000000	True	4411.00	67.365618	39.020000	97.776334	2362
+Apis_laboriosa	Para	gene-LOC122716313	sodium channel protein para, transcript variant X1	AL|c47723_g1	102	120	0.850000	True	1738.00	26.543061	5.570000	85.940325	14929
+Apis_laboriosa	cytochrome_P450	gene-LOC122716422	cytochrome P450 6k1-like	AL|c43332_g1	47	48	0.979167	True	54814.00	837.129668	228.750000	99.641162	382
+Apis_laboriosa	mucin	gene-LOC122716592	mucin-17-like, transcript variant X1	AL|c41297_g1	110	120	0.916667	True	3640.00	55.590761	6.980000	88.487982	12224
+Apis_laboriosa	V_type_proton_ATPase	gene-LOC122716659	V-type proton ATPase 116 kDa subunit a1-like, transcript variant X1	AL|c46059_g1	110	120	0.916667	True	29990.00	458.012893	120.270000	99.332241	710
+Apis_laboriosa	ABCG_half_transporter	gene-LOC122716754	ATP-binding cassette sub-family G member 4, transcript variant X1	AL|c45987_g1	102	120	0.850000	True	5008.00	76.483113	35.590000	97.538050	2615
+Apis_laboriosa	ABCG_half_transporter	gene-LOC122716756	ATP-binding cassette sub-family G member 4-like, transcript variant X1	AL|c45987_g1	118	120	0.983333	True	5008.00	76.483113	35.590000	97.538050	2615
+Apis_laboriosa	UDP_glycosyltransferase	gene-LOC122716781	UDP-glucuronosyltransferase 2B4-like, transcript variant X1	AL|c44255_g1	114	120	0.950000	True	928.00	14.172590	4.730000	83.955885	17036
+Apis_laboriosa	ABCG_half_transporter	gene-LOC122716895	ATP-binding cassette sub-family G member 4-like, transcript variant X1	AL|c42643_g1	115	120	0.958333	True	2432.00	37.141959	13.470000	93.718920	6670
+Apis_laboriosa	ABCG_half_transporter	gene-LOC122716896	ATP-binding cassette sub-family G member 1	AL|c88864_g1	48	48	1.000000	True	4849.00	74.054836	30.600000	97.134946	3043
+Apis_laboriosa	major_facilitator	gene-LOC122716902	major facilitator superfamily domain-containing protein 12-like	AL|c46870_g1	45	48	0.937500	True	1429.00	21.823955	11.560000	92.662184	7792
+Apis_laboriosa	ABCG_half_transporter	gene-LOC122717049	ATP-binding cassette sub-family G member 5, transcript variant X1	AL|c42704_g1	57	95	0.600000	True	185.00	2.825355	2.300000	72.808356	28872
+Apis_laboriosa	mucin	gene-LOC122717147	mucin-5AC-like	AL|c32760_g1	24	48	0.500000	True	88.00	1.343952	0.870000	49.800332	53301
+Apis_laboriosa	aquaporin	gene-LOC122717163	aquaporin-like, transcript variant X1	AL|c42492_g1	75	120	0.625000	True	10762.00	164.359278	100.320000	99.195675	855
+Apis_laboriosa	cytochrome_P450	gene-LOC122717272	NADPH--cytochrome P450 reductase, transcript variant X1	AL|c34355_g1	89	94	0.946809	True	18920.00	288.949781	104.370000	99.234290	814
+Apis_laboriosa	ABCG_half_transporter	gene-LOC122717367	ATP-binding cassette sub-family G member 5	AL|c30805_g1	26	48	0.541667	True	88.00	1.343952	1.420000	62.517895	39798
+Apis_laboriosa	mucin	gene-LOC122717439	mucin-17		2	48	0.041667	False	0.00	0.000000	0.000000	NA	NA
+Apis_laboriosa	glutathione_S_transferase	gene-LOC122717538	glutathione S-transferase C-terminal domain-containing protein homolog	AL|c40003_g1	46	48	0.958333	True	13000.00	198.538433	30.670000	97.141539	3036
+Apis_laboriosa	cytochrome_P450	gene-LOC122717567	cytochrome P450 18a1	AL|c20602_g1	8	48	0.166667	True	5.00	0.076361	0.500000	32.635436	71526
+Apis_laboriosa	cytochrome_P450	gene-LOC122717599	cytochrome P450 302a1, mitochondrial, transcript variant X1	AL|c30772_g1	51	94	0.542553	True	11467.00	175.126170	61.860000	98.638110	1447
+Apis_laboriosa	mucin	gene-LOC122717815	mucin-5AC, transcript variant X1	AL|c47489_g1	31	120	0.258333	True	666.00	10.171277	5.270000	85.375226	15529
+Apis_laboriosa	ABCC_MRP	gene-LOC122717937	ATP-binding cassette sub-family C member 4-like	AL|c45784_g1	46	48	0.958333	True	14709.00	224.638601	42.770000	97.986362	2139
+Apis_laboriosa	ABCB_P_glycoprotein	gene-LOC122717982	ATP-binding cassette sub-family B member 10, mitochondrial	AL|c32912_g1	47	48	0.979167	True	6505.00	99.345578	37.760000	97.685918	2458
+Apis_laboriosa	ABCC_MRP	gene-LOC122717983	ATP-binding cassette sub-family C member 4-like, transcript variant X1	AL|c45099_g1	90	96	0.937500	True	5975.00	91.251318	19.900000	95.600701	4672
+Apis_laboriosa	mucin	gene-LOC122718074	mucin-19-like	AL|c47293_g1	22	48	0.458333	True	2237.00	34.163883	14.920000	94.243520	6113
+Apis_laboriosa	ABCC_MRP	gene-LOC122718161	probable multidrug resistance-associated protein lethal(2)03659	AL|c41541_g1	46	48	0.958333	True	53049.00	810.174258	159.600000	99.490469	542
+Apis_laboriosa	major_facilitator	gene-LOC122718407	major facilitator superfamily domain-containing protein 12-like	AL|c34916_g1	41	48	0.854167	True	2001.00	30.559647	21.600000	95.945411	4306
+Apis_laboriosa	mucin	gene-LOC122718497	mucin-5AC-like	AL|c47690_g2	25	48	0.520833	True	2119.00	32.361765	4.800000	84.133891	16847
+Apis_laboriosa	cytochrome_P450	gene-LOC122718621	cytochrome P450 6a9-like	AL|c43082_g1	42	46	0.913043	True	11605.00	177.233732	148.140000	99.457505	577
+Apis_laboriosa	ABCB_P_glycoprotein	gene-LOC122718638	multidrug resistance protein homolog 49, transcript variant X1	AL|c46708_g1	76	120	0.633333	True	51925.00	793.008319	150.620000	99.464097	570
+Apis_laboriosa	mucin	gene-LOC122718641	mucin-1, transcript variant X1	AL|c38844_g1	46	120	0.383333	True	139.00	2.122834	2.580000	75.020720	26523
+Apis_laboriosa	mucin	gene-LOC122718643	mucin-1-like, transcript variant X1	AL|c44366_g1	118	120	0.983333	True	9715.00	148.369298	63.200000	98.677667	1405
+Apis_laboriosa	V_type_proton_ATPase	gene-LOC122718652	V-type proton ATPase subunit H, transcript variant X1	AL|c757_g1	115	120	0.958333	True	16279.00	248.615935	144.310000	99.439610	596
+Apis_laboriosa	V_type_proton_ATPase	gene-LOC122718730	V-type proton ATPase 16 kDa proteolipid subunit	AL|c34428_g1	27	48	0.562500	True	77720.00	1186.954387	381.610000	99.772077	243
+Apis_laboriosa	cytochrome_P450	gene-LOC122718756	probable cytochrome P450 301a1, mitochondrial, transcript variant X1	AL|c44363_g1	69	93	0.741935	True	610.00	9.316034	4.290000	82.667458	18404
+Apis_laboriosa	cytochrome_P450	gene-LOC122718757	probable cytochrome P450 49a1, transcript variant X1	AL|c44363_g2	73	93	0.784946	True	61.00	0.931603	2.480000	74.190024	27405
+Apis_laboriosa	Nach_DEG_ENaC	gene-LOC122718769	sodium channel protein Nach-like, transcript variant X1	AL|c26374_g1	87	94	0.925532	True	1359.00	20.754902	6.600000	87.843769	12908
+Apis_laboriosa	V_type_proton_ATPase	gene-LOC122718946	V-type proton ATPase subunit d	AL|c26254_g1	48	48	1.000000	True	13558.00	207.060314	120.570000	99.333183	709
+Apis_laboriosa	glutathione_S_transferase	gene-LOC122718979	glutathione S-transferase theta-3-like		0	48	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_laboriosa	mucin	gene-LOC122719140	mucin-17-like, transcript variant X1	AL|c43196_g1	119	120	0.991667	True	6819.00	104.141044	9.960000	91.506555	9019
+Apis_laboriosa	ABCC_MRP	gene-LOC122719184	probable multidrug resistance-associated protein lethal(2)03659, transcript variant X1	AL|c42675_g1	84	95	0.884211	True	1755.00	26.802688	6.290000	87.413351	13365
+Apis_laboriosa	cytochrome_P450	gene-LOC122719280	cytochrome P450 6k1-like, transcript variant X1	AL|c35064_g1	90	94	0.957447	True	2105.00	32.147954	18.560000	95.298373	4993
+Apis_laboriosa	mucin	gene-LOC122719436	mucin-19-like, transcript variant X1	AL|c46779_g1	49	95	0.515789	True	1995.00	30.468013	7.310000	88.867541	11821
+Apis_laboriosa	cytochrome_P450	gene-LOC122719533	probable cytochrome P450 6a14	AL|c86820_g1	4	48	0.083333	True	2.00	0.030544	1.150000	57.387734	45245
+Apis_laboriosa	chitin_synthase	gene-LOC122719631	chitin synthase chs-2-like, transcript variant X1	AL|c44673_g1	108	120	0.900000	True	20668.00	315.645565	59.140000	98.573124	1516
+Apis_laboriosa	chitin_synthase	gene-LOC122719633	chitin synthase chs-1-like	AL|c44717_g1	43	48	0.895833	True	176.00	2.687905	2.520000	74.614791	26954
+Apis_laboriosa	mucin	gene-LOC122719661	mucin-17-like	AL|c48133_g1	3	47	0.063830	True	17.00	0.259627	0.310000	20.628014	84275
+Apis_laboriosa	cytochrome_P450	gene-LOC122719679	probable cytochrome P450 4aa1, transcript variant X1	AL|c40635_g1	92	95	0.968421	True	22544.00	344.296188	78.600000	98.948915	1117
+Apis_laboriosa	cytochrome_P450	gene-LOC122719736	cytochrome P450 9e2-like	AL|c47116_g2	37	48	0.770833	True	44660.91	682.069777	355.730000	99.756065	260
+Apis_laboriosa	ABCC_MRP	gene-LOC122719830	ATP-binding cassette sub-family C member 10, transcript variant X1	AL|c43062_g1	91	95	0.957895	True	2749.00	41.983243	8.360000	90.034471	10582
+Apis_laboriosa	ABCG_half_transporter	gene-LOC122719983	ATP-binding cassette sub-family G member 1-like, transcript variant X1	AL|c37288_g1	117	120	0.975000	True	2757.00	42.105420	10.360000	91.742955	8768
+Apis_laboriosa	V_type_proton_ATPase	gene-LOC122720010	V-type proton ATPase subunit G	AL|c12578_g1	47	48	0.979167	True	28531.00	435.730772	526.630000	99.824819	187
+Apis_laboriosa	UDP_glycosyltransferase	gene-LOC122720016	UDP-glycosyltransferase UGT5-like	AL|c44359_g1	48	48	1.000000	True	6609.00	100.933885	40.350000	97.852622	2281
+Apis_laboriosa	aquaporin	gene-LOC122720057	aquaporin AQPAn.G-like, transcript variant X1	AL|c43594_g1	119	120	0.991667	True	7844.00	119.795036	66.920000	98.766200	1311
+Apis_laboriosa	glutathione_S_transferase	gene-LOC122720119	microsomal glutathione S-transferase 1-like	AL|c40003_g2	35	48	0.729167	True	4535.00	69.259369	240.970000	99.660940	361
+Apis_laboriosa	V_type_proton_ATPase	gene-LOC122720204	V-type proton ATPase subunit E	AL|c6436_g1	43	47	0.914894	True	15580.00	237.940676	317.510000	99.739112	278
+Apis_laboriosa	glutathione_S_transferase	gene-LOC122720326	glutathione S-transferase-like, transcript variant X1	AL|c36837_g1	106	120	0.883333	True	142.00	2.168651	3.290000	78.876582	22429
+Apis_laboriosa	cytochrome_P450	gene-LOC122720345	cytochrome P450 306a1	AL|c42392_g1	45	48	0.937500	True	131.00	2.000657	1.630000	65.816192	36296
+Apis_laboriosa	aquaporin	gene-LOC122720404	aquaporin AQPAe.a-like	AL|c26495_g1	48	48	1.000000	True	9238.00	141.084465	41.860000	97.924201	2205
+Apis_laboriosa	V_type_proton_ATPase	gene-LOC122720691	V-type proton ATPase 21 kDa proteolipid subunit-like	AL|c20979_g1	45	48	0.937500	True	6428.00	98.169619	48.260000	98.218995	1892
+Apis_laboriosa	mucin	gene-LOC122720924	mucin-22-like	AL|c46455_g1	17	48	0.354167	True	218.00	3.329337	1.370000	61.747476	40616
+Apis_laboriosa	cytochrome_P450	gene-LOC122721014	cytochrome P450 6k1-like	AL|c39532_g1	39	48	0.812500	True	54846.00	837.618378	367.640000	99.765484	250
+Apis_laboriosa	UDP_glycosyltransferase	gene-LOC122721150	UDP-glycosyltransferase UGT5-like	AL|c46431_g2	47	48	0.979167	True	4876.00	74.467185	22.490000	96.071617	4172
+Apis_laboriosa	cytochrome_P450	gene-LOC122721170	probable cytochrome P450 305a1	AL|c28936_g1	46	48	0.958333	True	1889.00	28.849162	17.320000	94.965906	5346
+Apis_dorsata	glutathione_S_transferase	gene-LOC102670639	glutathione S-transferase 1-1-like, transcript variant X1	AD|c35331_g1	110	120	0.916667	True	3639.00	59.309818	58.660000	98.508023	1153
+Apis_dorsata	organic_anion_transport	gene-LOC102670847	solute carrier organic anion transporter family member 74D, transcript variant X1	AD|c40819_g1	80	88	0.909091	True	2640.00	43.027732	15.830000	92.492197	5798
+Apis_dorsata	cytochrome_P450	gene-LOC102670848	cytochrome P450 4C1-like	AD|c59869_g1	12	48	0.250000	True	13.00	0.211879	1.360000	52.273581	36852
+Apis_dorsata	mucin	gene-LOC102670863	mucin-1-like, transcript variant X1	AD|c40854_g3	33	120	0.275000	True	11229.24	183.018460	82.350000	98.975561	792
+Apis_dorsata	mucin	gene-LOC102670981	mucin-2-like		0	45	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	cytochrome_P450	gene-LOC102671064	cytochrome P450 6A1-like, transcript variant X1	AD|c32311_g2	65	94	0.691489	True	3241.00	52.823061	45.550000	97.996451	1548
+Apis_dorsata	cytochrome_P450	gene-LOC102671068	cytochrome P450 315a1, mitochondrial, transcript variant X1	AD|c39576_g1	94	95	0.989474	True	373.00	6.079297	3.810000	73.360704	20570
+Apis_dorsata	organic_anion_transport	gene-LOC102671071	solute carrier organic anion transporter family member 74D-like, transcript variant X1	AD|c40878_g1	89	94	0.946809	True	334.00	5.443660	2.020000	60.887415	30201
+Apis_dorsata	ABCC_MRP	gene-LOC102671280	probable multidrug resistance-associated protein lethal(2)03659, transcript variant X1	AD|c41922_g1	88	95	0.926316	True	3059.00	49.856755	9.670000	87.259917	9838
+Apis_dorsata	cytochrome_P450	gene-LOC102671368	cytochrome P450 4c3-like	AD|c34703_g1	31	48	0.645833	True	1368.00	22.296189	11.690000	89.513424	8098
+Apis_dorsata	Nach_DEG_ENaC	gene-LOC102671429	pickpocket protein 28-like		0	48	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	glutathione_S_transferase	gene-LOC102671497	glutathione S-transferase theta-3-like	AD|c36720_g1	47	47	1.000000	True	2838.00	46.254812	22.390000	95.350524	3591
+Apis_dorsata	cytochrome_P450	gene-LOC102671546	cytochrome P450 6k1-like	AD|c36416_g1	47	48	0.979167	True	10501.00	171.149325	66.810000	98.720423	989
+Apis_dorsata	cytochrome_P450	gene-LOC102671838	probable cytochrome P450 6a13, transcript variant X1	AD|c41215_g1	77	93	0.827957	True	976.00	15.907222	5.010000	78.008885	16981
+Apis_dorsata	cytochrome_P450	gene-LOC102672041	probable cytochrome P450 303a1, transcript variant X1	AD|c41815_g2	39	95	0.410526	True	1539.00	25.083212	12.650000	90.331939	7466
+Apis_dorsata	cytochrome_P450	gene-LOC102672059	probable cytochrome P450 6a13	AD|c41595_g1	30	46	0.652174	True	44877.93	731.437714	239.750000	99.694352	237
+Apis_dorsata	UDP_glycosyltransferase	gene-LOC102672082	UDP-glucuronosyltransferase 1-3-like	AD|c34818_g1	31	48	0.645833	True	2307.00	37.600371	23.990000	95.722223	3304
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102672084	V-type proton ATPase 21 kDa proteolipid subunit-like	AD|c38432_g2	28	48	0.583333	True	7086.00	115.490346	18.480000	93.941435	4679
+Apis_dorsata	cytochrome_P450	gene-LOC102672340	cytochrome P450 6A1-like	AD|c41595_g1	4	47	0.085106	True	44877.93	731.437714	239.750000	99.694352	237
+Apis_dorsata	major_facilitator	gene-LOC102672361	major facilitator superfamily domain-containing protein 12-like	AD|c42267_g2	46	48	0.958333	True	1416.00	23.078511	14.940000	92.001347	6177
+Apis_dorsata	ABCB_P_glycoprotein	gene-LOC102672391	ATP-binding cassette sub-family B member 7, mitochondrial	AD|c40796_g1	45	48	0.937500	True	6306.33	102.782985	25.010000	95.948869	3129
+Apis_dorsata	peritrophic_matrix_chitin_binding	gene-LOC102672431	peritrophin-1-like		0	48	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102672547	V-type proton ATPase subunit d	AD|c11216_g1	48	48	1.000000	True	5386.00	87.783094	55.400000	98.408299	1230
+Apis_dorsata	cytochrome_P450	gene-LOC102672653	cytochrome P450 9e2-like, transcript variant X1	AD|c36096_g1	58	93	0.623656	True	3031.00	49.400400	31.550000	96.961652	2347
+Apis_dorsata	UDP_glycosyltransferase	gene-LOC102672741	UDP-glucuronosyltransferase 2C1-like	AD|c40444_g3	26	48	0.541667	True	325.00	5.296975	6.570000	82.070377	13845
+Apis_dorsata	ABCC_MRP	gene-LOC102672882	multidrug resistance-associated protein 1	AD|c41318_g1	45	48	0.937500	True	5293.00	86.267344	16.530000	92.900159	5483
+Apis_dorsata	cytochrome_P450	gene-LOC102672975	cytochrome P450 9e2-like	AD|c34005_g1	45	48	0.937500	True	19321.00	314.901068	189.180000	99.598513	311
+Apis_dorsata	cytochrome_P450	gene-LOC102673102	cytochrome P450 9e2-like, transcript variant X1	AD|c2082_g1	48	91	0.527473	True	1820.00	29.663058	36.910000	97.484879	1943
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102673131	V-type proton ATPase catalytic subunit A-like	AD|c28132_g1	44	47	0.936170	True	25809.00	420.644980	151.350000	99.487133	397
+Apis_dorsata	cytochrome_P450	gene-LOC102673154	probable cytochrome P450 6a13	AD|c41595_g1	8	48	0.166667	True	44877.93	731.437714	239.750000	99.694352	237
+Apis_dorsata	cytochrome_P450	gene-LOC102673224	probable cytochrome P450 49a1	AD|c39638_g1	47	48	0.979167	True	105.00	1.711330	2.170000	62.431197	29009
+Apis_dorsata	cytochrome_P450	gene-LOC102673424	cytochrome P450 18a1, transcript variant X1		0	94	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	cytochrome_P450	gene-LOC102673451	cytochrome P450 9e2-like		1	48	0.020833	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	major_facilitator	gene-LOC102673495	major facilitator superfamily domain-containing protein 10, transcript variant X1	AD|c36167_g1	114	120	0.950000	True	4942.00	80.546611	19.140000	94.129227	4534
+Apis_dorsata	ABCB_P_glycoprotein	gene-LOC102673741	multidrug resistance protein homolog 49	AD|c42306_g2	38	48	0.791667	True	84414.00	1375.811745	227.320000	99.677515	250
+Apis_dorsata	mucin	gene-LOC102673843	mucin-5AC-like, transcript variant X1	AD|c31888_g1	52	94	0.553191	True	69.00	1.124588	0.980000	44.923782	42527
+Apis_dorsata	glutathione_S_transferase	gene-LOC102673906	glutathione S-transferase-like, transcript variant X1	AD|c21766_g1	57	91	0.626374	True	173.00	2.819620	3.310000	70.877961	22487
+Apis_dorsata	mucin	gene-LOC102673910	mucin-5AC	AD|c41081_g1	32	48	0.666667	True	2378.00	38.757556	7.840000	84.639892	11861
+Apis_dorsata	mucin	gene-LOC102674213	mucin-3A-like, transcript variant X1	AD|c33246_g1	22	120	0.183333	True	51.00	0.831218	0.520000	29.570150	54382
+Apis_dorsata	cytochrome_P450	gene-LOC102674219	cytochrome P450 306a1	AD|c36739_g1	44	47	0.936170	True	60.00	0.977903	0.590000	32.504889	52116
+Apis_dorsata	major_facilitator	gene-LOC102674265	major facilitator superfamily domain-containing protein 6-like	AD|c41342_g1	46	48	0.958333	True	6816.00	111.089782	18.500000	93.947910	4674
+Apis_dorsata	organic_anion_transport	gene-LOC102674330	solute carrier organic anion transporter family member 5A1, transcript variant X1	AD|c41262_g1	75	120	0.625000	True	1803.00	29.385985	7.330000	83.711292	12578
+Apis_dorsata	chitin_synthase	gene-LOC102674343	chitin synthase chs-2-like	AD|c38396_g1	32	48	0.666667	True	416.00	6.780128	2.770000	67.442011	25140
+Apis_dorsata	glutathione_S_transferase	gene-LOC102674411	glutathione S-transferase 1-1	AD|c28952_g1	48	48	1.000000	True	2082.00	33.933234	29.360000	96.684496	2561
+Apis_dorsata	mucin	gene-LOC102674509	integumentary mucin C.1-like		0	46	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	organic_anion_transport	gene-LOC102674815	solute carrier organic anion transporter family member 4A1, transcript variant X1	AD|c42307_g1	103	120	0.858333	True	3084.00	50.264215	12.440000	90.212788	7558
+Apis_dorsata	major_facilitator	gene-LOC102675013	major facilitator superfamily domain-containing protein 6, transcript variant X1	AD|c42127_g1	89	93	0.956989	True	4063.00	66.220332	15.380000	92.277207	5964
+Apis_dorsata	cytochrome_P450	gene-LOC102675073	probable cytochrome P450 12a5, mitochondrial	AD|c64588_g1	8	48	0.166667	True	9.00	0.146685	0.810000	40.416769	46007
+Apis_dorsata	cytochrome_P450	gene-LOC102675085	cytochrome P450 4g15	AD|c41266_g1	44	48	0.916667	True	1111.00	18.107504	9.600000	87.204227	9881
+Apis_dorsata	mucin	gene-LOC102675107	mucin-5AC-like	AD|c42416_g4	21	48	0.437500	True	728.00	11.865223	2.150000	62.301685	29109
+Apis_dorsata	cytochrome_P450	gene-LOC102675206	NADPH--cytochrome P450 reductase, transcript variant X1	AD|c28955_g1	114	120	0.950000	True	8797.00	143.376880	51.110000	98.242524	1358
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102675218	V-type proton ATPase subunit C, transcript variant X1	AD|c38404_g1	84	120	0.700000	True	10169.00	165.738262	56.920000	98.462694	1188
+Apis_dorsata	ABCB_P_glycoprotein	gene-LOC102675223	ATP-binding cassette sub-family B member 8, mitochondrial, transcript variant X1	AD|c34823_g1	91	94	0.968085	True	1269.00	20.682649	9.760000	87.394610	9734
+Apis_dorsata	Nach_DEG_ENaC	gene-LOC102675457	sodium channel protein Nach-like	AD|c37789_g1	29	48	0.604167	True	855.00	13.935118	7.230000	83.344774	12861
+Apis_dorsata	UDP_glycosyltransferase	gene-LOC102675525	UDP-glucuronosyltransferase 2B19-like, transcript variant X1	AD|c40853_g2	81	82	0.987805	True	648.00	10.561353	4.000000	74.300960	19844
+Apis_dorsata	ABCB_P_glycoprotein	gene-LOC102675561	ATP-binding cassette sub-family B member 10, mitochondrial	AD|c28695_g1	46	47	0.978723	True	3870.00	63.074744	25.400000	96.038232	3060
+Apis_dorsata	cytochrome_P450	gene-LOC102675790	cytochrome P450 9e2-like	AD|c40917_g1	44	48	0.916667	True	8623.00	140.540961	56.800000	98.457514	1192
+Apis_dorsata	UDP_glycosyltransferase	gene-LOC102675836	UDP-glucuronosyltransferase 2B1-like	AD|c40164_g1	43	48	0.895833	True	9003.00	146.734347	50.760000	98.228278	1369
+Apis_dorsata	major_facilitator	gene-LOC102675903	major facilitator superfamily domain-containing protein 8	AD|c32521_g1	46	47	0.978723	True	773.00	12.598650	6.280000	81.497934	14287
+Apis_dorsata	mucin	gene-LOC102676050	mucin-5AC-like, transcript variant X1	AD|c38384_g1	117	120	0.975000	True	3548.00	57.826665	7.510000	83.887428	12442
+Apis_dorsata	cytochrome_P450	gene-LOC102676140	cytochrome P450 6k1-like, transcript variant X1	AD|c4254_g1	90	95	0.947368	True	1226.00	19.981818	10.780000	88.666416	8752
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102676189	V-type proton ATPase subunit D	AD|c41082_g2	48	48	1.000000	True	15132.00	246.627139	41.610000	97.763330	1728
+Apis_dorsata	ABCG_half_transporter	gene-LOC102676209	ATP-binding cassette sub-family G member 5	AD|c37804_g1	46	48	0.958333	True	299.00	4.873217	1.660000	56.491782	33595
+Apis_dorsata	mucin	gene-LOC102676256	mucin-2-like		0	48	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	glutathione_S_transferase	gene-LOC102676270	glutathione S-transferase C-terminal domain-containing protein homolog	AD|c39174_g2	47	48	0.979167	True	11785.00	192.076450	34.070000	97.245283	2128
+Apis_dorsata	ABCG_half_transporter	gene-LOC102676355	ATP-binding cassette sub-family G member 5, transcript variant X1	AD|c40480_g1	65	90	0.722222	True	214.00	3.487854	2.310000	63.675806	28048
+Apis_dorsata	ABCG_half_transporter	gene-LOC102676364	ATP-binding cassette sub-family G member 1, transcript variant X1	AD|c28971_g1	89	120	0.741667	True	4491.00	73.196040	22.670000	95.478741	3492
+Apis_dorsata	ABCC_MRP	gene-LOC102676402	probable multidrug resistance-associated protein lethal(2)03659, transcript variant X1	AD|c38281_g2	107	120	0.891667	True	1990.00	32.433783	8.050000	84.892440	11666
+Apis_dorsata	cytochrome_P450	gene-LOC102676488	cytochrome P450 302a1, mitochondrial	AD|c38894_g3	29	48	0.604167	True	7532.23	122.763173	33.600000	97.197363	2165
+Apis_dorsata	UDP_glycosyltransferase	gene-LOC102676530	UDP-glucuronosyltransferase 2C1-like	AD|c39292_g4	45	48	0.937500	True	2234.00	36.410589	17.320000	93.328844	5152
+Apis_dorsata	glutathione_S_transferase	gene-LOC102676770	microsomal glutathione S-transferase 1-like	AD|c7145_g1	48	48	1.000000	True	4029.00	65.666187	77.940000	98.926347	830
+Apis_dorsata	ABCG_half_transporter	gene-LOC102676814	ATP-binding cassette sub-family G member 4	AD|c41401_g9	41	48	0.854167	True	2530.03	41.235399	9.400000	86.908940	10109
+Apis_dorsata	Nach_DEG_ENaC	gene-LOC102677461	sodium channel protein Nach-like, transcript variant X1	AD|c22907_g2	37	94	0.393617	True	10.00	0.162984	0.310000	20.993874	61004
+Apis_dorsata	ABCG_half_transporter	gene-LOC102677606	ATP-binding cassette sub-family G member 1-like, transcript variant X1	AD|c36386_g1	116	120	0.966667	True	2056.00	33.509476	15.230000	92.116612	6088
+Apis_dorsata	major_facilitator	gene-LOC102677696	major facilitator superfamily domain-containing protein 12-like	AD|c40075_g3	33	48	0.687500	True	1381.00	22.508068	12.320000	90.140261	7614
+Apis_dorsata	Nach_DEG_ENaC	gene-LOC102677815	sodium channel protein Nach-like	AD|c40526_g1	42	48	0.875000	True	959.00	15.630150	10.130000	87.860852	9374
+Apis_dorsata	mucin	gene-LOC102677863	mucin-5AC	AD|c41727_g6	38	47	0.808511	True	1967.00	32.058920	11.400000	89.342468	8230
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102677867	V-type proton ATPase subunit H, transcript variant X1	AD|c24483_g1	106	120	0.883333	True	9164.00	149.358386	94.160000	99.116729	683
+Apis_dorsata	major_facilitator	gene-LOC102677913	major facilitator superfamily domain-containing protein 6	AD|c34613_g1	48	48	1.000000	True	1655.00	26.973825	14.730000	91.886081	6266
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102677967	V-type proton ATPase subunit G	AD|c28713_g1	44	48	0.916667	True	14076.00	229.416046	277.550000	99.737091	204
+Apis_dorsata	Para	gene-LOC102678064	sodium channel protein para, transcript variant X1	AD|c42352_g1	117	120	0.975000	True	1509.00	24.594261	6.360000	81.598954	14209
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102678078	V-type proton ATPase 116 kDa subunit a-like, transcript variant X1	AD|c40745_g1	111	120	0.925000	True	11711.00	190.870369	48.130000	98.119488	1453
+Apis_dorsata	UDP_glycosyltransferase	gene-LOC102678247	UDP-glucuronosyltransferase 2B18-like	AD|c39936_g1	43	48	0.895833	True	1158.00	18.873528	9.180000	86.642146	10315
+Apis_dorsata	UDP_glycosyltransferase	gene-LOC102678306	UDP-glucuronosyltransferase 2B17-like	AD|c37733_g1	45	48	0.937500	True	3598.00	58.641584	16.260000	92.790074	5568
+Apis_dorsata	ABCC_MRP	gene-LOC102678461	ATP-binding cassette sub-family C member Sur, transcript variant X1	AD|c42492_g1	111	120	0.925000	True	2578.50	42.025382	10.760000	88.526543	8860
+Apis_dorsata	ABCC_MRP	gene-LOC102678608	multidrug resistance-associated protein 4-like, transcript variant X1	AD|c36371_g1	108	120	0.900000	True	7918.00	129.050601	38.860000	97.622162	1837
+Apis_dorsata	cytochrome_P450	gene-LOC102678902	probable cytochrome P450 304a1	AD|c32136_g1	42	48	0.875000	True	3670.00	59.815067	52.150000	98.289148	1322
+Apis_dorsata	major_facilitator	gene-LOC102678905	major facilitator superfamily domain-containing protein 6-like, transcript variant X1	AD|c42256_g1	86	92	0.934783	True	1890.00	30.803945	8.100000	84.926113	11640
+Apis_dorsata	DSC1_60E	gene-LOC102679071	sodium channel protein 60E-like, transcript variant X1	AD|c42413_g1	107	120	0.891667	True	903.00	14.717440	1.970000	60.281300	30669
+Apis_dorsata	peritrophic_matrix_chitin_binding	gene-LOC102679180	peritrophin-1-like	AD|c34750_g1	17	48	0.354167	True	392.00	6.388966	14.790000	91.915869	6243
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102679198	V-type proton ATPase 16 kDa proteolipid subunit	AD|c31170_g1	45	48	0.937500	True	29327.00	477.982693	265.170000	99.718959	218
+Apis_dorsata	aquaporin	gene-LOC102679301	aquaporin AQPAn.G, transcript variant X1	AD|c39551_g4	104	120	0.866667	True	15901.00	259.160596	167.460000	99.536348	359
+Apis_dorsata	peritrophic_matrix_chitin_binding	gene-LOC102679310	peritrophin-1-like	AD|c43476_g1	10	48	0.208333	True	6.00	0.097790	0.500000	28.730913	55030
+Apis_dorsata	organic_anion_transport	gene-LOC102679526	solute carrier organic anion transporter family member 74D, transcript variant X1	AD|c41302_g1	58	120	0.483333	True	744.00	12.125997	10.130000	87.860852	9374
+Apis_dorsata	UDP_glycosyltransferase	gene-LOC102679579	UDP-glucuronosyltransferase 1-8-like	AD|c31823_g2	19	48	0.395833	True	44.00	0.717129	0.910000	43.124862	43916
+Apis_dorsata	ABCG_half_transporter	gene-LOC102679638	ATP-binding cassette sub-family G member 4-like, transcript variant X1	AD|c38892_g2	109	120	0.908333	True	2522.00	41.104523	15.850000	92.502558	5790
+Apis_dorsata	aquaporin	gene-LOC102679924	aquaporin AQPAn.G-like, transcript variant X1	AD|c40694_g1	105	120	0.875000	True	10175.00	165.836052	70.250000	98.782588	941
+Apis_dorsata	cytochrome_P450	gene-LOC102679928	probable cytochrome P450 4aa1, transcript variant X1	AD|c34277_g1	116	120	0.966667	True	3519.00	57.354012	20.050000	94.533304	4222
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102679975	V-type proton ATPase subunit B	AD|c4092_g1	48	48	1.000000	True	20743.00	338.077369	150.960000	99.485838	398
+Apis_dorsata	ABCC_MRP	gene-LOC102680017	multidrug resistance-associated protein 4-like, transcript variant X1	AD|c40863_g1	87	94	0.925532	True	3724.00	60.695180	12.030000	89.820367	7861
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102680021	V-type proton ATPase subunit E	AD|c20109_g1	46	48	0.958333	True	8730.00	142.284888	159.050000	99.514330	376
+Apis_dorsata	mucin	gene-LOC102680078	mucin-12	AD|c35080_g1	47	48	0.979167	True	32596.00	531.262109	223.070000	99.668450	257
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102680098	V-type proton ATPase 116 kDa subunit a	AD|c30292_g1	45	48	0.937500	True	9484.00	154.573869	52.940000	98.322821	1296
+Apis_dorsata	ABCG_half_transporter	gene-LOC102680101	ATP-binding cassette sub-family G member 4-like, transcript variant X1	AD|c40727_g1	109	120	0.908333	True	2242.00	36.540976	13.030000	90.680326	7197
+Apis_dorsata	cytochrome_P450	gene-LOC102680110	cytochrome P450 6k1-like, transcript variant X1	AD|c38992_g1	103	120	0.858333	True	10583.00	172.485793	75.170000	98.869361	874
+Apis_dorsata	COMMD3	gene-LOC102680136	COMM domain-containing protein 3-like, transcript variant X1	AD|c39981_g1	90	94	0.957447	True	7667.00	124.959706	18.690000	94.006191	4629
+Apis_dorsata	cytochrome_P450	gene-LOC102680304	cytochrome P450 4C1-like	AD|c27785_g1	48	48	1.000000	True	1280.00	20.861931	11.210000	88.983720	8507
+Apis_dorsata	glutathione_S_transferase	gene-LOC102680400	glutathione S-transferase-like	AD|c30910_g1	44	48	0.916667	True	164.00	2.672935	3.730000	72.820639	20987
+Apis_dorsata	Nach_DEG_ENaC	gene-LOC102680463	pickpocket protein 28-like	AD|c33185_g1	28	48	0.583333	True	28.00	0.456355	0.450000	26.543458	56719
+Apis_dorsata	ABCG_half_transporter	gene-LOC102680489	ATP-binding cassette sub-family G member 4, transcript variant X1	AD|c40727_g1	102	120	0.850000	True	2242.00	36.540976	13.030000	90.680326	7197
+Apis_dorsata	ABCC_MRP	gene-LOC102680579	multidrug resistance-associated protein 7	AD|c42077_g1	47	48	0.979167	True	3114.00	50.753166	12.110000	89.872172	7821
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102680677	V-type proton ATPase subunit F	AD|c61769_g1	45	48	0.937500	True	4295.00	70.001557	88.210000	99.053268	732
+Apis_dorsata	cytochrome_P450	gene-LOC102680693	cytochrome P450 307a1-like	AD|c1637_g1	6	47	0.127660	True	4.00	0.065194	0.600000	32.954295	51769
+Apis_dorsata	major_facilitator	gene-LOC102680851	major facilitator superfamily domain-containing protein 1-like	AD|c38928_g1	46	48	0.958333	True	1624.00	26.468575	8.220000	85.223991	11410
+Apis_dorsata	organic_anion_transport	gene-LOC102680902	solute carrier organic anion transporter family member 1A5-like		0	48	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	cytochrome_P450	gene-LOC102680980	probable cytochrome P450 6a13	AD|c39382_g1	44	48	0.916667	True	6752.00	110.046685	55.500000	98.414775	1225
+Apis_dorsata	ABCG_half_transporter	gene-LOC102681104	ATP-binding cassette sub-family G member 1-like	AD|c36443_g1	47	48	0.979167	True	4312.00	70.278630	30.100000	96.782925	2485
+Apis_dorsata	aquaporin	gene-LOC102681139	aquaporin-like, transcript variant X1	AD|c40704_g1	72	94	0.765957	True	933.00	15.206392	9.870000	87.477497	9670
+Apis_dorsata	aquaporin	gene-LOC102681154	aquaporin AQPAe.a-like	AD|c41827_g2	19	48	0.395833	True	2653.00	43.239611	56.090000	98.440677	1205
+Apis_dorsata	aquaporin	gene-LOC102681264	aquaporin-like, transcript variant X1	AD|c36929_g1	63	93	0.677419	True	4254.00	69.333323	30.980000	96.893010	2400
+Apis_dorsata	Nach_DEG_ENaC	gene-LOC102681270	sodium channel protein Nach-like	AD|c35816_g2	17	48	0.354167	True	45.00	0.733427	0.770000	39.205833	46942
+Apis_dorsata	ABCC_MRP	gene-LOC102681300	multidrug resistance-associated protein 4-like	AD|c38751_g1	37	48	0.770833	True	9689.00	157.915038	21.010000	94.907593	3933
+Apis_dorsata	cytochrome_P450	gene-LOC102681329	cytochrome P450 6a8-like	AD|c41019_g1	20	48	0.416667	True	12066.00	196.656295	120.430000	99.326538	521
+Apis_dorsata	cytochrome_P450	gene-LOC102681345	probable cytochrome P450 6a14	AD|c42071_g6	28	48	0.583333	True	1757.00	28.636260	38.460000	97.585899	1865
+Apis_dorsata	cytochrome_P450	gene-LOC102681346	probable cytochrome P450 301a1, mitochondrial	AD|c39638_g2	41	47	0.872340	True	95.00	1.548346	1.170000	48.980094	39395
+Apis_dorsata	mucin	gene-LOC102681378	mucin-19-like, transcript variant X1	AD|c42392_g1	49	120	0.408333	True	3240.00	52.806763	13.080000	90.712704	7172
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102681408	V-type proton ATPase subunit e 2-like	AD|c42717_g1	48	48	1.000000	True	4732.00	77.123951	86.700000	99.031251	749
+Apis_dorsata	V_type_proton_ATPase	gene-LOC102681424	V-type proton ATPase subunit S1-like	AD|c16731_g1	47	48	0.979167	True	8076.00	131.625745	87.140000	99.036432	745
+Apis_dorsata	ABCB_P_glycoprotein	gene-LOC102681460	ATP-binding cassette sub-family B member 6, mitochondrial	AD|c33840_g1	46	48	0.958333	True	4212.00	68.648791	10.760000	88.526543	8860
+Apis_dorsata	cytochrome_P450	gene-LOC102681589	probable cytochrome P450 6a14		0	48	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	chitin_synthase	gene-LOC102681708	chitin synthase chs-2, transcript variant X1	AD|c25456_g1	17	120	0.141667	True	18.00	0.293371	0.570000	31.635864	52787
+Apis_dorsata	cytochrome_P450	gene-LOC102681730	probable cytochrome P450 6a14, transcript variant X1	AD|c39505_g1	42	120	0.350000	True	410.00	6.682337	4.140000	74.949814	19343
+Apis_dorsata	cytochrome_P450	gene-LOC102681845	probable cytochrome P450 305a1	AD|c3418_g1	45	48	0.937500	True	2323.00	37.861145	23.130000	95.592711	3404
+Apis_dorsata	glutathione_S_transferase	gene-LOC102681959	glutathione S-transferase 1-1-like, transcript variant X1	AD|c40523_g1	66	92	0.717391	True	306.00	4.987305	8.520000	85.709660	11035
+Apis_dorsata	mucin	gene-LOC116184859	mucin-19-like, transcript variant X1	AD|c40406_g1	63	120	0.525000	True	1309.00	21.334584	8.310000	85.299108	11352
+Apis_dorsata	Nach_DEG_ENaC	gene-LOC116184868	sodium channel protein Nach-like	AD|c42037_g2	24	48	0.500000	True	246.00	4.009402	2.540000	65.698781	26486
+Apis_dorsata	cytochrome_P450	gene-LOC116185414	probable cytochrome P450 6a14	AD|c36698_g1	44	47	0.936170	True	4006.00	65.291324	33.490000	97.185707	2174
+Apis_dorsata	ABCC_MRP	gene-LOC116186356	probable multidrug resistance-associated protein lethal(2)03659	AD|c38751_g1	47	48	0.979167	True	9689.00	157.915038	21.010000	94.907593	3933
+Apis_dorsata	UDP_glycosyltransferase	gene-LOC116186509	UDP-glucuronosyltransferase 1-6-like	AD|c36904_g1	46	48	0.958333	True	1607.00	26.191502	11.780000	89.703806	7951
+Apis_dorsata	mucin	gene-LOC116186682	integumentary mucin C.1-like		0	48	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	mucin	gene-LOC116186694	mucin-5AC-like		0	47	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	mucin	gene-LOC116186702	integumentary mucin C.1-like		0	47	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	mucin	gene-LOC116186707	integumentary mucin A.1-like		0	47	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	mucin	gene-LOC116186711	integumentary mucin A.1-like		0	48	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	mucin	gene-LOC116186713	integumentary mucin C.1-like		0	48	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	mucin	gene-LOC116186714	integumentary mucin C.1-like		0	46	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	mucin	gene-LOC116186719	integumentary mucin A.1-like		0	47	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	mucin	gene-LOC116186721	integumentary mucin A.1-like		0	47	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	mucin	gene-LOC116186723	integumentary mucin A.1-like		0	47	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	mucin	gene-LOC116186724	integumentary mucin A.1-like		0	48	0.000000	False	0.00	0.000000	0.000000	NA	NA
+Apis_dorsata	mucin	gene-LOC116186794	integumentary mucin C.1-like		0	48	0.000000	False	0.00	0.000000	0.000000	NA	NA

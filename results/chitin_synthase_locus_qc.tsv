@@ -1,0 +1,4 @@
+gene_parent	gene_name	scaffold	start	end	strand	product	protein_accessions	protein_lengths_aa	max_protein_length_aa	full_length_chitin_synthase_like	overlap_component	overlaps_gene	overlap_fraction_of_shorter	overlap_relation
+gene-LOC122715935	LOC122715935	NW_025223180.1	3595754	3602394	+	chitin synthase chs-2-like	XP_043794468.1	1486	1486	True	1			
+gene-LOC122719631	LOC122719631	NW_025224773.1	169862	212508	+	chitin synthase chs-2-like, transcript variant X1	XP_043801530.1,XP_043801531.1,XP_043801533.1,XP_043801534.1,XP_043801535.1,XP_043801536.1,XP_043801537.1,XP_043801538.1,XP_043801539.1,XP_043801540.1	1573,1568,1568,1568,1563,1563,1563,1563,1357,1348	1573	True	2	gene-LOC122719633	1.000000	gene-LOC122719633 nested in gene-LOC122719631
+gene-LOC122719633	LOC122719633	NW_025224773.1	200919	202590	+	chitin synthase chs-1-like	XP_043801543.1	114	114	False	2	gene-LOC122719631	1.000000	gene-LOC122719633 nested in gene-LOC122719631
