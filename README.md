@@ -1,0 +1,131 @@
+# *Apis laboriosa* grayanotoxin tolerance
+
+Public-data tests of proposed tolerance mechanisms.
+
+Status: preliminary computational analysis. No controlled *A. laboriosa* grayanotoxin challenge data were found. The repository contains hypotheses, tests, generated tables, source accessions, checksums, and deterministic scripts.
+
+## Result
+
+Current public sequence data provide little support for a species-specific grayanotoxin-resistant Para sodium channel in *A. laboriosa*.
+
+If the bee has systemic tolerance, the next mechanism to test is reduced internal exposure through crop handling, gut transport or binding, epithelial efflux, and excretion. A public whole-worker transcriptome contains a large peritrophin/chitin signal and smaller ABCC and organic-anion-transporter signals. That expression comparison has one pooled sample per species and cannot establish differential expression.
+
+## Tests at a glance
+
+| Hypothesis | Prediction | Test | Result | Assessment |
+| --- | --- | --- | --- | --- |
+| Altered Para binding site | Unique laboriosa residues at experimentally implicated grayanotoxin positions | Map 16 rat Nav1.4 mutagenesis positions into six bee Para proteins | All 16 homologous residues are identical across the compared bees | No support at known sites |
+| Distant Para substitution | Laboriosa-specific changes in or near transmembrane regions | Whole-channel comparison against four other *Apis* species | Para is 99.9025% identical to *A. dorsata*; only N95 and V465 are laboriosa-specific; neither is transmembrane or close to a mapped site | Weak sequence support |
+| Protective Para splice form | A laboriosa-specific transmembrane haplotype | Compare all full-length RefSeq isoforms | 17 laboriosa isoforms; zero variable known sites; all three laboriosa DIII S3-S4 haplotypes also occur in four other *Apis* species | No unique catalogued splice form |
+| Fixed abundant Para RNA edit | Protein-changing consensus difference in processed laboriosa Para transcript | Align the complete 6,129-base CDS to the pooled transcriptome | Four mismatches, all synonymous | No fixed abundant protein-changing edit detected |
+| Para under reported sodium selection | Para maps to selected eastern scaffolds 8 or 25 | Map 29 independent exact Para probes into the eastern assembly | 29 of 29 probes map uniquely to scaffold 105 | Para excluded from that selected set |
+| Broad detoxification or barrier expansion | More detoxification, efflux, or barrier genes | Count parent genes in matched annotations | No broad laboriosa expansion | Copy-number explanation unsupported |
+| Constitutive gut or clearance program | Higher barrier or transporter transcripts | Exact-probe mapping into submitted pooled-worker transcriptomes | Peritrophin/chitin-binding 492.6x FPKM; chitin synthase 19.4x; ABCC 3.19x; organic-anion transport 3.88x | Candidate screen only; one pooled sample per species |
+
+## Key limitations
+
+- No controlled oral or injected grayanotoxin dose-response was found for *A. laboriosa*.
+- The transcriptome comparison has one untreated pool of three whole workers per species.
+- FPKM and CPM ratios are descriptive. They are not a replicated differential-expression result.
+- The Chinese reference genomes and transcriptomes may not represent Nepalese mad-honey populations.
+- The eastern assembly has no published MAKER GFF. Candidate identities on scaffolds 8 and 25 are inferred from exact cross-assembly probes and current RefSeq GO annotations.
+- Processed whole-worker transcripts cannot exclude rare, tissue-specific, seasonal, or exposure-induced RNA editing.
+- Peritrophin cannot plausibly exclude a 0.37 to 0.41 kDa molecule by size alone. Honeybee peritrophic matrix permeability has been demonstrated for much larger molecules.
+
+## Most discriminating unresolved test
+
+A paired oral and hemocoel-injection GTX-I/GTX-III dose-response would separate presystemic handling from systemic tolerance.
+
+| Observation | Interpretation |
+| --- | --- |
+| Oral tolerance with injection sensitivity | Crop handling, gut binding, restricted uptake, epithelial efflux, or rapid presystemic clearance |
+| Oral and injection tolerance | Systemic sequestration, metabolism, compensation, or an unidentified target mechanism |
+
+Tissue-resolved LC-MS/MS measurements would show whether toxin reaches the hemolymph and brain.
+
+## Repository map
+
+| Path | Contents |
+| --- | --- |
+| [`REPORT.md`](REPORT.md) | Full analysis, hypothesis ranking, methods, limitations, and source list |
+| [`REPRODUCE.md`](REPRODUCE.md) | Fresh-clone reproduction instructions |
+| [`AGENTS.md`](AGENTS.md) | Rules and workflow for coding agents extending or rerunning the analysis |
+| [`THIRD_PARTY_DATA.md`](THIRD_PARTY_DATA.md) | Input-source terms, citations, and reuse notices |
+| [`data_sources.tsv`](data_sources.tsv) | Input paths, accessions, source URLs, sizes, and SHA-256 hashes for the analyzed snapshot |
+| [`input_snapshot.sha256`](input_snapshot.sha256) | Hash of the versioned GitHub Release input archive |
+| [`results/`](results/) | Generated residue, isoform, scaffold, transcript, copy-number, and expression tables |
+| [`scripts/`](scripts/) | Input retrieval, analyses, claim validation, and checksum verification |
+| [`results.sha256`](results.sha256) | Expected hashes for every generated result file |
+
+## Key result tables
+
+- [Mapped grayanotoxin positions in bee Para](results/gtx_target_residues.tsv)
+- [Whole-channel laboriosa comparisons](results/laboriosa_pairwise_identity.tsv)
+- [Laboriosa-specific Para residues](results/laboriosa_unique_genomewide.tsv)
+- [Para isoform summary](results/para_isoform_species_summary.tsv)
+- [DIII S3-S4 haplotype overlap](results/para_diii_s3_s4_haplotype_overlap.tsv)
+- [Processed Para transcript comparison](results/para_transcriptome_alignment_summary.tsv)
+- [Para mapping into the eastern assembly](results/para_eastern_scaffold_probe_hits.tsv)
+- [Selected sodium-candidate cross-map](results/population_sodium_candidate_crossmap.tsv)
+- [DSC1/60E mapped positions](results/selected_60e_gtx_site_residues.tsv)
+- [Gene-family copy-number screen](results/detox_family_counts.tsv)
+- [Barrier and clearance copy-number screen](results/barrier_clearance_gene_counts.tsv)
+- [Chitin-synthase locus QC](results/chitin_synthase_locus_qc.tsv)
+- [Whole-worker expression contrasts](results/constitutive_expression_contrasts.tsv)
+
+## Reproduce
+
+Linux and macOS:
+
+```bash
+git clone https://github.com/nmeln/apis-laboriosa-grayanotoxin-tolerance.git
+cd apis-laboriosa-grayanotoxin-tolerance
+make all
+```
+
+`make all` creates a virtual environment, downloads the pinned public inputs, verifies their SHA-256 hashes, reruns every analysis, validates the headline claims against the generated TSV files, and compares all generated outputs with `results.sha256`.
+
+Individual stages:
+
+```bash
+make setup          # create .venv and install pinned Python packages
+make fetch          # retrieve public input files
+make verify-inputs  # compare all 25 inputs with the analyzed snapshot
+make results        # rerun the analysis pipeline
+make validate       # assert the headline claims from generated tables
+make verify-results # compare generated results with the committed snapshot
+make check          # compile scripts, validate claims, verify committed results
+```
+
+See [`REPRODUCE.md`](REPRODUCE.md) for storage requirements, manual alternatives, and the exact command sequence.
+
+## Data policy
+
+Large third-party genome and transcriptome files are kept out of Git history. A
+versioned GitHub Release asset preserves the exact analyzed input snapshot.
+`scripts/fetch_inputs.py` tries that pinned archive first and uses NCBI, GWH,
+GEO, OUP, and UniProt as a fallback. Every file is checked against
+`data_sources.tsv`. See [`THIRD_PARTY_DATA.md`](THIRD_PARTY_DATA.md) for the
+source terms. Generated result tables are committed.
+
+## License
+
+Repository code is licensed under the [MIT License](LICENSE). Downloaded and
+archived source datasets keep their original terms. See
+[`THIRD_PARTY_DATA.md`](THIRD_PARTY_DATA.md).
+
+## Primary sources
+
+1. Lin D. et al. (2021), *Comparative Genomics Reveals Recent Adaptive Evolution in Himalayan Giant Honeybee Apis laboriosa*: https://doi.org/10.1093/gbe/evab227
+2. Cao L. et al. (2023), *Population Structure, Demographic History, and Adaptation of Giant Honeybees in China Revealed by Population Genomic Data*: https://doi.org/10.1093/gbe/evad025
+3. NCBI RefSeq assembly GCF_014066325.1: https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_014066325.1/
+4. NCBI GEO/SRA GSE130963 / PRJNA542114: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA542114
+5. Tiedeken E. J. et al. (2016), differential grayanotoxin toxicity among bees: https://doi.org/10.1111/1365-2435.12588
+6. Maejima H. et al. (2002), DI/DIV S4-S5 determinants: https://pubmed.ncbi.nlm.nih.gov/12150970/
+7. Ishii H. et al. (1999), DI S6 determinants: https://pubmed.ncbi.nlm.nih.gov/10603430/
+8. Yamaoka K. et al. (2003), DII/DIII/DIV S6 determinants: https://pubmed.ncbi.nlm.nih.gov/12524436/
+9. Oliveira A. H. et al. (2019), honeybee peritrophin and matrix permeability: https://pubmed.ncbi.nlm.nih.gov/31614307/
+
+## Scope
+
+This repository reports a computational screen of public data. It contains no live-bee challenge, toxin pharmacokinetics, tissue-specific expression, electrophysiology, or direct transporter assays.
