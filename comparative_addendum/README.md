@@ -11,7 +11,7 @@ The scientific frame is comparative evolutionary genomics. More specifically, th
 | Do *A. laboriosa* and orally tolerant *Bombus terrestris* share a known Para/Nav resistance pattern? | Six references at 16 experimental grayanotoxin-contact positions | All 16 positions are identical | Known-site target resistance has little sequence support |
 | Do they share another exact Para protein state? | 2,050 callable Para residues | Zero strict focal sites | No exact whole-protein Para lead under the stated rule |
 | Do they share broad expansions of detoxification, efflux, barrier, or excretion genes? | 10,003 orthogroups | One hit, an odorant-receptor group with a low-quality *A. laboriosa* model | No relevant broad expansion found |
-| Are prespecified barrier and toxicokinetic genes enriched for exact shared states? | 4,902,144 callable amino-acid sites with matched permutations | Barrier/detox BH `q = 0.539`; core toxicokinetic BH `q = 0.539` | No enrichment |
+| Are prespecified barrier and toxicokinetic genes enriched for exact shared states? | 4,903,043 callable amino-acid sites with matched permutations | Barrier/detox BH `q = 0.518`; core toxicokinetic BH `q = 0.518` | No enrichment |
 | Did any narrow coding lead survive wider taxon checks? | NHE2/3-labelled exchanger orthogroup plus seven more *Bombus* and five other bees | S159 and I232 remain compatible with parallel state changes | Weak lead with no corrected enrichment or direct grayanotoxin evidence |
 
 The cross-insect comparison leaves presystemic handling as the most useful working model: gut uptake, epithelial transport, tissue distribution, metabolism, or excretion may reduce the dose reaching excitable tissue. Public data do not establish that mechanism in *A. laboriosa*.

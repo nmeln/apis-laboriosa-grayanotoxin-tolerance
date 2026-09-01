@@ -54,6 +54,8 @@ Every added URL, accession, byte count, and SHA-256 digest is recorded in [`inpu
 
 OrthoFinder 3.1.5 assigned 59,381 of 60,216 proteins to 10,003 orthogroups. The final set contained 8,683 orthogroups represented in all six species and 8,273 complete single-copy orthogroups.
 
+Each complete single-copy orthogroup was realigned from the pinned primary proteins with pyfamsa 0.5.3, a fixed species order, one worker, and iterative refinement disabled. OrthoFinder supplies group membership; pyfamsa supplies the canonical residue alignment.
+
 For each callable aligned amino-acid column, the strict focal pattern required:
 
 - *A. laboriosa* and *B. terrestris* to carry the same residue;
@@ -68,15 +70,21 @@ The same rule was repeated with *A. dorsata*, *A. mellifera*, *A. cerana*, and *
 |---|---:|---:|---|
 | Known Para/Nav functional sites | 16 residues | 16 identical across all six references | Known-site target resistance disfavored |
 | Whole Para strict-state screen | 2,050 callable residues | 0 focal strict sites | Exact shared Para coding mechanism disfavored |
-| Complete single-copy genome screen | 8,273 orthogroups; 4,902,144 callable sites | 2,024 focal strict sites in 1,311 orthogroups | Candidate pool only; count is close to the *A. dorsata* control, 2,036 |
-| Barrier or detox set | 244 orthogroups | 58 strict sites; matched density difference -0.0618 per 1,000 sites; permutation `p = 0.446`, BH `q = 0.539` | No enrichment |
-| Core toxicokinetic set | 118 orthogroups | 32 strict sites; matched density difference -0.0690 per 1,000 sites; permutation `p = 0.485`, BH `q = 0.539` | No enrichment |
+| Complete single-copy genome screen | 8,273 orthogroups; 4,903,043 callable sites | 2,017 focal strict sites in 1,307 orthogroups | Candidate pool only; count is close to the *A. dorsata* control, 2,058 |
+| Barrier or detox set | 244 orthogroups | 53 strict sites; matched density difference -0.0918 per 1,000 sites; permutation `p = 0.282`, BH `q = 0.518` | No enrichment |
+| Core toxicokinetic set | 118 orthogroups | 29 strict sites; matched density difference -0.1006 per 1,000 sites; permutation `p = 0.311`, BH `q = 0.518` | No enrichment |
 | Shared copy-number gain | 10,003 orthogroups | 1 hit, `OG0000196`, odorant receptor Or1-like | No shared detox, efflux, barrier, or excretion expansion |
-| NHE2/3-labelled category | 6 orthogroups | 4 sites in one orthogroup; raw Fisher `p = 0.0759`, BH `q = 0.365` across 130 exploratory category/focal tests | Narrow lead without category-level support |
+| NHE2/3-labelled category | 6 orthogroups | 4 sites in one orthogroup; raw Fisher `p = 0.0751`, BH `q = 0.349` across 130 exploratory category/focal tests | Narrow lead without category-level support |
 
 The matched permutation shuffled candidate labels within quartile bins of callable protein length and focal-to-*Bombus* divergence. It used 20,000 permutations with a fixed seed. This controls two obvious sources of excess hits, although it does not replace a phenotype-aware phylogenetic test.
 
 The annotation-based family counts are rough screens. Several annotation terms are incomplete or inconsistent across species. Their useful result is the absence of an obvious *A. laboriosa* plus *B. terrestris* expansion, not an exact census of each biochemical family.
+
+### Alignment reproducibility check
+
+The first clean GitHub Actions run reproduced the stated scientific checks, but one per-orthogroup summary file failed its byte-level hash. The screen had read multiple-sequence alignments generated inside OrthoFinder. Direct pyfamsa repeats then showed that FAMSA's iterative refinement can select among tied refinements without a user-settable random seed. On one diagnostic orthogroup, 100 default runs split 53 to 47 between two alignments; 100 runs with refinement disabled were identical.
+
+The canonical screen now realigns each single-copy orthogroup directly with pinned pyfamsa 0.5.3, one worker, and refinement disabled. The full screen was repeated in independent processes before the result hashes were updated. Relative to the original OrthoFinder-alignment run, callable sites changed from 4,902,144 to 4,903,043, focal strict sites from 2,024 to 2,017, and the *A. dorsata* control from 2,036 to 2,058. Para remained at zero, the candidate sets remained unenriched, and the copy-number result was unchanged.
 
 ## The exchanger lead
 

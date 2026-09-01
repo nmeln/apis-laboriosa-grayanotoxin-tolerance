@@ -49,7 +49,7 @@ The `results` stage performs the following work:
 1. verifies the base and addendum inputs;
 2. selects the longest RefSeq protein per GFF gene;
 3. constructs six-species orthogroups with OrthoFinder 3.1.5;
-4. aligns 8,273 complete single-copy orthogroups and applies the same strict residue-sharing rule to each *Apis* focal species;
+4. realigns 8,273 complete single-copy orthogroups with pyfamsa 0.5.3, fixed species order, one worker, and iterative refinement disabled, then applies the same strict residue-sharing rule to each *Apis* focal species;
 5. tests prespecified barrier, detoxification, and toxicokinetic categories against length- and divergence-matched permutations;
 6. screens strict copy-number sharing across all 10,003 orthogroups;
 7. checks all 16 predefined Para/Nav grayanotoxin-contact positions and all callable Para residues;
@@ -65,7 +65,7 @@ Set the OrthoFinder process count when needed:
 ADDENDUM_THREADS=8 make -C comparative_addendum results
 ```
 
-The alignment and permutation stages use recorded seeds and fixed thread settings where output order or floating-point reduction could otherwise change files.
+Every pyfamsa call uses one worker with iterative refinement disabled. FAMSA's refinement stage has no user-settable seed and selected two different alignments across repeated runs of a diagnostic orthogroup. Disabling refinement produced 100 identical diagnostic alignments. The full canonical screen is also checked against committed file hashes. The permutation stages use recorded seeds.
 
 If OrthoFinder exits without a complete orthogroup table, the runner preserves the incomplete directory with a `.failed` suffix and makes one fresh retry with two processes. This handles truncated intermediate search files without modifying inputs or accepting partial output.
 
@@ -150,9 +150,9 @@ The validator checks the exact values used in the addendum summary, including or
 - 59,381 proteins assigned to orthogroups;
 - 10,003 orthogroups;
 - 8,273 complete single-copy orthogroups;
-- 4,902,144 callable amino-acid sites;
-- 2,024 strict focal sites for *A. laboriosa*;
-- 2,036 corresponding sites for the *A. dorsata* internal control.
+- 4,903,043 callable amino-acid sites;
+- 2,017 strict focal sites for *A. laboriosa*;
+- 2,058 corresponding sites for the *A. dorsata* internal control.
 
 [`results/para_strict_sharing_summary.json`](results/para_strict_sharing_summary.json) should report zero exact focal Para sites across 2,050 callable residues.
 

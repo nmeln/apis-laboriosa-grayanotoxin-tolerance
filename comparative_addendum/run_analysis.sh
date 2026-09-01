@@ -121,16 +121,15 @@ fi
 iqtree_dir="$work_dir/iqtree"
 iqtree_prefix="$iqtree_dir/nhe3_extended_bee"
 mkdir -p "$iqtree_dir"
-if [[ ! -f "$iqtree_prefix.treefile" ]]; then
-  "$env_dir/bin/iqtree3" \
-    -s "$results_dir/nhe3_extended_bee_alignment.faa" \
-    -m MFP \
-    -B 1000 \
-    --alrt 1000 \
-    -T 1 \
-    --seed 240801 \
-    --prefix "$iqtree_prefix"
-fi
+"$env_dir/bin/iqtree3" \
+  -s "$results_dir/nhe3_extended_bee_alignment.faa" \
+  -m MFP \
+  -B 1000 \
+  --alrt 1000 \
+  -T 1 \
+  --seed 240801 \
+  --redo \
+  --prefix "$iqtree_prefix"
 cp "$iqtree_prefix.treefile" "$results_dir/nhe3_extended_bee_iqtree.treefile"
 cp "$iqtree_prefix.contree" "$results_dir/nhe3_extended_bee_iqtree.contree"
 

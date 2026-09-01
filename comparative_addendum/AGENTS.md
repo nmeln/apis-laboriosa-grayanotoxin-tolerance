@@ -113,6 +113,7 @@ For every changed result:
 - Use Python 3.11 and the versions in `environment.yml`.
 - Derive paths from `Path(__file__)`; do not depend on a caller's current directory.
 - Keep random seeds explicit and stable.
+- Use one pyfamsa worker with refinement disabled for every alignment. Realign complete single-copy orthogroups from the pinned primary proteins; do not use OrthoFinder's saved multiple-sequence alignments for the strict-state screen.
 - Write result tables with fixed columns and stable ordering.
 - Fail on missing candidates, malformed tables, ambiguous mappings, and checksum disagreements.
 - Keep network access inside `scripts/fetch_inputs.py`.
