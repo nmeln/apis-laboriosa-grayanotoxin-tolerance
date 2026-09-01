@@ -1,0 +1,17 @@
+rat_position	rat_residue	region	Apis_laboriosa_full_length_isoforms	Apis_laboriosa_mapped_isoforms	Apis_laboriosa_residue_set	Apis_dorsata_full_length_isoforms	Apis_dorsata_mapped_isoforms	Apis_dorsata_residue_set	Apis_mellifera_refseq_full_length_isoforms	Apis_mellifera_refseq_mapped_isoforms	Apis_mellifera_refseq_residue_set	Apis_cerana_full_length_isoforms	Apis_cerana_mapped_isoforms	Apis_cerana_residue_set	Apis_florea_full_length_isoforms	Apis_florea_mapped_isoforms	Apis_florea_residue_set	Bombus_terrestris_old_refseq_full_length_isoforms	Bombus_terrestris_old_refseq_mapped_isoforms	Bombus_terrestris_old_refseq_residue_set
+237	K	DI S4-S5 linker	17	17	K	32	32	K	36	36	K	34	34	K	23	23	K	1	1	K
+243	L	DI S4-S5 linker	17	17	V	32	32	V	36	36	V	34	34	V	23	23	V	1	1	V
+246	S	DI S4-S5 linker	17	17	S	32	32	S	36	36	S	34	34	S	23	23	S	1	1	S
+248	K	DI S4-S5 linker	17	17	K	32	32	K	36	36	K	34	34	K	23	23	K	1	1	K
+249	K	DI S4-S5 linker	17	17	N	32	32	N	36	36	N	34	34	N	23	23	N	1	1	N
+250	L	DI S4-S5 linker	17	17	L	32	32	L	36	36	L	34	34	L	23	23	L	1	1	L
+251	S	DI S4-S5 linker	17	17	R	32	32	R	36	36	R	34	34	R	23	23	R	1	1	R
+433	I	DI S6	17	17	V	32	32	V	36	36	V	34	34	V	23	23	V	1	1	V
+434	N	DI S6	17	17	N	32	32	N	36	36	N	34	34	N	23	23	N	1	1	N
+437	L	DI S6	17	17	L	32	32	L	36	36	L	34	34	L	23	23	L	1	1	L
+784	N	DII S6	17	17	N	32	32	N	36	36	N	34	34	N	23	23	N	1	1	N
+1276	S	DIII S6	17	17	S	32	32	S	36	36	S	34	34	S	23	23	S	1	1	S
+1463	T	DIV S4-S5 linker	17	17	T	32	32	T	36	36	T	34	34	T	23	23	T	1	1	T
+1575	I	DIV S6	17	17	L	32	32	L	36	36	L	34	34	L	23	23	L	1	1	L
+1579	F	DIV S6	17	17	F	32	32	F	36	36	F	34	34	F	23	23	F	1	1	F
+1586	Y	DIV S6	17	17	Y	32	32	Y	36	36	Y	34	34	Y	23	23	Y	1	1	Y

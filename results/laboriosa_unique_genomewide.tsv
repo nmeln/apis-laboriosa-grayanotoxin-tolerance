@@ -1,0 +1,3 @@
+laboriosa_position	laboriosa_residue	other_apis_consensus	bombus_residue	laboriosa_matches_bombus	rat_position	rat_residue	topology	nearest_rat_gtx_site	distance_to_nearest_gtx_site	Apis_dorsata_residue	Apis_mellifera_functional_residue	Apis_cerana_residue	Apis_florea_residue
+95	N	S	S	False	85	P	non-transmembrane	K237	-152	S	S	S	S
+465	V	A	A	False	gap	-	unmapped	unmapped	unmapped	A	A	A	A

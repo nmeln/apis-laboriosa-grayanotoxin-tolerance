@@ -1,0 +1,7 @@
+species	laboriosa_haplotypes	species_haplotypes	shared_exact_haplotypes	all_laboriosa_haplotypes_present	shared_haplotypes
+Apis_laboriosa	3	3	3	True	----------------------------------------M | LSLINLGAIWAGAADIPAFRSMRTLRALRPLRAVSRWEGMR | VSLINFVASLCGAGGIQAFKTMRTLRALRPLRAMSRMQGMR
+Apis_dorsata	3	3	3	True	----------------------------------------M | LSLINLGAIWAGAADIPAFRSMRTLRALRPLRAVSRWEGMR | VSLINFVASLCGAGGIQAFKTMRTLRALRPLRAMSRMQGMR
+Apis_mellifera	3	3	3	True	----------------------------------------M | LSLINLGAIWAGAADIPAFRSMRTLRALRPLRAVSRWEGMR | VSLINFVASLCGAGGIQAFKTMRTLRALRPLRAMSRMQGMR
+Apis_cerana	3	3	3	True	----------------------------------------M | LSLINLGAIWAGAADIPAFRSMRTLRALRPLRAVSRWEGMR | VSLINFVASLCGAGGIQAFKTMRTLRALRPLRAMSRMQGMR
+Apis_florea	3	3	3	True	----------------------------------------M | LSLINLGAIWAGAADIPAFRSMRTLRALRPLRAVSRWEGMR | VSLINFVASLCGAGGIQAFKTMRTLRALRPLRAMSRMQGMR
+Bombus_terrestris	3	1	1	False	LSLINLGAIWAGAADIPAFRSMRTLRALRPLRAVSRWEGMR

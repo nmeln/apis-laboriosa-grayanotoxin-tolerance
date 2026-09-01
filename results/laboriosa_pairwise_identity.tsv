@@ -1,0 +1,6 @@
+comparison	laboriosa_accession	query_accession	aligned_aa	matches	identity_over_aligned	laboriosa_coverage	query_coverage
+Apis_laboriosa_vs_Apis_dorsata	XP_043795192.1	XP_006613060.1	2052	2050	0.999025	1.000000	0.994668
+Apis_laboriosa_vs_Apis_mellifera_functional	XP_043795192.1	AMB38675.1	2033	2027	0.997049	0.990741	0.994618
+Apis_laboriosa_vs_Apis_cerana	XP_043795192.1	XP_061935153.1	2051	2046	0.997562	0.999513	0.994665
+Apis_laboriosa_vs_Apis_florea	XP_043795192.1	XP_086759233.1	2052	2046	0.997076	1.000000	0.994668
+Apis_laboriosa_vs_Bombus_terrestris_functional	XP_043795192.1	XP_012167116.1	2051	2009	0.979522	0.999513	0.994665

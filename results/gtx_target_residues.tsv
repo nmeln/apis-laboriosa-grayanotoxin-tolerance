@@ -1,0 +1,17 @@
+rat_position	rat_residue	region	functional_evidence	Apis_laboriosa_position	Apis_laboriosa_residue	Apis_dorsata_position	Apis_dorsata_residue	Apis_mellifera_refseq_position	Apis_mellifera_refseq_residue	Apis_cerana_position	Apis_cerana_residue	Apis_florea_position	Apis_florea_residue	Bombus_terrestris_old_refseq_position	Bombus_terrestris_old_refseq_residue	Apis_mellifera_functional_position	Apis_mellifera_functional_residue	Bombus_terrestris_functional_position	Bombus_terrestris_functional_residue	Apis_dorsata_functional_position	Apis_dorsata_functional_residue	Apis_florea_functional_position	Apis_florea_functional_residue
+237	K	DI S4-S5 linker	alanine scan: moderate GTX effect	246	K	257	K	257	K	257	K	257	K	257	K	257	K	257	K	257	K	gap	-
+243	L	DI S4-S5 linker	synergistic determinant	252	V	263	V	263	V	263	V	263	V	263	V	263	V	263	V	263	V	gap	-
+246	S	DI S4-S5 linker	alanine scan: moderate GTX effect	255	S	266	S	266	S	266	S	266	S	266	S	266	S	266	S	266	S	gap	-
+248	K	DI S4-S5 linker	alanine scan: moderate GTX effect	257	K	268	K	268	K	268	K	268	K	268	K	268	K	268	K	268	K	gap	-
+249	K	DI S4-S5 linker	alanine scan: moderate GTX effect	258	N	269	N	269	N	269	N	269	N	269	N	269	N	269	N	269	N	gap	-
+250	L	DI S4-S5 linker	alanine scan: moderate GTX effect	259	L	270	L	270	L	270	L	270	L	270	L	270	L	270	L	270	L	gap	-
+251	S	DI S4-S5 linker	isoform sensitivity determinant	260	R	271	R	271	R	271	R	271	R	271	R	271	R	271	R	271	R	gap	-
+433	I	DI S6	Lys substitution abolished GTX response	408	V	419	V	419	V	419	V	419	V	419	V	419	V	419	V	419	V	84	V
+434	N	DI S6	Lys substitution abolished GTX response	409	N	420	N	420	N	420	N	420	N	420	N	420	N	420	N	420	N	85	N
+437	L	DI S6	Lys substitution abolished GTX response	412	L	423	L	423	L	423	L	423	L	423	L	423	L	423	L	423	L	88	L
+784	N	DII S6	binding/unbinding determinant	1015	N	1026	N	1026	N	1026	N	1026	N	1006	N	1017	N	1025	N	1017	N	682	N
+1276	S	DIII S6	binding/unbinding determinant	1543	S	1554	S	1554	S	1553	S	1554	S	1534	S	1535	S	1553	S	1535	S	1200	S
+1463	T	DIV S4-S5 linker	alanine scan: moderate GTX effect	1731	T	1742	T	1742	T	1741	T	1742	T	1722	T	1723	T	1741	T	1723	T	1388	T
+1575	I	DIV S6	Ala substitution abolished GTX effect	1839	L	1850	L	1850	L	1849	L	1850	L	1830	L	1831	L	1849	L	1831	L	1496	L
+1579	F	DIV S6	access-gate kinetics determinant	1843	F	1854	F	1854	F	1853	F	1854	F	1834	F	1835	F	1853	F	1835	F	1500	F
+1586	Y	DIV S6	GTX-affinity determinant; Lys abolished effect	1850	Y	1861	Y	1861	Y	1860	Y	1861	Y	1841	Y	1842	Y	1860	Y	1842	Y	1507	Y
