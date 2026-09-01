@@ -1,0 +1,41 @@
+name: Reproduce comparative addendum
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/reproduce-comparative-addendum.yml
+      - comparative_addendum/**
+      - data_sources.tsv
+      - scripts/fetch_inputs.py
+      - scripts/verify_project.py
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Restore and verify base inputs
+        run: make setup fetch verify-inputs
+      - uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: comparative_addendum/environment.yml
+          environment-name: bee-convergence-session
+          cache-environment: true
+          init-shell: bash
+      - name: Fetch, rerun, and verify addendum
+        shell: bash -el {0}
+        run: |
+          "$CONDA_PREFIX/bin/python" comparative_addendum/scripts/fetch_inputs.py
+          ADDENDUM_ENV_PREFIX="$CONDA_PREFIX" ADDENDUM_THREADS=4 \
+            bash comparative_addendum/run_analysis.sh

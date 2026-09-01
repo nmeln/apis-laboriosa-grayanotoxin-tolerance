@@ -1,0 +1,48 @@
+name: Publish comparative input snapshot
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/publish-comparative-input-snapshot.yml
+      - comparative_addendum/input_sources.tsv
+      - comparative_addendum/input_snapshot.sha256
+      - comparative_addendum/scripts/create_input_snapshot.py
+      - comparative_addendum/scripts/fetch_inputs.py
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch from official repositories
+        run: python comparative_addendum/scripts/fetch_inputs.py --official-only
+      - name: Build deterministic archive
+        run: >-
+          python comparative_addendum/scripts/create_input_snapshot.py
+          --output /tmp/comparative-addendum-inputs-v1.tar
+      - name: Verify archive hash
+        working-directory: /tmp
+        run: sha256sum -c "$GITHUB_WORKSPACE/comparative_addendum/input_snapshot.sha256"
+      - name: Publish release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag=comparative-addendum-inputs-v1
+          asset=/tmp/comparative-addendum-inputs-v1.tar
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" "$asset" --clobber
+          else
+            gh release create "$tag" "$asset" \
+              --title "Comparative addendum inputs v1" \
+              --notes "Exact added inputs for the comparative bee analysis. Source terms and citations are in comparative_addendum/THIRD_PARTY_DATA.md."
+          fi
