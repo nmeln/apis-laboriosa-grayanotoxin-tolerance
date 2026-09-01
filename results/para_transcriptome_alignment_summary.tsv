@@ -1,0 +1,3 @@
+species	para_refseq_isoforms	top_unigene	top_unigene_length_nt	read_count	fpkm	best_reference_transcript	best_reference_protein	exact_probe_score	reference_cds_length_nt	aligned_bases	reference_coverage	identity_over_aligned	single_base_mismatches	a_to_g_mismatches	nonsynonymous_mismatches
+Apis_laboriosa	17	AL|c47723_g1	8935	1738.0	5.57	XM_043939259.1	XP_043795194.1	459	6129	6129	1.000000	0.999347	4	1	0
+Apis_dorsata	32	AD|c42352_g1	8939	1509.0	6.36	XM_006613007.2	XP_006613070.1	459	6132	6132	1.000000	0.999185	5	1	1

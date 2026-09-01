@@ -1,0 +1,7 @@
+species	full_length_para_isoforms	longest_accession	longest_length_aa	variable_rat_mapped_positions	variable_transmembrane_positions	variable_known_gtx_positions	diii_s3_s4_haplotypes	diii_s3_s4_isoforms_with_deletion
+Apis_laboriosa	17	XP_043795192.1	2052	87	29	0	3	2
+Apis_dorsata	32	XP_006613060.1	2063	151	29	0	3	4
+Apis_mellifera	36	XP_006561583.1	2063	197	59	0	3	4
+Apis_cerana	34	XP_061935153.1	2062	182	29	0	3	4
+Apis_florea	23	XP_086759233.1	2063	229	29	0	3	1
+Bombus_terrestris	1	XP_020720206.1	2043	0	0	0	1	0

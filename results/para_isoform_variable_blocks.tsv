@@ -1,0 +1,5 @@
+reference_start	reference_end	length_aa	rat_start	rat_end	topologies	contains_transmembrane_residue	contains_known_gtx_site	reference_sequence
+533	551	19	gap	gap	unmapped	False	False	VSRAANGQFTYAYQESLRK
+750	758	9	518	525	non-transmembrane;unmapped	False	False	VSSTYYFPT
+1086	1104	19	856	874	non-transmembrane	False	False	GEGPSNSWKEDGIDRDGDL
+1372	1412	41	1100	1140	Helical; Name=S3 of repeat III;Helical; Name=S4 of repeat III;non-transmembrane	True	False	VSLINFVASLCGAGGIQAFKTMRTLRALRPLRAMSRMQGMR

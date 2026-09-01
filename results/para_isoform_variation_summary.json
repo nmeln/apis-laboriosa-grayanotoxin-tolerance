@@ -1,0 +1,29 @@
+{
+  "isoforms": 17,
+  "reference": "XP_043795192.1",
+  "reference_length_aa": 2052,
+  "isoform_lengths_aa": {
+    "XP_043795192.1": 2052,
+    "XP_043795193.1": 2052,
+    "XP_043795194.1": 2043,
+    "XP_043795195.1": 2042,
+    "XP_043795196.1": 2042,
+    "XP_043795197.1": 2033,
+    "XP_043795198.1": 2033,
+    "XP_043795199.1": 2033,
+    "XP_043795201.1": 2023,
+    "XP_043795202.1": 2014,
+    "XP_043795203.1": 2011,
+    "XP_043795204.1": 2023,
+    "XP_043795205.1": 2033,
+    "XP_043795206.1": 2024,
+    "XP_043795207.1": 2024,
+    "XP_043795208.1": 1992,
+    "XP_043795209.1": 2014
+  },
+  "variable_reference_positions": 88,
+  "variable_blocks": 4,
+  "variable_positions_in_transmembrane_helices": 28,
+  "variable_positions_at_known_gtx_sites": 0,
+  "blocks_touching_transmembrane_helices": 1
+}

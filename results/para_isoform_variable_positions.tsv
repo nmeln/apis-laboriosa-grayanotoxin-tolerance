@@ -1,0 +1,89 @@
+reference_position	reference_residue	rat_position	rat_residue	topology	known_gtx_site	state_counts	XP_043795192.1	XP_043795193.1	XP_043795194.1	XP_043795195.1	XP_043795196.1	XP_043795197.1	XP_043795198.1	XP_043795199.1	XP_043795201.1	XP_043795202.1	XP_043795203.1	XP_043795204.1	XP_043795205.1	XP_043795206.1	XP_043795207.1	XP_043795208.1	XP_043795209.1
+533	V	gap	-	unmapped	False	-:9;V:8	V	V	V	V	V	V	-	V	-	-	V	-	-	-	-	-	-
+534	S	gap	-	unmapped	False	-:9;S:8	S	S	S	S	S	S	-	S	-	-	S	-	-	-	-	-	-
+535	R	gap	-	unmapped	False	-:9;R:8	R	R	R	R	R	R	-	R	-	-	R	-	-	-	-	-	-
+536	A	gap	-	unmapped	False	-:9;A:8	A	A	A	A	A	A	-	A	-	-	A	-	-	-	-	-	-
+537	A	gap	-	unmapped	False	-:9;A:8	A	A	A	A	A	A	-	A	-	-	A	-	-	-	-	-	-
+538	N	gap	-	unmapped	False	-:9;N:8	N	N	N	N	N	N	-	N	-	-	N	-	-	-	-	-	-
+539	G	gap	-	unmapped	False	-:9;G:8	G	G	G	G	G	G	-	G	-	-	G	-	-	-	-	-	-
+540	Q	gap	-	unmapped	False	-:9;Q:8	Q	Q	Q	Q	Q	Q	-	Q	-	-	Q	-	-	-	-	-	-
+541	F	gap	-	unmapped	False	-:9;F:8	F	F	F	F	F	F	-	F	-	-	F	-	-	-	-	-	-
+542	T	gap	-	unmapped	False	-:9;T:8	T	T	T	T	T	T	-	T	-	-	T	-	-	-	-	-	-
+543	Y	gap	-	unmapped	False	-:9;Y:8	Y	Y	Y	Y	Y	Y	-	Y	-	-	Y	-	-	-	-	-	-
+544	A	gap	-	unmapped	False	-:9;A:8	A	A	A	A	A	A	-	A	-	-	A	-	-	-	-	-	-
+545	Y	gap	-	unmapped	False	-:9;Y:8	Y	Y	Y	Y	Y	Y	-	Y	-	-	Y	-	-	-	-	-	-
+546	Q	gap	-	unmapped	False	-:9;Q:8	Q	Q	Q	Q	Q	Q	-	Q	-	-	Q	-	-	-	-	-	-
+547	E	gap	-	unmapped	False	-:9;E:8	E	E	E	E	E	E	-	E	-	-	E	-	-	-	-	-	-
+548	S	gap	-	unmapped	False	-:9;S:8	S	S	S	S	S	S	-	S	-	-	S	-	-	-	-	-	-
+549	L	gap	-	unmapped	False	-:9;L:8	L	L	L	L	L	L	-	L	-	-	L	-	-	-	-	-	-
+550	R	gap	-	unmapped	False	-:9;R:8	R	R	R	R	R	R	-	R	-	-	R	-	-	-	-	-	-
+551	K	gap	-	unmapped	False	-:9;K:8	K	K	K	K	K	K	-	K	-	-	K	-	-	-	-	-	-
+750	V	gap	-	unmapped	False	-:5;V:12	V	V	-	V	V	-	V	V	V	-	V	V	V	-	-	V	V
+751	S	518	C	non-transmembrane	False	-:5;S:12	S	S	-	S	S	-	S	S	S	-	S	S	S	-	-	S	S
+752	S	519	S	non-transmembrane	False	-:5;S:12	S	S	-	S	S	-	S	S	S	-	S	S	S	-	-	S	S
+753	T	520	A	non-transmembrane	False	-:5;T:12	T	T	-	T	T	-	T	T	T	-	T	T	T	-	-	T	T
+754	Y	521	D	non-transmembrane	False	-:5;Y:12	Y	Y	-	Y	Y	-	Y	Y	Y	-	Y	Y	Y	-	-	Y	Y
+755	Y	522	S	non-transmembrane	False	-:5;Y:12	Y	Y	-	Y	Y	-	Y	Y	Y	-	Y	Y	Y	-	-	Y	Y
+756	F	523	A	non-transmembrane	False	-:5;F:12	F	F	-	F	F	-	F	F	F	-	F	F	F	-	-	F	F
+757	P	524	I	non-transmembrane	False	-:5;P:12	P	P	-	P	P	-	P	P	P	-	P	P	P	-	-	P	P
+758	T	525	S	non-transmembrane	False	-:5;T:12	T	T	-	T	T	-	T	T	T	-	T	T	T	-	-	T	T
+1086	G	856	G	non-transmembrane	False	-:8;G:9	G	G	G	-	-	-	G	-	-	-	G	-	G	G	G	G	-
+1087	E	857	G	non-transmembrane	False	-:8;E:9	E	E	E	-	-	-	E	-	-	-	E	-	E	E	E	E	-
+1088	G	858	A	non-transmembrane	False	-:8;G:9	G	G	G	-	-	-	G	-	-	-	G	-	G	G	G	G	-
+1089	P	859	G	non-transmembrane	False	-:8;P:9	P	P	P	-	-	-	P	-	-	-	P	-	P	P	P	P	-
+1090	S	860	E	non-transmembrane	False	-:8;S:9	S	S	S	-	-	-	S	-	-	-	S	-	S	S	S	S	-
+1091	N	861	N	non-transmembrane	False	-:8;N:9	N	N	N	-	-	-	N	-	-	-	N	-	N	N	N	N	-
+1092	S	862	A	non-transmembrane	False	-:8;S:9	S	S	S	-	-	-	S	-	-	-	S	-	S	S	S	S	-
+1093	W	863	E	non-transmembrane	False	-:8;W:9	W	W	W	-	-	-	W	-	-	-	W	-	W	W	W	W	-
+1094	K	864	E	non-transmembrane	False	-:8;K:9	K	K	K	-	-	-	K	-	-	-	K	-	K	K	K	K	-
+1095	E	865	S	non-transmembrane	False	-:8;E:9	E	E	E	-	-	-	E	-	-	-	E	-	E	E	E	E	-
+1096	D	866	T	non-transmembrane	False	-:2;D:15	D	D	D	D	D	D	D	-	D	D	D	D	D	D	D	D	-
+1097	G	867	P	non-transmembrane	False	-:2;G:15	G	G	G	G	G	G	G	-	G	G	G	G	G	G	G	G	-
+1098	I	868	E	non-transmembrane	False	-:2;I:15	I	I	I	I	I	I	I	-	I	I	I	I	I	I	I	I	-
+1099	D	869	D	non-transmembrane	False	-:2;D:15	D	D	D	D	D	D	D	-	D	D	D	D	D	D	D	D	-
+1100	R	870	E	non-transmembrane	False	-:2;R:15	R	R	R	R	R	R	R	-	R	R	R	R	R	R	R	R	-
+1101	D	871	K	non-transmembrane	False	-:2;D:15	D	D	D	D	D	D	D	-	D	D	D	D	D	D	D	D	-
+1102	G	872	K	non-transmembrane	False	-:2;G:15	G	G	G	G	G	G	G	-	G	G	G	G	G	G	G	G	-
+1103	D	873	E	non-transmembrane	False	-:2;D:15	D	D	D	D	D	D	D	-	D	D	D	D	D	D	D	D	-
+1104	L	874	P	non-transmembrane	False	-:2;L:15	L	L	L	L	L	L	L	-	L	L	L	L	L	L	L	L	-
+1372	V	1100	V	Helical; Name=S3 of repeat III	False	-:2;L:5;V:10	V	L	V	V	L	V	V	V	V	V	-	L	L	L	V	-	V
+1373	S	1101	S	Helical; Name=S3 of repeat III	False	-:2;S:15	S	S	S	S	S	S	S	S	S	S	-	S	S	S	S	-	S
+1374	L	1102	I	Helical; Name=S3 of repeat III	False	-:2;L:15	L	L	L	L	L	L	L	L	L	L	-	L	L	L	L	-	L
+1375	I	1103	I	Helical; Name=S3 of repeat III	False	-:2;I:15	I	I	I	I	I	I	I	I	I	I	-	I	I	I	I	-	I
+1376	N	1104	S	Helical; Name=S3 of repeat III	False	-:2;N:15	N	N	N	N	N	N	N	N	N	N	-	N	N	N	N	-	N
+1377	F	1105	L	Helical; Name=S3 of repeat III	False	-:2;F:10;L:5	F	L	F	F	L	F	F	F	F	F	-	L	L	L	F	-	F
+1378	V	1106	V	Helical; Name=S3 of repeat III	False	-:2;G:5;V:10	V	G	V	V	G	V	V	V	V	V	-	G	G	G	V	-	V
+1379	A	1107	A	Helical; Name=S3 of repeat III	False	-:2;A:15	A	A	A	A	A	A	A	A	A	A	-	A	A	A	A	-	A
+1380	S	1108	N	Helical; Name=S3 of repeat III	False	-:2;I:5;S:10	S	I	S	S	I	S	S	S	S	S	-	I	I	I	S	-	S
+1381	L	1109	W	non-transmembrane	False	-:2;L:10;W:5	L	W	L	L	W	L	L	L	L	L	-	W	W	W	L	-	L
+1382	C	1110	L	non-transmembrane	False	-:2;A:5;C:10	C	A	C	C	A	C	C	C	C	C	-	A	A	A	C	-	C
+1383	G	1111	G	non-transmembrane	False	-:2;G:15	G	G	G	G	G	G	G	G	G	G	-	G	G	G	G	-	G
+1384	A	1112	Y	non-transmembrane	False	-:2;A:15	A	A	A	A	A	A	A	A	A	A	-	A	A	A	A	-	A
+1385	G	1113	S	non-transmembrane	False	-:2;A:5;G:10	G	A	G	G	A	G	G	G	G	G	-	A	A	A	G	-	G
+1386	G	1114	E	non-transmembrane	False	-:2;D:5;G:10	G	D	G	G	D	G	G	G	G	G	-	D	D	D	G	-	G
+1387	I	1115	L	non-transmembrane	False	-:2;I:15	I	I	I	I	I	I	I	I	I	I	-	I	I	I	I	-	I
+1388	Q	1116	G	non-transmembrane	False	-:2;P:5;Q:10	Q	P	Q	Q	P	Q	Q	Q	Q	Q	-	P	P	P	Q	-	Q
+1389	A	1117	P	Helical; Name=S4 of repeat III	False	-:2;A:15	A	A	A	A	A	A	A	A	A	A	-	A	A	A	A	-	A
+1390	F	1118	I	Helical; Name=S4 of repeat III	False	-:2;F:15	F	F	F	F	F	F	F	F	F	F	-	F	F	F	F	-	F
+1391	K	1119	K	Helical; Name=S4 of repeat III	False	-:2;K:10;R:5	K	R	K	K	R	K	K	K	K	K	-	R	R	R	K	-	K
+1392	T	1120	S	Helical; Name=S4 of repeat III	False	-:2;S:5;T:10	T	S	T	T	S	T	T	T	T	T	-	S	S	S	T	-	T
+1393	M	1121	L	Helical; Name=S4 of repeat III	False	-:2;M:15	M	M	M	M	M	M	M	M	M	M	-	M	M	M	M	-	M
+1394	R	1122	R	Helical; Name=S4 of repeat III	False	-:2;R:15	R	R	R	R	R	R	R	R	R	R	-	R	R	R	R	-	R
+1395	T	1123	T	Helical; Name=S4 of repeat III	False	-:2;T:15	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	-	T
+1396	L	1124	L	Helical; Name=S4 of repeat III	False	-:2;L:15	L	L	L	L	L	L	L	L	L	L	-	L	L	L	L	-	L
+1397	R	1125	R	Helical; Name=S4 of repeat III	False	-:2;R:15	R	R	R	R	R	R	R	R	R	R	-	R	R	R	R	-	R
+1398	A	1126	A	Helical; Name=S4 of repeat III	False	-:2;A:15	A	A	A	A	A	A	A	A	A	A	-	A	A	A	A	-	A
+1399	L	1127	L	Helical; Name=S4 of repeat III	False	-:2;L:15	L	L	L	L	L	L	L	L	L	L	-	L	L	L	L	-	L
+1400	R	1128	R	Helical; Name=S4 of repeat III	False	-:2;R:15	R	R	R	R	R	R	R	R	R	R	-	R	R	R	R	-	R
+1401	P	1129	P	Helical; Name=S4 of repeat III	False	-:2;P:15	P	P	P	P	P	P	P	P	P	P	-	P	P	P	P	-	P
+1402	L	1130	L	Helical; Name=S4 of repeat III	False	-:2;L:15	L	L	L	L	L	L	L	L	L	L	-	L	L	L	L	-	L
+1403	R	1131	R	Helical; Name=S4 of repeat III	False	-:2;R:15	R	R	R	R	R	R	R	R	R	R	-	R	R	R	R	-	R
+1404	A	1132	A	Helical; Name=S4 of repeat III	False	-:2;A:15	A	A	A	A	A	A	A	A	A	A	-	A	A	A	A	-	A
+1405	M	1133	L	Helical; Name=S4 of repeat III	False	-:2;M:10;V:5	M	V	M	M	V	M	M	M	M	M	-	V	V	V	M	-	M
+1406	S	1134	S	Helical; Name=S4 of repeat III	False	-:2;S:15	S	S	S	S	S	S	S	S	S	S	-	S	S	S	S	-	S
+1407	R	1135	R	Helical; Name=S4 of repeat III	False	-:2;R:15	R	R	R	R	R	R	R	R	R	R	-	R	R	R	R	-	R
+1408	M	1136	F	non-transmembrane	False	-:2;M:10;W:5	M	W	M	M	W	M	M	M	M	M	-	W	W	W	M	-	M
+1409	Q	1137	E	non-transmembrane	False	-:2;E:5;Q:10	Q	E	Q	Q	E	Q	Q	Q	Q	Q	-	E	E	E	Q	-	Q
+1410	G	1138	G	non-transmembrane	False	-:2;G:15	G	G	G	G	G	G	G	G	G	G	-	G	G	G	G	-	G
+1411	M	1139	M	non-transmembrane	False	-:2;M:15	M	M	M	M	M	M	M	M	M	M	-	M	M	M	M	-	M
+1412	R	1140	R	non-transmembrane	False	-:2;R:15	R	R	R	R	R	R	R	R	R	R	-	R	R	R	R	-	R
