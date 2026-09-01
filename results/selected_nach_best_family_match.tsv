@@ -1,0 +1,7 @@
+species	best_accession	length_aa	aligned_aa	matches	identity_to_laboriosa_candidate	description
+Apis_laboriosa	XP_043800019.1	491	491	491	1.000000	XP_043800019.1 sodium channel protein Nach-like isoform X1 [Apis laboriosa]
+Apis_dorsata	XP_006620963.2	540	489	455	0.930470	XP_006620963.2 LOW QUALITY PROTEIN: sodium channel protein Nach-like [Apis dorsata]
+Apis_mellifera	XP_003251651.1	528	490	465	0.948980	XP_003251651.1 sodium channel protein Nach [Apis mellifera]
+Apis_cerana	XP_028523417.2	520	488	464	0.950820	XP_028523417.2 sodium channel protein Nach isoform X2 [Apis cerana]
+Apis_florea	XP_003692404.1	526	491	454	0.924644	XP_003692404.1 sodium channel protein Nach [Apis florea]
+Bombus_terrestris	XP_003395943.1	527	488	341	0.698770	XP_003395943.1 sodium channel protein Nach [Bombus terrestris]

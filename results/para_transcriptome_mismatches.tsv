@@ -1,0 +1,10 @@
+species	unigene	reference_transcript	reference_protein	cds_position_1based	protein_position_1based	ref_base	transcriptome_base	a_to_g_signature	ref_codon	transcriptome_codon	ref_aa	transcriptome_aa	nonsynonymous	ref_context_in_eastern_genome	transcriptome_context_in_eastern_genome
+Apis_laboriosa	AL|c47723_g1	XM_043939259.1	XP_043795194.1	1773	591	G	A	False	AAG	AAA	K	K	False	True	False
+Apis_laboriosa	AL|c47723_g1	XM_043939259.1	XP_043795194.1	2748	916	C	T	False	GGC	GGT	G	G	False	True	False
+Apis_laboriosa	AL|c47723_g1	XM_043939259.1	XP_043795194.1	2766	922	G	A	False	ACG	ACA	T	T	False	True	False
+Apis_laboriosa	AL|c47723_g1	XM_043939259.1	XP_043795194.1	3648	1216	A	G	True	GAA	GAG	E	E	False	False	False
+Apis_dorsata	AD|c42352_g1	XM_006613007.2	XP_006613070.1	3612	1204	G	A	False	GAG	GAA	E	E	False	not_tested	not_tested
+Apis_dorsata	AD|c42352_g1	XM_006613007.2	XP_006613070.1	4053	1351	G	A	False	ACG	ACA	T	T	False	not_tested	not_tested
+Apis_dorsata	AD|c42352_g1	XM_006613007.2	XP_006613070.1	5043	1681	A	G	True	ATA	ATG	I	M	True	not_tested	not_tested
+Apis_dorsata	AD|c42352_g1	XM_006613007.2	XP_006613070.1	5649	1883	T	C	False	TAT	TAC	Y	Y	False	not_tested	not_tested
+Apis_dorsata	AD|c42352_g1	XM_006613007.2	XP_006613070.1	6075	2025	C	G	False	GGC	GGG	G	G	False	not_tested	not_tested

@@ -1,0 +1,11 @@
+taxon_or_sequence	accession	length_aa	matching_para_models_in_proteome	aligned_to_rat_aa	identity_to_rat_over_aligned	x_residues	description
+Apis_laboriosa	XP_043795192.1	2052	17	1726	0.53476	0	XP_043795192.1 sodium channel protein para isoform X1 [Apis laboriosa]
+Apis_dorsata	XP_006613060.1	2063	32	1737	0.52562	0	XP_006613060.1 sodium channel protein para isoform X1 [Apis dorsata]
+Apis_mellifera_refseq	XP_006561583.1	2063	37	1737	0.52562	0	XP_006561583.1 sodium channel protein paralytic isoform X1 [Apis mellifera]
+Apis_cerana	XP_061935153.1	2062	34	1737	0.52562	0	XP_061935153.1 sodium voltage-gated channel paralytic isoform X1 [Apis cerana]
+Apis_florea	XP_086759233.1	2063	23	1737	0.52562	0	XP_086759233.1 sodium voltage-gated channel paralytic isoform X1 [Apis florea]
+Bombus_terrestris_old_refseq	XP_020720206.1	2043	1	1737	0.52332	0	XP_020720206.1 LOW QUALITY PROTEIN: sodium channel protein para [Bombus terrestris]
+Apis_mellifera_functional	AMB38675.1	2044	curated panel	1735	0.52622	0	AMB38675.1 voltage gated sodium channel 1 protein [Apis mellifera]
+Bombus_terrestris_functional	XP_012167116.1	2062	curated panel	1737	0.52332	0	XP_012167116.1 PREDICTED: LOW QUALITY PROTEIN: sodium channel protein para [Bombus terrestris]
+Apis_dorsata_functional	XP_006613070.1	2044	curated panel	1735	0.52622	0	XP_006613070.1 sodium channel protein para isoform X10 [Apis dorsata]
+Apis_florea_functional	XP_012347667.1	1709	curated panel	1422	0.52743	0	XP_012347667.1 sodium channel protein para isoform X10 [Apis florea]

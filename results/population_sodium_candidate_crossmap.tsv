@@ -1,0 +1,4 @@
+eastern_original_scaffold	eastern_accession	eastern_probe_min_position	eastern_probe_max_position	likely_refseq_gene	likely_product	refseq_sodium_related_go_terms	exact_probe_hits	total_probes	assignment_status
+scaffold_8	GWHAOTM00000008	614779	631211	LOC122714529	sodium channel protein 60E-like, transcript variant X1	GO:0005248,GO:0035725	16	16	scaffold-and-GO candidate; eastern MAKER GFF unavailable, so not a direct maker-ID assignment
+scaffold_8	GWHAOTM00000008	660734	661313	LOC122714475	COMM domain-containing protein 3-like, transcript variant X1	GO:0006814	3	3	scaffold-and-GO candidate; eastern MAKER GFF unavailable, so not a direct maker-ID assignment
+scaffold_25	GWHAOTM00000025	1824702	1828123	LOC122718769	sodium channel protein Nach-like, transcript variant X1	GO:0015280,GO:0035725	12	12	scaffold-and-GO candidate; eastern MAKER GFF unavailable, so not a direct maker-ID assignment

@@ -1,0 +1,4 @@
+go_id	description	input_number	background_number	pvalue	maker_gene_id	eastern_original_scaffold
+GO:0006814	sodium ion transport	3	17	0.0102375447138364	maker_scaffold_8_snap_gene_6.57_mRNA_1	scaffold_8
+GO:0006814	sodium ion transport	3	17	0.0102375447138364	maker_scaffold_8_augustus_gene_6.49_mRNA_1	scaffold_8
+GO:0006814	sodium ion transport	3	17	0.0102375447138364	maker_scaffold_25_snap_gene_18.48_mRNA_1	scaffold_25
