@@ -28,6 +28,18 @@ This command:
 
 The analysis uses no randomness.
 
+## Comparative addendum
+
+The cross-bee orthology and exact-state screen has a separate pinned bioinformatics environment and input snapshot. From the same clone, run:
+
+```bash
+make -C comparative_addendum all
+```
+
+This command restores and verifies the base inputs, fetches the six added inputs, constructs primary proteomes, reruns OrthoFinder and every downstream screen, validates the addendum claims, and checks all result and work manifests. Linux x86-64, micromamba, about 2 GB of free disk space, and four or more CPU cores are required.
+
+See [`comparative_addendum/REPRODUCE.md`](comparative_addendum/REPRODUCE.md) for the exact stages, pinned versions, expected values, snapshot workflow, and evidence limits.
+
 ## Run one stage at a time
 
 ```bash

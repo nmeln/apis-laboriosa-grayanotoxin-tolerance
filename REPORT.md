@@ -14,13 +14,23 @@ A second lead comes from the population supplement. Its Tibetan “sodium ion tr
 
 A controlled oral or injected grayanotoxin dose-response study in *A. laboriosa* was not found. Field observation of apparently unaffected foragers and production of toxic honey establish ecological exposure. They do not establish how much toxin reaches the bee's hemolymph or nervous system.
 
+## Comparative addendum
+
+The repository addendum applies a fixed exact-state rule to 8,273 complete single-copy orthogroups from five *Apis* references and the current *Bombus terrestris* reference. The same rule is repeated with each nonfocal *Apis* species as an internal control. The phenotype matrix has one directly measured orally tolerant lineage, one directly measured orally sensitive lineage, one ecologically inferred focal lineage, and three unphenotyped *Apis* controls. That matrix is too small for a defensible formal phenotype-convergence model.
+
+Across 4,902,144 callable amino-acid sites, *A. laboriosa* produced 2,024 strict shared states with *B. terrestris*. The *A. dorsata* internal control produced 2,036. Prespecified barrier, detoxification, and toxicokinetic categories were not enriched after matched permutations. The whole-Para screen produced zero focal sites across 2,050 callable residues. The sole strict shared copy-number hit was an odorant-receptor group containing one low-quality *A. laboriosa* model.
+
+One NHE2/3-labelled exchanger orthogroup contained four focal sites. Wider sequence checks leave S159 and I232 compatible with parallel state changes, while the category-wide test is not significant after correction and no grayanotoxin connection is known. Existing worker transcripts match the reference states. Their pooled whole-worker abundance does not show elevation in *A. laboriosa*.
+
+The addendum therefore strengthens the negative coding evidence and retains tissue-specific regulation, localization, uptake, metabolism, and excretion as open tests. Full methods, tables, and reproduction commands are in [`comparative_addendum/`](comparative_addendum/).
+
 ## Hypothesis scorecard
 
 | Hypothesis | Practical test | Result | Current assessment |
 | --- | --- | --- | --- |
 | Special Para binding-pocket substitution | Map 16 experimentally implicated rat Nav1.4 positions across six bee species | All homologous residues identical among the compared bees | Unsupported at known sites |
 | Distant/allosteric Para substitution | Whole-channel comparison against four other *Apis* species | Only N95 and V465 are laboriosa-specific; neither is transmembrane or near a known GTX site | Possible in principle, but little sequence support |
-| Protective Para splice isoform | Compare every full-length RefSeq isoform and its variable transmembrane blocks | All three laboriosa DIII S3-S4 haplotypes occur verbatim in susceptible *A. dorsata*, *A. mellifera*, *A. cerana*, and *A. florea* | Catalogued special-isoform explanation rejected |
+| Protective Para splice isoform | Compare every full-length RefSeq isoform and its variable transmembrane blocks | All three laboriosa DIII S3-S4 haplotypes occur verbatim in all four other *Apis* references | Catalogued special-isoform explanation rejected |
 | Protective RNA editing | Align the complete 6,129-bp Para CDS in the pooled laboriosa unigene consensus | Four substitutions, all synonymous; one A→G; zero amino-acid changes | No fixed, abundant whole-worker protective edit; rare/tissue-specific editing remains untested |
 | Para under local selection | Extract 2023 Table S6 and map Para into the same eastern assembly | Selected models are on scaffolds 8/25; all 29 independent Para probes map to scaffold 105 | Rejected for the published sodium-enrichment set |
 | Another selected ion channel provides direct resistance | Map likely DSC1/60E and Nach candidates; compare DSC1 homologous sites | DSC1 is 99.37% identical to *A. dorsata* and all 16 mapped positions are invariant; Nach is a distinct DEG/ENaC family | Direct GTX target resistance unsupported; physiological compensation remains possible |
@@ -44,7 +54,7 @@ Published site-directed mutagenesis in rat Nav1.4 implicates 16 positions in the
 | T1463 | DIV S4-S5 | T in every compared bee |
 | I1575, F1579, Y1586 | DIV S6 | L/F/Y in every compared bee |
 
-The comparison includes *A. laboriosa*, its close sister *A. dorsata*, susceptible *A. mellifera*, *A. cerana*, *A. florea*, and orally tolerant *Bombus terrestris*. Some bee residues differ from rat, but susceptible bees carry the same states; these shared differences cannot explain species-specific tolerance.
+The comparison includes *A. laboriosa*, its close sister *A. dorsata*, measured-sensitive *A. mellifera mellifera*, unphenotyped references for *A. cerana* and *A. florea*, and measured orally tolerant *Bombus terrestris audax*. Some bee residues differ from rat. The same states occur in the measured-sensitive honeybee reference, so those shared differences cannot explain the measured species contrast.
 
 ### 2. Para isoforms and distant sequence
 

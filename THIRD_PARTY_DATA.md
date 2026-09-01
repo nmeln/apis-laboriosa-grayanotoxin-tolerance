@@ -8,6 +8,8 @@ The GitHub Release input snapshot is provided for scientific verification. It
 preserves the exact files used by the pipeline when upstream URLs or compressed
 file wrappers change.
 
+The cross-bee workflow adds the current *Bombus terrestris* reference, NCBI Protein panels, and the Lin et al. supplementary archive. Their exact records and terms are documented in [`comparative_addendum/THIRD_PARTY_DATA.md`](comparative_addendum/THIRD_PARTY_DATA.md).
+
 | Source | Included material | Terms and required credit |
 | --- | --- | --- |
 | NCBI RefSeq and Protein | Bee annotations and proteomes; rat Nav1.4; bee Para accessions | NCBI places no restrictions on use or distribution of its molecular databases. Submitters may retain other rights. Follow the [NCBI molecular-data policy](https://www.ncbi.nlm.nih.gov/home/about/policies/) and cite the accessions. |

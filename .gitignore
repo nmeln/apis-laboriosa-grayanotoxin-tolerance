@@ -15,4 +15,10 @@ references/
 *.tmp
 local_input_manifest.tsv
 apis-laboriosa-inputs-*.tar
+comparative-addendum-inputs-*.tar
+comparative_addendum/.env/
+comparative_addendum/inputs/
+comparative_addendum/work/
+comparative_addendum/.cache/
+comparative_addendum/mamba*
 .DS_Store

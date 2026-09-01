@@ -16,6 +16,8 @@ The repository is a hypothesis screen. It does not establish that *A. laboriosa*
 
 Do not infer a result from a filename or README sentence alone. Trace it to the generated TSV and the script that produced it.
 
+For cross-bee orthology, convergence, or wider-taxon work, also read `comparative_addendum/AGENTS.md`, `comparative_addendum/REPORT.md`, and `comparative_addendum/phenotype_matrix.tsv` completely.
+
 ## Scientific guardrails
 
 - Keep observation, inference, and speculation separate.
@@ -48,6 +50,14 @@ make results
 make validate
 make verify-results
 ```
+
+Run the comparative addendum independently with:
+
+```bash
+make -C comparative_addendum all
+```
+
+Do not label *A. dorsata*, *A. cerana*, or *A. florea* grayanotoxin-susceptible. Their phenotypes are unknown in the addendum evidence matrix.
 
 Expected behavior:
 

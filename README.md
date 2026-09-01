@@ -22,6 +22,18 @@ If the bee has systemic tolerance, the next mechanism to test is reduced interna
 | Broad detoxification or barrier expansion | More detoxification, efflux, or barrier genes | Count parent genes in matched annotations | No broad laboriosa expansion | Copy-number explanation unsupported |
 | Constitutive gut or clearance program | Higher barrier or transporter transcripts | Exact-probe mapping into submitted pooled-worker transcriptomes | Peritrophin/chitin-binding 492.6x FPKM; chitin synthase 19.4x; ABCC 3.19x; organic-anion transport 3.88x | Candidate screen only; one pooled sample per species |
 
+## Comparative addendum
+
+The [`comparative_addendum/`](comparative_addendum/) directory tests whether *A. laboriosa* and the directly measured orally tolerant *Bombus terrestris audax* share a broader coding pattern.
+
+The screen found zero exact shared focal states across 2,050 callable Para residues, no relevant shared gene-family expansion, and no enrichment in prespecified barrier, detoxification, or toxicokinetic gene sets. A weak NHE2/3-labelled exchanger lead remains after wider bee comparisons, with no corrected category-level enrichment and no direct grayanotoxin evidence. These results retain presystemic handling as the highest-priority working model and narrow the most useful experiment to oral versus injection exposure with tissue LC-MS/MS.
+
+The addendum has its own pinned environment, input snapshot, scripts, validation assertions, result manifests, and agent instructions. Run it with:
+
+```bash
+make -C comparative_addendum all
+```
+
 ## Key limitations
 
 - No controlled oral or injected grayanotoxin dose-response was found for *A. laboriosa*.
@@ -56,6 +68,7 @@ Tissue-resolved LC-MS/MS measurements would show whether toxin reaches the hemol
 | [`results/`](results/) | Generated residue, isoform, scaffold, transcript, copy-number, and expression tables |
 | [`scripts/`](scripts/) | Input retrieval, analyses, claim validation, and checksum verification |
 | [`results.sha256`](results.sha256) | Expected hashes for every generated result file |
+| [`comparative_addendum/`](comparative_addendum/) | Reproducible cross-bee convergence screen, controls, wider taxon checks, and result tables |
 
 ## Key result tables
 
