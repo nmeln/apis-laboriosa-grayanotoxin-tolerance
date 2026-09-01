@@ -114,7 +114,7 @@ def main() -> None:
     if len({taxa[key] for key in external_keys}) != len(external_keys):
         raise RuntimeError("Expected one length-compatible sequence per external bee taxon")
 
-    aligned_records = Aligner(threads=1).align([
+    aligned_records = Aligner(threads=1, refine=False).align([
         Sequence(key.encode(), sequence.encode()) for key, sequence in sequences.items()
     ])
     aligned = {record.id.decode(): record.sequence.decode() for record in aligned_records}

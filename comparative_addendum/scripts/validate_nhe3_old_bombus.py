@@ -98,7 +98,7 @@ def main() -> None:
     old_accession, old_sequence = old_candidates[0]
     records[OLD_BOMBUS] = old_sequence
 
-    aligned_records = Aligner(threads=1).align([
+    aligned_records = Aligner(threads=1, refine=False).align([
         Sequence(species.encode(), sequence.encode()) for species, sequence in records.items()
     ])
     aligned = {record.id.decode(): record.sequence.decode() for record in aligned_records}

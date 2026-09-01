@@ -4,11 +4,15 @@
 This deliberately narrow analysis asks whether Apis laboriosa and the directly
 phenotyped grayanotoxin-tolerant Bombus terrestris share protein states that are
 absent from four other Apis references.  It also runs the identical screen with
-each other Apis species as a negative-control focal species.
+each other Apis species as an internal-control focal species.
 
 The site pattern is descriptive.  With these taxa alone it cannot distinguish
 parallel substitution from reversal to an ancestral state, and the focal
 A. laboriosa phenotype has not been established in a controlled challenge.
+
+Complete single-copy orthogroups are realigned here from the pinned primary
+proteins.  OrthoFinder's saved multiple-sequence alignments are deliberately
+ignored because their gap placement was not byte-stable across clean runs.
 """
 
 from __future__ import annotations
@@ -271,7 +275,13 @@ def main() -> None:
     parser.add_argument("--proteomes", type=Path)
     parser.add_argument("--members", type=Path)
     parser.add_argument("--output", type=Path)
-    parser.add_argument("--threads", type=int, default=4)
+    parser.add_argument(
+        "--threads",
+        type=int,
+        choices=(1,),
+        default=1,
+        help="Alignment worker count; fixed at one for byte-stable output.",
+    )
     args = parser.parse_args()
 
     output = args.output or args.session_root / "results"
@@ -294,9 +304,7 @@ def main() -> None:
     categories_by_gene = load_candidate_categories(args.project, args.session_root)
     _, orthogroups = parse_orthogroups(orthogroups_path, accession_species)
 
-    aligner = Aligner(threads=max(1, args.threads))
-    orthofinder_alignments = args.orthofinder / "MultipleSequenceAlignments"
-    use_saved_alignments = orthofinder_alignments.is_dir()
+    aligner = Aligner(threads=args.threads, refine=False)
     site_hits: list[dict[str, object]] = []
     gene_summaries: list[dict[str, object]] = []
     single_copy_count = 0
@@ -307,25 +315,11 @@ def main() -> None:
         single_copy_count += 1
         og = group["Orthogroup"][0]
         accessions = {species: group[species][0] for species in SPECIES}
-        saved_alignment = orthofinder_alignments / f"{og}.fa"
-        if use_saved_alignments:
-            if not saved_alignment.exists():
-                raise FileNotFoundError(saved_alignment)
-            raw_alignment = read_fasta(saved_alignment)
-            aligned = {}
-            for species in SPECIES:
-                expected_header = f"{species}_{accessions[species]}"
-                if expected_header not in raw_alignment:
-                    raise RuntimeError(
-                        f"Saved alignment {saved_alignment} lacks {expected_header}"
-                    )
-                aligned[species] = raw_alignment[expected_header]
-        else:
-            aligned_records = aligner.align([
-                Sequence(species.encode(), sequences[species][accessions[species]].encode())
-                for species in SPECIES
-            ])
-            aligned = {record.id.decode(): record.sequence.decode() for record in aligned_records}
+        aligned_records = aligner.align([
+            Sequence(species.encode(), sequences[species][accessions[species]].encode())
+            for species in SPECIES
+        ])
+        aligned = {record.id.decode(): record.sequence.decode() for record in aligned_records}
         if set(aligned) != set(SPECIES):
             raise RuntimeError(f"Alignment species mismatch in {og}")
         maps = position_maps(aligned)
@@ -533,11 +527,7 @@ def main() -> None:
         "para_complete_single_copy_orthogroups": len(para_rows),
         "para_laboriosa_bombus_strict_sites": sum(int(row["hits_Apis_laboriosa"]) for row in para_rows),
         "strict_copy_number_hits_laboriosa_bombus": copy_aggregate["Apis_laboriosa"],
-        "alignment_source": (
-            "OrthoFinder final MultipleSequenceAlignments"
-            if use_saved_alignments
-            else "pyfamsa recomputation"
-        ),
+        "alignment_source": "pyfamsa recomputation from ordered primary proteins; one worker; refinement disabled",
         "interpretation_guardrail": "Descriptive foreground-sharing screen; not a phylogenetic association test or evidence of causality.",
     }
     (output / "analysis_summary.json").write_text(json.dumps(result, indent=2) + "\n")

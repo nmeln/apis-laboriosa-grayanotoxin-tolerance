@@ -38,13 +38,13 @@ def main() -> None:
     expected = {
         "orthogroups_total": 10003,
         "complete_single_copy_orthogroups": 8273,
-        "callable_amino_acid_sites": 4902144,
-        "laboriosa_bombus_strict_sites": 2024,
-        "laboriosa_bombus_strict_site_orthogroups": 1311,
+        "callable_amino_acid_sites": 4903043,
+        "laboriosa_bombus_strict_sites": 2017,
+        "laboriosa_bombus_strict_site_orthogroups": 1307,
         "para_complete_single_copy_orthogroups": 1,
         "para_laboriosa_bombus_strict_sites": 0,
         "strict_copy_number_hits_laboriosa_bombus": 1,
-        "alignment_source": "OrthoFinder final MultipleSequenceAlignments",
+        "alignment_source": "pyfamsa recomputation from ordered primary proteins; one worker; refinement disabled",
     }
     for key, value in expected.items():
         if summary[key] != value:
@@ -66,7 +66,7 @@ def main() -> None:
         raise AssertionError("Unexpected all-species orthogroup total")
 
     dorsata_control = one("strict_site_aggregate.tsv", focal_apis="Apis_dorsata")
-    if dorsata_control["strict_sites"] != "2036":
+    if dorsata_control["strict_sites"] != "2058":
         raise AssertionError("Unexpected A. dorsata internal-control site count")
 
     para = json.loads((RESULTS / "para_strict_sharing_summary.json").read_text())
@@ -85,16 +85,16 @@ def main() -> None:
         focal_apis="Apis_laboriosa",
         candidate_set="core_toxicokinetic",
     )
-    close(barrier["matched_density_difference_per_1000_sites"], -0.061762679504032775)
-    if barrier["candidate_strict_sites"] != "58":
+    close(barrier["matched_density_difference_per_1000_sites"], -0.09183423463904154)
+    if barrier["candidate_strict_sites"] != "53":
         raise AssertionError("Unexpected barrier-or-detox strict-site count")
-    close(barrier["matched_permutation_p_two_sided"], 0.4458277086145693)
-    close(barrier["matched_permutation_bh_q"], 0.5390286041253494)
-    close(core["matched_density_difference_per_1000_sites"], -0.06902361786650257)
-    if core["candidate_strict_sites"] != "32":
+    close(barrier["matched_permutation_p_two_sided"], 0.2815359232038398)
+    close(barrier["matched_permutation_bh_q"], 0.5181407596286852)
+    close(core["matched_density_difference_per_1000_sites"], -0.10061543178274023)
+    if core["candidate_strict_sites"] != "29":
         raise AssertionError("Unexpected core-toxicokinetic strict-site count")
-    close(core["matched_permutation_p_two_sided"], 0.48512574371281436)
-    close(core["matched_permutation_bh_q"], 0.5390286041253494)
+    close(core["matched_permutation_p_two_sided"], 0.31088445577721113)
+    close(core["matched_permutation_bh_q"], 0.5181407596286852)
 
     copy_hits = [
         row for row in rows("strict_copy_number_hits.tsv")
@@ -112,8 +112,8 @@ def main() -> None:
     )
     if exchanger["category_strict_sites"] != "4":
         raise AssertionError("Unexpected exchanger strict-site count")
-    close(exchanger["site_fisher_p_two_sided"], 0.07586731170946386)
-    close(exchanger["site_fisher_bh_q"], 0.3652870563789001)
+    close(exchanger["site_fisher_p_two_sided"], 0.07509148813549874)
+    close(exchanger["site_fisher_bh_q"], 0.3486390520576727)
 
     panel = {int(row["laboriosa_position_1based"]): row for row in rows("nhe3_bombus_panel_summary.tsv")}
     if set(panel) != {44, 159, 232, 353}:

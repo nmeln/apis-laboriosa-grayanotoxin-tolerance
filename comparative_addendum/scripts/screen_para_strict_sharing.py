@@ -99,7 +99,7 @@ def main() -> None:
         accession = para_rows[species]["accession"]
         sequences[species] = records[accession]
 
-    aligned_records = Aligner(threads=1).align([
+    aligned_records = Aligner(threads=1, refine=False).align([
         Sequence(species.encode(), sequences[species].encode())
         for species in SPECIES
     ])

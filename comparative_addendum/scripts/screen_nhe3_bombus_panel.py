@@ -117,7 +117,7 @@ def main() -> None:
         accession_by_key[key] = accession
         taxon_by_key[key] = taxon_from_description(description)
 
-    aligned_records = Aligner(threads=1).align([
+    aligned_records = Aligner(threads=1, refine=False).align([
         Sequence(key.encode(), sequence.encode()) for key, sequence in sequences.items()
     ])
     aligned = {record.id.decode(): record.sequence.decode() for record in aligned_records}
