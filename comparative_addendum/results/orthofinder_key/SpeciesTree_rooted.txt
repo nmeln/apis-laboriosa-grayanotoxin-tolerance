@@ -1,0 +1,1 @@
+(Bombus_terrestris:1,(Apis_florea:1,((Apis_laboriosa:1,Apis_dorsata:1)1:1,(Apis_cerana:1,Apis_mellifera:1)1:1)1:1)1:1);
