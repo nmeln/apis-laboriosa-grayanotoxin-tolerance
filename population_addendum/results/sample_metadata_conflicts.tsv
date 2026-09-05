@@ -1,0 +1,6 @@
+item	paper	archive	handling
+Rikaze laboriosa workers	5 (Table S2)	6 BioSample locations	Use archived individual location; preserve disagreement
+Linzhi laboriosa workers	5 (Table S2)	4 BioSample locations	Use archived individual location; preserve disagreement
+Sequencing instrument	Illumina HiSeq 2000 (resequencing methods)	Illumina NovaSeq 6000 (all 57 run records)	Use actual deposited read qualities; do not infer an instrument-specific error correction
+DNA tissue	Abdomen removed before DNA extraction	whole body (BioSample)	Genomic DNA test; no tissue-expression inference
+Total bases	538000000000 (289.4 + 248.6 Gb, reported raw)	577920276600	Validate complete FASTQs against run metadata; the reason for the count difference is unresolved

@@ -1,0 +1,16 @@
+{
+  "archive_locations": 11,
+  "compressed_fastq_bytes": 269858255055,
+  "deposited_raw_bases": 577920276600,
+  "deposited_workers": {
+    "Apis dorsata": 28,
+    "Apis laboriosa": 29
+  },
+  "mapping_table_extra_aliases": [
+    "D2",
+    "D30",
+    "HD192"
+  ],
+  "scope": "57 deposited runs in PRJNA931733; dated source snapshot, not a census of all public bee data",
+  "tissue_expression_test": false
+}

@@ -1,0 +1,4 @@
+sample_alias	source_sheet	paper_total_reads	paper_mapping_rate	paper_average_depth	status	reason
+D2	Table S3	76464607	0.6441	30.39	No matching deposited run in PRJNA931733; excluded from this cohort	Reason for omission is not supplied by the retrieved data
+D30	Table S3	63319979	0.6973	27.58	No matching deposited run in PRJNA931733; excluded from this cohort	Reason for omission is not supplied by the retrieved data
+HD192	Table S3	72727903	0.9564	16.37	No matching deposited run in PRJNA931733; excluded from this cohort	Reason for omission is not supplied by the retrieved data

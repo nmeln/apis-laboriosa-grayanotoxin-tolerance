@@ -1,0 +1,12 @@
+{
+  "all_negative_pairs_excluded": true,
+  "all_positive_pairs_retained": true,
+  "bbduk_version": "39.91",
+  "limitation": "Synthetic method validation; not biological replication or a guarantee for unknown divergent sequence.",
+  "negative_pairs": 100,
+  "positive_pairs": 6912,
+  "read_sequences_and_qualities_preserved": true,
+  "retained_R1": 6912,
+  "retained_R2": 6912,
+  "unmatched_mates_preserved": true
+}

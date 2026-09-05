@@ -1,0 +1,5 @@
+assembly	scaffold	start_1based	end_1based	flank_nt	masked_codon_count
+AL_Shangrila	NW_025223857.1	650749	658836	1000	9
+AD_Malaysia	NW_006263826.1	656224	664261	1000	9
+AL_Pingbian	GWHAOTM00000038	1674309	1682378	1000	9
+AD_Thailand	WJNQ01000516.1	13198	21292	1000	9

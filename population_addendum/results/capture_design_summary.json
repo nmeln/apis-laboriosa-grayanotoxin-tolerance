@@ -1,0 +1,10 @@
+{
+  "distinct_canonical_baits": 8602,
+  "entropy_minimum": 1.5,
+  "k": 21,
+  "limitation": "Error-free 150-nt codon-spanning reads in four assembly backgrounds; does not guarantee capture of unknown highly divergent alleles.",
+  "masked_codons_per_assembly": 9,
+  "maximum_homopolymer": 8,
+  "synthetic_captured": 340992,
+  "synthetic_read_starts": 340992
+}
