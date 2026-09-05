@@ -2,6 +2,11 @@ name: Reproduce ABCC population analysis
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'population_addendum/**'
+      - '.github/workflows/population-addendum.yml'
 
 permissions:
   contents: read
