@@ -1,0 +1,4 @@
+inputs/
+work/
+population-inputs-*.tar*
+__pycache__/
