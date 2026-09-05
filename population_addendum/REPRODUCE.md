@@ -4,6 +4,13 @@ This pipeline analyzes all 57 deposited workers. Its input release preserves
 296 files in a 337,141,760-byte archive, including all four complete genomes
 and the 58,049,708 bytes of selected original FASTQ records.
 
+A fresh clone with a new Python environment restored all 296 files and
+reproduced all 29 result files byte for byte. The separately named
+`population-inputs-v1.tar` asset is hosted under the existing
+[`candidate-inputs-v1` release](https://github.com/nmeln/apis-laboriosa-grayanotoxin-tolerance/releases/tag/candidate-inputs-v1);
+the GitHub new-tag form was unable to validate the proposed population tag.
+The archive contents and hashes are independent of that hosting choice.
+
 ## Routine reproduction from the preserved evidence
 
 Use Linux x86-64, Python 3.12 and Java 17. Allow about 4 GB RAM and 3 GB of free

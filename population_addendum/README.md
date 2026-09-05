@@ -48,7 +48,7 @@ cd apis-laboriosa-grayanotoxin-tolerance
 make -C population_addendum all
 ```
 
-The [input release](https://github.com/nmeln/apis-laboriosa-grayanotoxin-tolerance/releases/tag/population-inputs-v1)
+The [input release](https://github.com/nmeln/apis-laboriosa-grayanotoxin-tolerance/releases/tag/candidate-inputs-v1)
 preserves 296 analyzed files, including all four complete assemblies, selected
 original reads, sample metadata and collection records. The archive is about
 337 MB. Full-source recollection remains separately runnable.

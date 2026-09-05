@@ -172,7 +172,7 @@ backgrounds. Unrepresented surrounding variation, structural changes and
 sequencing errors could still reduce capture. Missing calls are retained, and
 the full-source collection remains separately reproducible.
 
-The [input release](https://github.com/nmeln/apis-laboriosa-grayanotoxin-tolerance/releases/tag/population-inputs-v1)
+The [input release](https://github.com/nmeln/apis-laboriosa-grayanotoxin-tolerance/releases/tag/candidate-inputs-v1)
 preserves 296 files in a 337,141,760-byte archive. It contains complete genomes,
 the selected original paired reads, metadata, article XML, supplementary
 workbook and collection records. It excludes the approximately 270 GB of
