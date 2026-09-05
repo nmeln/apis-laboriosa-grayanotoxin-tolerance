@@ -1,0 +1,37 @@
+species	location	focal_AL_position	role	profile	deposited_workers	callable_workers	missing_workers	expected_amino_acid	reference_state_homozygotes	reference_state_heterozygotes	workers_without_reference_state	reference_state_allele_copies	total_callable_allele_copies	amino_acid_genotype_counts	codon_genotype_counts	missing_reason_counts
+Apis dorsata	all sampled locations	254	primary	primary	28	27	1	F	27	0	0	54	54	F/F:27	TTT/TTT:27	reference_quality_failure:1
+Apis dorsata	all sampled locations	254	primary	sensitivity	28	27	1	F	27	0	0	54	54	F/F:27	TTT/TTT:27	reference_quality_failure:1
+Apis dorsata	all sampled locations	452	within_species_comparison	primary	28	28	0	T	28	0	0	56	56	T/T:28	ACG/ACG:28	
+Apis dorsata	all sampled locations	452	within_species_comparison	sensitivity	28	28	0	T	28	0	0	56	56	T/T:28	ACG/ACG:28	
+Apis dorsata	all sampled locations	474	secondary	primary	28	28	0	K	28	0	0	56	56	K/K:28	AAA/AAA:28	
+Apis dorsata	all sampled locations	474	secondary	sensitivity	28	28	0	K	28	0	0	56	56	K/K:28	AAA/AAA:28	
+Apis dorsata	all sampled locations	549	primary	primary	28	26	2	F	26	0	0	52	52	F/F:26	TTT/TTT:26	reference_quality_failure:2
+Apis dorsata	all sampled locations	549	primary	sensitivity	28	26	2	F	26	0	0	52	52	F/F:26	TTT/TTT:26	reference_quality_failure:2
+Apis dorsata	all sampled locations	717	secondary	primary	28	28	0	T	28	0	0	56	56	T/T:28	ACT/ACT:28	
+Apis dorsata	all sampled locations	717	secondary	sensitivity	28	28	0	T	28	0	0	56	56	T/T:28	ACT/ACT:28	
+Apis dorsata	all sampled locations	727	secondary	primary	28	28	0	V	28	0	0	56	56	V/V:28	GTT/GTT:28	
+Apis dorsata	all sampled locations	727	secondary	sensitivity	28	28	0	V	28	0	0	56	56	V/V:28	GTT/GTT:28	
+Apis dorsata	all sampled locations	766	secondary	primary	28	27	1	F	27	0	0	54	54	F/F:27	TTT/TTT:27	reference_quality_failure:1
+Apis dorsata	all sampled locations	766	secondary	sensitivity	28	27	1	F	27	0	0	54	54	F/F:27	TTT/TTT:27	reference_quality_failure:1
+Apis dorsata	all sampled locations	822	within_species_comparison	primary	28	28	0	V	0	3	25	3	56	I/I:25;I/V:3	ATA/ATA:25;ATA/GTA:3	
+Apis dorsata	all sampled locations	822	within_species_comparison	sensitivity	28	28	0	V	0	3	25	3	56	I/I:25;I/V:3	ATA/ATA:25;ATA/GTA:3	
+Apis dorsata	all sampled locations	1134	primary	primary	28	28	0	L	28	0	0	56	56	L/L:28	CTT/CTT:28	
+Apis dorsata	all sampled locations	1134	primary	sensitivity	28	28	0	L	28	0	0	56	56	L/L:28	CTT/CTT:28	
+Apis laboriosa	all sampled locations	254	primary	primary	29	28	1	L	28	0	0	56	56	L/L:28	CTT/CTT:28	reference_quality_failure:1
+Apis laboriosa	all sampled locations	254	primary	sensitivity	29	28	1	L	28	0	0	56	56	L/L:28	CTT/CTT:28	reference_quality_failure:1
+Apis laboriosa	all sampled locations	452	within_species_comparison	primary	29	27	2	T	24	2	1	50	54	R/R:1;R/T:2;T/T:24	ACA/ACA:24;ACA/AGA:2;AGA/AGA:1	reference_quality_failure:2
+Apis laboriosa	all sampled locations	452	within_species_comparison	sensitivity	29	28	1	T	25	2	1	52	56	R/R:1;R/T:2;T/T:25	ACA/ACA:25;ACA/AGA:2;AGA/AGA:1	reference_quality_failure:1
+Apis laboriosa	all sampled locations	474	secondary	primary	29	28	1	Q	28	0	0	56	56	Q/Q:28	CAA/CAA:28	reference_quality_failure:1
+Apis laboriosa	all sampled locations	474	secondary	sensitivity	29	28	1	Q	28	0	0	56	56	Q/Q:28	CAA/CAA:28	reference_quality_failure:1
+Apis laboriosa	all sampled locations	549	primary	primary	29	28	1	L	28	0	0	56	56	L/L:28	TTG/TTG:28	reference_quality_failure:1
+Apis laboriosa	all sampled locations	549	primary	sensitivity	29	28	1	L	28	0	0	56	56	L/L:28	TTG/TTG:28	reference_quality_failure:1
+Apis laboriosa	all sampled locations	717	secondary	primary	29	28	1	A	28	0	0	56	56	A/A:28	GCT/GCT:28	reference_quality_failure:1
+Apis laboriosa	all sampled locations	717	secondary	sensitivity	29	28	1	A	28	0	0	56	56	A/A:28	GCT/GCT:28	reference_quality_failure:1
+Apis laboriosa	all sampled locations	727	secondary	primary	29	27	2	A	27	0	0	54	54	A/A:27	GCT/GCT:27	reference_quality_failure:2
+Apis laboriosa	all sampled locations	727	secondary	sensitivity	29	28	1	A	28	0	0	56	56	A/A:28	GCT/GCT:28	reference_quality_failure:1
+Apis laboriosa	all sampled locations	766	secondary	primary	29	27	2	L	27	0	0	54	54	L/L:27	CTC/CTC:27	reference_quality_failure:2
+Apis laboriosa	all sampled locations	766	secondary	sensitivity	29	27	2	L	27	0	0	54	54	L/L:27	CTC/CTC:27	reference_quality_failure:2
+Apis laboriosa	all sampled locations	822	within_species_comparison	primary	29	28	1	I	28	0	0	56	56	I/I:28	ATA/ATA:28	reference_quality_failure:1
+Apis laboriosa	all sampled locations	822	within_species_comparison	sensitivity	29	28	1	I	28	0	0	56	56	I/I:28	ATA/ATA:28	reference_quality_failure:1
+Apis laboriosa	all sampled locations	1134	primary	primary	29	28	1	F	28	0	0	56	56	F/F:28	TTT/TTT:28	reference_quality_failure:1
+Apis laboriosa	all sampled locations	1134	primary	sensitivity	29	28	1	F	28	0	0	56	56	F/F:28	TTT/TTT:28	reference_quality_failure:1

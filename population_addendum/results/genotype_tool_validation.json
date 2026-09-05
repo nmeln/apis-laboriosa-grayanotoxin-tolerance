@@ -1,0 +1,49 @@
+{
+  "all_passed": true,
+  "tests": [
+    {
+      "passed": true,
+      "test": "homozygous_L"
+    },
+    {
+      "passed": true,
+      "test": "homozygous_F"
+    },
+    {
+      "passed": true,
+      "test": "balanced_LF"
+    },
+    {
+      "passed": true,
+      "test": "synonymous_LL"
+    },
+    {
+      "passed": true,
+      "test": "unexpected_W"
+    },
+    {
+      "passed": true,
+      "test": "low_depth"
+    },
+    {
+      "passed": true,
+      "test": "absent"
+    },
+    {
+      "passed": true,
+      "test": "strand_flag"
+    },
+    {
+      "passed": true,
+      "test": "reverse_strand_BAM_heterozygote_with_mate_overlap_and_excluded_reads"
+    },
+    {
+      "passed": true,
+      "test": "conflicting_mates_excluded"
+    },
+    {
+      "passed": true,
+      "test": "samtools_marks_within_worker_duplicates_and_retains_other_worker"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "analyzed_workers": 57,
+  "primary_site_quality_failures": 6,
+  "primary_site_reference_disagreements": 0,
+  "species_counts": {
+    "Apis dorsata": 28,
+    "Apis laboriosa": 29
+  },
+  "species_fixation_established": false,
+  "toxin_transport_measured": false,
+  "workers_callable_at_all_three": 53
+}

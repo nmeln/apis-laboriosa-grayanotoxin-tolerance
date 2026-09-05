@@ -1,0 +1,11 @@
+{
+  "species_counts": {
+    "Apis dorsata": 28,
+    "Apis laboriosa": 29
+  },
+  "total_selected_fastq_bytes": 58049708,
+  "total_selected_pairs": 86296,
+  "total_source_bases": 577920276600,
+  "total_source_compressed_bytes": 269858255055,
+  "verified_libraries": 57
+}

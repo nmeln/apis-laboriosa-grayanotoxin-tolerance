@@ -1,0 +1,12 @@
+{
+  "bcftools_version": "1.21",
+  "comparisons": {
+    "agree": 2982,
+    "codon_call_filtered": 96
+  },
+  "note": "Independent SNP calls use BCFtools default BAQ and overlap handling; primary results remain based on fragment codon calls.",
+  "primary_site_comparisons": {
+    "agree": 990,
+    "codon_call_filtered": 36
+  }
+}
