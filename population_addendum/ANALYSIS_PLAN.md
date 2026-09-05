@@ -97,3 +97,14 @@ alignment flag exclusions, and diploid multiallelic calls per individual.
 Include covered reference sites. Preserve absent positions and disagreements.
 This is a supplementary implementation check; the fragment-based codon rules
 above continue to determine the primary calls.
+
+## Coverage follow-up prompted by an incomplete worker
+
+SRR23343455 (HD17) had low depth across the candidate after complete-file
+verification. Describe coverage in coding sequence, introns and the 1 kb flanks
+for every worker against both references, counting each nonduplicate fragment
+once per base with MAPQ at least 30 and base quality at least 20. Report raw
+depth and depth divided by each library's input Gb. This additional descriptive
+check does not change the genotype thresholds or convert missing calls into
+reference calls. Coverage at this one captured locus cannot establish the
+cause of a depth deficit or whole-genome library quality.
