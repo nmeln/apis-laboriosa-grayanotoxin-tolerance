@@ -9,7 +9,7 @@ import urllib.request
 from common import HERE, ROOT, WORK, INPUT, GENOMES, table, digest
 
 NAME='population-inputs-v1.tar'
-URL='https://github.com/nmeln/apis-laboriosa-grayanotoxin-tolerance/releases/download/population-inputs-v1/'+NAME
+URL='https://github.com/nmeln/apis-laboriosa-grayanotoxin-tolerance/releases/download/candidate-inputs-v1/'+NAME
 
 
 def verify_one(row):
