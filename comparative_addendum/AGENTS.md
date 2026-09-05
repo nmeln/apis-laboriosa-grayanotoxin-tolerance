@@ -106,7 +106,7 @@ For every changed result:
 | Wider *Bombus* exchanger panel | `results/nhe3_bombus_panel_sites.tsv` | `scripts/screen_nhe3_bombus_panel.py` |
 | External-bee exchanger panel | `results/nhe3_external_bee_sites.tsv` | `scripts/screen_nhe3_external_bees.py` |
 | Transcript residue check | `results/nhe3_transcript_residue_validation.tsv` | `scripts/validate_nhe3_transcripts.py` |
-| Descriptive whole-worker abundance | `results/nhe3_constitutive_expression.tsv` | `scripts/screen_nhe3_expression.py` |
+| Descriptive pooled-worker abundance; GEO says whole body without belly | `results/nhe3_constitutive_expression.tsv`; interpretation corrected in `../transcriptomic_addendum/REPORT.md` | `scripts/screen_nhe3_expression.py` |
 
 ## Code and data rules
 
