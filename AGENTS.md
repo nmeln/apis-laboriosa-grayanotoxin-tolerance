@@ -24,6 +24,11 @@ For the specific ABCC candidate, independent dorsata assemblies, tissue evidence
 
 ## Scientific guardrails
 
+For population frequencies, ABCC candidate genotypes or within-species
+variation, also read `population_addendum/AGENTS.md`, `REPORT.md` and
+`ANALYSIS_PLAN.md` within that directory. Its 57-worker analysis preserves
+missing calls and cannot establish species-wide fixation or GTX transport.
+
 - Keep observation, inference, and speculation separate.
 - Describe the pooled-worker transcriptome comparison as descriptive. It has one untreated pooled library per species and no biological replication. GEO specifies “whole body without belly”; do not call it whole-bee or defined midgut RNA. Preserve the BQCV imbalance and other sample confounding described in the transcriptomic addendum.
 - Do not call the expression ratios differential expression.

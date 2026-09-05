@@ -8,6 +8,15 @@ The subsequent [ABCC candidate follow-up](candidate_followup/REPORT.md) recovers
 
 ## Conclusion
 
+The later [population test](population_addendum/REPORT.md) confirms the ABCC
+sequence contrast in callable workers from PRJNA931733. All 28 callable
+laboriosa workers carry L254, L549 and F1134. Dorsata carries the contrasting
+states in 27, 26 and 28 callable workers, respectively. Four workers have one
+or more excluded primary calls. Both reference genomes give the same calls;
+within-species comparison sites recover heterozygotes. This adds population
+support for the specific sequence candidates without establishing their
+biochemical effect or a toxin phenotype.
+
 This analysis tests proposed genomic and physiological explanations for grayanotoxin tolerance against the *Apis laboriosa* reference genome, five comparative bee proteomes, an independent *A. laboriosa* assembly, a 2023 population-genomic supplement, and public pooled *A. laboriosa* and *A. dorsata* transcriptomes.
 
 The current sequence data provide little support for a species-specific **Para sodium-channel resistance mechanism**. The known grayanotoxin-relevant residues, their surrounding sequence, every catalogued full-length Para isoform, the alternative-splice haplotypes in the only variable transmembrane block, and the abundant pooled-worker transcript consensus show no laboriosa-specific protective channel state. The full channel is 99.90% identical to *A. dorsata*. The only two laboriosa-specific residues against the four-other-*Apis* consensus are outside mapped transmembrane helices and far from known grayanotoxin determinants.

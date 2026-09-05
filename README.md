@@ -20,6 +20,19 @@ The [focused candidate follow-up](candidate_followup/REPORT.md) adds an independ
 make -C candidate_followup all
 ```
 
+The [population follow-up](population_addendum/REPORT.md) tests these three
+ABCC coding differences in 29 laboriosa and 28 dorsata genome-sequencing
+libraries. All 28 callable laboriosa workers carry the expected state at each
+site; dorsata carries the contrasting state in 27, 26 and 28 callable workers.
+The same method detects within-species variation at two comparison positions.
+Missing calls, both reference mappings and the original selected paired reads
+are preserved. The cohort supports the sequence contrast; GTX transport and
+causal protection remain unmeasured.
+
+```bash
+make -C population_addendum all
+```
+
 ## Tests at a glance
 
 | Hypothesis | Prediction | Test | Result | Assessment |
@@ -89,6 +102,7 @@ Tissue-resolved LC-MS/MS measurements would show whether toxin reaches the hemol
 | [`comparative_addendum/`](comparative_addendum/) | Reproducible cross-bee convergence screen, controls, wider taxon checks, and result tables |
 | [`transcriptomic_addendum/`](transcriptomic_addendum/) | Tissue correction, raw-read validation, viral burden, focused transport candidates, and functional comparison |
 | [`candidate_followup/`](candidate_followup/) | Independent genomes, ABCC reference swaps, exact markers, coding variants, gut-protein evidence and untested sequence designs |
+| [`population_addendum/`](population_addendum/) | ABCC genotypes in 57 workers, within-species variation, complete-source read checks and preserved evidence |
 
 ## Key result tables
 
