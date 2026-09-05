@@ -15,9 +15,9 @@ The current data support four conclusions.
 1. A shared grayanotoxin-resistant sodium-channel sequence is now a weak explanation. All 16 experimentally implicated Para/Nav residues are identical across the six bee references. A separate whole-protein test found zero exact *Apis laboriosa* plus *Bombus terrestris* states absent from the other four *Apis* species across 2,050 callable Para residues.
 2. Broad expansion of detoxification, efflux, gut-barrier, or excretion gene families is also weak. The only exact shared copy-number hit among 10,003 orthogroups was an odorant-receptor group containing one low-quality *A. laboriosa* model.
 3. The genome-wide screen found no enrichment of exact *A. laboriosa* plus *B. terrestris* amino-acid sharing in the prespecified barrier, detoxification, or toxicokinetic gene sets. The observed densities were slightly below the matched genomic background.
-4. One NHE2/3-labelled sodium/hydrogen-exchanger orthogroup is worth retaining as a narrow lead. It contains four exact *A. laboriosa* plus *B. terrestris* states. Two, S159 and I232 in the *A. laboriosa* protein, remain compatible with independent state changes after comparison with seven more *Bombus* proteins and five non-*Bombus* bees. The signal is not significant after category-wide correction, has no known connection to grayanotoxin, and is not accompanied by higher constitutive whole-worker RNA abundance in *A. laboriosa*.
+4. One NHE2/3-labelled sodium/hydrogen-exchanger orthogroup is worth retaining as a narrow lead. It contains four exact *A. laboriosa* plus *B. terrestris* states. Two, S159 and I232 in the *A. laboriosa* protein, remain compatible with independent state changes after comparison with seven more *Bombus* proteins and five non-*Bombus* bees. The signal is not significant after category-wide correction, has no known connection to grayanotoxin, and is not accompanied by higher constitutive pooled-worker RNA abundance in *A. laboriosa*.
 
-The best current working model remains presystemic toxicokinetics: gut handling, epithelial transport, tissue localization, metabolism, or excretion that limits the grayanotoxin dose reaching excitable tissue. This is a testable model supported by causal examples involving other insect toxins. It has not been demonstrated in *A. laboriosa*.
+Presystemic toxicokinetics remains an open model: gut handling, epithelial transport, tissue localization, metabolism, or excretion could limit the grayanotoxin dose reaching excitable tissue. Causal examples involving other insect toxins show that such mechanisms are possible. The [2026-09-05 transcriptomic audit](../transcriptomic_addendum/REPORT.md) withdraws the original gut-barrier expression interpretation: GEO excludes the belly, viral RNA differs greatly, and the elevated chitin synthase favors a cuticle/trachea comparator. The comparative numerical results remain unchanged.
 
 ## What the phenotype data actually establish
 
@@ -46,7 +46,7 @@ That design cannot separate a grayanotoxin-associated signal from lineage histor
 - One longest protein per GFF gene: 9,783 to 10,310 proteins per species
 - Older *B. terrestris* reference proteins for an independent sequence check
 - Seven additional *Bombus* exchanger proteins and five non-*Bombus* bee exchanger proteins
-- Existing pooled, untreated, whole-worker *A. laboriosa* and *A. dorsata* transcript assemblies and abundance tables
+- Existing pooled, untreated, pooled-worker *A. laboriosa* and *A. dorsata* transcript assemblies and abundance tables
 
 Every added URL, accession, byte count, and SHA-256 digest is recorded in [`input_sources.tsv`](input_sources.tsv). [`combined_input_manifest.tsv`](combined_input_manifest.tsv) records the base and addendum inputs used by this workflow.
 
@@ -99,14 +99,14 @@ The protein is labelled sodium/hydrogen exchanger 3 in four references and sodiu
 
 The eight additional *Bombus* checks include the older *B. terrestris* reference. At position 232, four of five external bees carry V and one carries L. Both *A. laboriosa* and *A. dorsata* assembled worker transcripts cover all four positions and match their reference proteins. This reduces the chance that the four focal residues are simple reference-annotation errors.
 
-The existing whole-worker RNA data do not show constitutive elevation of this exchanger:
+The existing pooled-worker RNA data do not show constitutive elevation of this exchanger:
 
 | Measure | *A. laboriosa* | *A. dorsata* | Ratio |
 |---|---:|---:|---:|
 | FPKM | 20.54 | 24.97 | 0.823 |
 | CPM | 93.35 | 107.32 | 0.870 |
 
-These values come from one pooled untreated whole-worker library per species. They cannot test tissue-specific expression, inducibility, isoform use, protein abundance, or transport activity.
+These values come from one pooled untreated pooled-worker library per species. They cannot test tissue-specific expression, inducibility, isoform use, protein abundance, or transport activity.
 
 Insect NHE proteins participate in epithelial ion and pH handling in the gut and Malpighian tubules, which gives this lead a defensible physiological context. No paper linking this exchanger to grayanotoxin transport or resistance was found. It may reflect unrelated osmoregulatory ecology, altitude adaptation, lineage history, or chance. It should be tested only in a design that also measures grayanotoxin pharmacokinetics.
 
@@ -133,8 +133,8 @@ These examples strengthen the case for measuring internal dose, tissue distribut
 | Broad detox, efflux, or barrier expansion | Low | No broad count pattern and no relevant strict copy-number hit |
 | Broad shared toxicokinetic coding convergence | Low | Prespecified sets are not enriched |
 | NHE2/3-labelled exchanger coding effect | Interesting, weak | Two sequence states survive wider taxon checks; no corrected enrichment, functional evidence, or GTX link |
-| Tissue-specific regulation or localization | Open | Existing whole-worker, untreated, unreplicated RNA cannot test it |
-| Presystemic exclusion or rapid clearance | Highest-priority working model | Fits direct oral *Bombus* tolerance and causal cross-toxin precedents; no *A. laboriosa* pharmacokinetic data yet |
+| Tissue-specific regulation or localization | Open | Existing pooled-worker, untreated, unreplicated RNA cannot test it |
+| Presystemic exclusion or rapid clearance | Open model | Direct oral *Bombus* tolerance and cross-toxin precedents motivate testing; original gut-expression interpretation withdrawn; no *A. laboriosa* pharmacokinetic data yet |
 | Behavioral dose regulation | Open | Could contribute in *A. laboriosa*; cannot explain the non-choice *Bombus* result alone |
 | Microbiome-mediated metabolism | Open | Current data do not test it |
 
@@ -174,7 +174,7 @@ The key discriminator is simple. Oral tolerance with injection sensitivity and l
 - Six species with one measured tolerant lineage cannot support a formal phenotype-convergence scan.
 - Exact residue sharing does not establish independent substitution, phenotype association, or causal function.
 - Protein annotations and family counts contain false negatives, false positives, and inconsistent names.
-- The transcript comparison has one pooled untreated whole-worker library per species and no biological replication.
+- The transcript comparison has one pooled untreated pooled-worker library per species and no biological replication.
 - Ecological ingestion does not establish the grayanotoxin concentration reaching hemolymph, brain, or sodium channels.
 
 ## Reproduction and audit files

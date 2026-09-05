@@ -14,7 +14,7 @@ The scientific frame is comparative evolutionary genomics. More specifically, th
 | Are prespecified barrier and toxicokinetic genes enriched for exact shared states? | 4,903,043 callable amino-acid sites with matched permutations | Barrier/detox BH `q = 0.518`; core toxicokinetic BH `q = 0.518` | No enrichment |
 | Did any narrow coding lead survive wider taxon checks? | NHE2/3-labelled exchanger orthogroup plus seven more *Bombus* and five other bees | S159 and I232 remain compatible with parallel state changes | Weak lead with no corrected enrichment or direct grayanotoxin evidence |
 
-The cross-insect comparison leaves presystemic handling as the most useful working model: gut uptake, epithelial transport, tissue distribution, metabolism, or excretion may reduce the dose reaching excitable tissue. Public data do not establish that mechanism in *A. laboriosa*.
+Presystemic handling remains an open model: gut uptake, epithelial transport, tissue distribution, metabolism, or excretion may reduce the dose reaching excitable tissue. Public data do not establish that mechanism in *A. laboriosa*. The [2026-09-05 transcriptomic audit](../transcriptomic_addendum/REPORT.md) withdraws the earlier gut-barrier expression interpretation after checking tissue metadata, viral RNA, and enzyme sequence class. The comparative numerical results below remain unchanged.
 
 ## Evidence boundary
 
