@@ -18,10 +18,12 @@ Do not infer a result from a filename or README sentence alone. Trace it to the 
 
 For cross-bee orthology, convergence, or wider-taxon work, also read `comparative_addendum/AGENTS.md`, `comparative_addendum/REPORT.md`, and `comparative_addendum/phenotype_matrix.tsv` completely.
 
+For any expression or physiological interpretation, read `transcriptomic_addendum/AGENTS.md` and `transcriptomic_addendum/REPORT.md`. That addendum supersedes the original gut-barrier interpretation and corrects the tissue metadata.
+
 ## Scientific guardrails
 
 - Keep observation, inference, and speculation separate.
-- Describe the whole-worker transcriptome comparison as descriptive. It has one untreated pooled library per species and no biological replication.
+- Describe the pooled-worker transcriptome comparison as descriptive. It has one untreated pooled library per species and no biological replication. GEO specifies “whole body without belly”; do not call it whole-bee or defined midgut RNA. Preserve the BQCV imbalance and other sample confounding described in the transcriptomic addendum.
 - Do not call the expression ratios differential expression.
 - Do not claim that peritrophin blocks grayanotoxin. GTX-I and GTX-III are much smaller than molecules known to cross the honeybee peritrophic matrix.
 - Do not describe scaffold 8 or scaffold 25 candidate identities as direct MAKER-model assignments. The relevant eastern-assembly GFF is unavailable. They are scaffold-and-GO candidates.
@@ -154,7 +156,7 @@ Each headline claim has a primary machine-readable source:
 | DSC1 mapped-site invariance | `results/selected_60e_gtx_site_residues.tsv` |
 | Copy-number screens | `results/detox_family_counts.tsv` and `results/barrier_clearance_gene_counts.tsv` |
 | Chitin-locus correction | `results/chitin_synthase_locus_qc.tsv` |
-| Whole-worker expression ratios | `results/constitutive_expression_contrasts.tsv` |
+| Original pooled-worker expression ratios | `results/constitutive_expression_contrasts.tsv`; interpretation corrected by `transcriptomic_addendum/REPORT.md` |
 
 ## Reporting style
 

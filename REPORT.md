@@ -1,14 +1,16 @@
 # *Apis laboriosa* grayanotoxin-tolerance public-data analysis
 
-Updated: 2026-09-01
+Updated: 2026-09-05
+
+The [transcriptomic addendum](transcriptomic_addendum/REPORT.md) corrects the original tissue description and gut-barrier interpretation. All original numerical results still reproduce byte for byte. GEO describes both samples as “whole body without belly.” Direct raw-read analysis finds a major BQCV RNA imbalance and retains several large, functionally unresolved gene contrasts. The elevated chitin synthase favors a cuticle/trachea sequence comparator. These samples do not establish an enhanced midgut barrier.
 
 ## Conclusion
 
 This analysis tests proposed genomic and physiological explanations for grayanotoxin tolerance against the *Apis laboriosa* reference genome, five comparative bee proteomes, an independent *A. laboriosa* assembly, a 2023 population-genomic supplement, and public pooled *A. laboriosa* and *A. dorsata* transcriptomes.
 
-The current sequence data provide little support for a species-specific **Para sodium-channel resistance mechanism**. The known grayanotoxin-relevant residues, their surrounding sequence, every catalogued full-length Para isoform, the alternative-splice haplotypes in the only variable transmembrane block, and the abundant whole-worker transcript consensus show no laboriosa-specific protective channel state. The full channel is 99.90% identical to *A. dorsata*. The only two laboriosa-specific residues against the four-other-*Apis* consensus are outside mapped transmembrane helices and far from known grayanotoxin determinants.
+The current sequence data provide little support for a species-specific **Para sodium-channel resistance mechanism**. The known grayanotoxin-relevant residues, their surrounding sequence, every catalogued full-length Para isoform, the alternative-splice haplotypes in the only variable transmembrane block, and the abundant pooled-worker transcript consensus show no laboriosa-specific protective channel state. The full channel is 99.90% identical to *A. dorsata*. The only two laboriosa-specific residues against the four-other-*Apis* consensus are outside mapped transmembrane helices and far from known grayanotoxin determinants.
 
-If *A. laboriosa* has systemic tolerance, the current results prioritize **toxicokinetic protection** for further testing. Crop staging could limit the amount digested, while midgut transport, efflux, binding, or excretion could limit the free toxin reaching the brain. The only public pooled whole-worker transcriptome contains a high-abundance peritrophin-1-like transcript in *A. laboriosa* (FPKM 7,531.67; rank 12 of 106,176 unigenes), compared with combined peritrophin FPKM 15.29 in *A. dorsata*. Chitin-synthase, ABCC/MRP, and organic-anion-transporter signals are also higher. This result has one pooled sample per species, no toxin treatment, and no biological replication. The peritrophic matrix passes molecules much larger than 370 to 412 Da grayanotoxins, so simple molecular sieving by peritrophin is implausible.
+If *A. laboriosa* has systemic tolerance, reduced uptake, transport, binding, metabolism, and excretion remain open mechanisms. The original pooled-worker screen contains a high-abundance peritrophin-1-like transcript in *A. laboriosa* (FPKM 7,531.67; rank 12 of 106,176 unigenes), compared with combined peritrophin FPKM 15.29 in *A. dorsata*. Those numerical contrasts reproduce. The subsequent source and raw-read audit removes their earlier interpretation as evidence for a stronger gut barrier. One specific ABCC/MRP group remains a candidate, with 1,161 versus 54 raw reads and unmeasured substrate or tissue. No toxin treatment or biological replication is available, and the samples differ greatly in viral RNA burden.
 
 A second lead comes from the population supplement. Its Tibetan “sodium ion transport” enrichment excludes Para: exact cross-assembly mapping places Para on eastern-assembly scaffold 105, while the selected gene models occur on scaffolds 8 and 25. Current RefSeq genes mapping to those two scaffolds suggest DSC1/NaCP60E, a Nach/DEG-ENaC channel, and a COMMD3-like protein. These loci could reflect altitude, sensation, or compensatory excitability. They provide no evidence for a grayanotoxin-resistant Para pocket. The 16 Nav-homologous grayanotoxin positions in DSC1/60E are identical across all six compared bees.
 
@@ -20,7 +22,7 @@ The repository addendum applies a fixed exact-state rule to 8,273 complete singl
 
 Across 4,903,043 callable amino-acid sites, *A. laboriosa* produced 2,017 strict shared states with *B. terrestris*. The *A. dorsata* internal control produced 2,058. Prespecified barrier, detoxification, and toxicokinetic categories were not enriched after matched permutations. The whole-Para screen produced zero focal sites across 2,050 callable residues. The sole strict shared copy-number hit was an odorant-receptor group containing one low-quality *A. laboriosa* model.
 
-One NHE2/3-labelled exchanger orthogroup contained four focal sites. Wider sequence checks leave S159 and I232 compatible with parallel state changes, while the category-wide test is not significant after correction and no grayanotoxin connection is known. Existing worker transcripts match the reference states. Their pooled whole-worker abundance does not show elevation in *A. laboriosa*.
+One NHE2/3-labelled exchanger orthogroup contained four focal sites. Wider sequence checks leave S159 and I232 compatible with parallel state changes, while the category-wide test is not significant after correction and no grayanotoxin connection is known. Existing worker transcripts match the reference states. Their pooled pooled-worker abundance does not show elevation in *A. laboriosa*.
 
 The addendum therefore strengthens the negative coding evidence and retains tissue-specific regulation, localization, uptake, metabolism, and excretion as open tests. Full methods, tables, and reproduction commands are in [`comparative_addendum/`](comparative_addendum/).
 
@@ -31,11 +33,11 @@ The addendum therefore strengthens the negative coding evidence and retains tiss
 | Special Para binding-pocket substitution | Map 16 experimentally implicated rat Nav1.4 positions across six bee species | All homologous residues identical among the compared bees | Unsupported at known sites |
 | Distant/allosteric Para substitution | Whole-channel comparison against four other *Apis* species | Only N95 and V465 are laboriosa-specific; neither is transmembrane or near a known GTX site | Possible in principle, but little sequence support |
 | Protective Para splice isoform | Compare every full-length RefSeq isoform and its variable transmembrane blocks | All three laboriosa DIII S3-S4 haplotypes occur verbatim in all four other *Apis* references | Catalogued special-isoform explanation rejected |
-| Protective RNA editing | Align the complete 6,129-bp Para CDS in the pooled laboriosa unigene consensus | Four substitutions, all synonymous; one A→G; zero amino-acid changes | No fixed, abundant whole-worker protective edit; rare/tissue-specific editing remains untested |
+| Protective RNA editing | Align the complete 6,129-bp Para CDS in the pooled laboriosa unigene consensus | Four substitutions, all synonymous; one A→G; zero amino-acid changes | No fixed, abundant pooled-worker protective edit; rare/tissue-specific editing remains untested |
 | Para under local selection | Extract 2023 Table S6 and map Para into the same eastern assembly | Selected models are on scaffolds 8/25; all 29 independent Para probes map to scaffold 105 | Rejected for the published sodium-enrichment set |
 | Another selected ion channel provides direct resistance | Map likely DSC1/60E and Nach candidates; compare DSC1 homologous sites | DSC1 is 99.37% identical to *A. dorsata* and all 16 mapped positions are invariant; Nach is a distinct DEG/ENaC family | Direct GTX target resistance unsupported; physiological compensation remains possible |
 | More detox/efflux/barrier genes | Count parent genes in matched RefSeq annotations | No laboriosa expansion of P450, ABCB, ABCC, ABCG, OATP, MFS, aquaporin, or peritrophin families | Copy-number mechanism unsupported |
-| Stronger constitutive gut/clearance program | Map species-specific RefSeq probes into the 2019 pooled transcriptomes and compare submitted FPKM/read counts | Large peritrophin/chitin signal; selective ABCC and OATP elevation; ABCB and ABCG not elevated | Positive descriptive lead; one pooled sample per species |
+| Stronger constitutive gut/clearance program | Original probe screen plus subsequent metadata and raw-read audit | Large chitin-related and specific transporter contrasts remain | Gut interpretation withdrawn; tissue, viral and collection confounding remain |
 | Microbiome detoxification | Search available genomic/transcriptomic data | No direct microbiome or GTX-metabolite dataset | Open but unsupported |
 | Colony routing/crop containment | Review anatomy and ecological observations | Anatomically plausible; no laboriosa-specific flux measurement | Possible exposure modifier; species-specific effect unmeasured |
 
@@ -75,13 +77,13 @@ The longest laboriosa Para is XP_043795192.1 (2,052 aa). It is 99.9025% identica
 
 ### 3. Processed transcriptome test for fixed RNA editing
 
-The public GSE130963 experiment contains one 150-bp paired-end library per species, each made by pooling equal RNA from three whole workers. The analysis uses its de novo unigene assemblies and submitted read-count/FPKM tables.
+The public GSE130963 experiment contains one 150-bp paired-end library per species, each made by pooling equal RNA from three individuals. GEO specifies “whole body without belly.” The original analysis uses its de novo unigene assemblies and submitted read-count/FPKM tables; the transcriptomic addendum additionally analyzes fixed raw-read prefixes.
 
 The top laboriosa Para contig, `AL|c47723_g1`, covers the complete 6,129-bp RefSeq CDS at 99.9347% identity. Its four single-base differences are synonymous. One has the A→G signature compatible with adenosine-to-inosine editing, but it also leaves glutamate unchanged. There are zero nonsynonymous consensus differences.
 
 The top *A. dorsata* Para contig likewise covers its full CDS and has five single-base differences, including one A-to-G nonsynonymous I1681M difference. Editing-like consensus differences occur in both species. Raw read pileups from brain tissue would be needed to distinguish editing from population variants and Trinity assembly errors.
 
-This test rules against a fixed, abundant, whole-worker protein-changing edit. It cannot exclude a rare, neuronal, caste-specific, seasonal, or exposure-induced edit.
+This test rules against a fixed, abundant, pooled-worker protein-changing edit. It cannot exclude a rare, neuronal, caste-specific, seasonal, or exposure-induced edit.
 
 ### 4. Population-selection signal and scaffold mapping
 
@@ -132,7 +134,7 @@ Copy number cannot test altered promoter activity, tissue localization, transpor
 
 ### 7. Exploratory constitutive-expression screen
 
-Species-specific exact probes mapped annotated genes into each species’ Trinity unigenes. Family totals were deduplicated by unigene. FPKM and counts-per-million (CPM) ratios are descriptive only because there is one untreated pooled whole-worker library per species.
+Species-specific exact probes mapped annotated genes into each species’ Trinity unigenes. Family totals were deduplicated by unigene. FPKM and counts-per-million (CPM) ratios are descriptive only because there is one untreated pooled pooled-worker library per species.
 
 | Category | Laboriosa FPKM | Dorsata FPKM | FPKM ratio | CPM ratio | Reading |
 | --- | ---: | ---: | ---: | ---: | --- |
@@ -147,12 +149,12 @@ Species-specific exact probes mapped annotated genes into each species’ Trinit
 
 The P450 total is much higher in laboriosa and is dominated by CYP4G15 (FPKM 5,658.96). CYP4G enzymes are associated with cuticular-hydrocarbon synthesis, so this total is not evidence of GTX metabolism.
 
-The peritrophin result is biologically coherent with a gut-barrier hypothesis: peritrophins determine bee peritrophic-matrix structure and permeability. But it cannot be the whole answer. In *A. mellifera*, 40-kDa dextran crosses the matrix while ≥70-kDa dextran is retained; GTX-I and GTX-III are only about 0.412 and 0.371 kDa. A thicker or compositionally different matrix might alter binding, residence time, microbiota, or epithelial signaling, but simple size exclusion is implausible.
+The original gut-barrier interpretation is withdrawn following the tissue and functional audit. Chitin-binding labels do not establish gut localization, and the elevated chitin synthase is Kkv-like in the tested comparison. Even for a measured midgut protein, size exclusion would be an inadequate explanation: in *A. mellifera*, 40-kDa dextran crosses the matrix while ≥70-kDa dextran is retained; GTX-I and GTX-III are about 0.412 and 0.371 kDa. Direct tissue and toxin-flux measurements would be needed.
 
 ## Working mechanism ranking
 
-1. **Restricted internal exposure plus selective toxicokinetic handling.** Crop storage limits the fraction entering the midgut; epithelial uptake/efflux, binding, and Malpighian clearance can then keep free brain exposure low. The ABCC/OATP and gut-matrix transcript signals support testing this mechanism. Causality is untested.
-2. **A specialized gut physiological state.** Peritrophin-1 and chs-2 are candidates for replicated, tissue-specific testing. Altered epithelial physiology or toxin residence is physically more plausible than passive size exclusion of a 0.4-kDa molecule.
+1. **Restricted internal exposure and selective transport remain open.** Direct oral/injection comparisons with internal toxin measurement would test this. The transcriptomic addendum identifies specific ABCC/OATP candidates, with no established GTX substrate or causal protection.
+2. **The earlier specialized-gut hypothesis has lost its expression support.** Tissue metadata and the chitin-synthase comparison undermine that interpretation. The large RNA differences require replication and tissue localization before assigning a mechanism.
 3. **Secondary ion-channel compensation.** Population-selected DSC1/60E and Nach-like loci could buffer sensory or excitability changes. The selection could also reflect altitude or foraging ecology. Direct GTX binding has not been shown for either channel.
 4. **Specific metabolism or sequestration - open.** No family expansion is required for one enzyme, binding protein, or transporter to matter. Parent GTX persists in honey, so complete detoxification of the crop cargo is unlikely.
 5. **Microbiome and colony routing - possible modifiers.** There are no laboriosa-specific data sufficient to rank them higher.
@@ -182,7 +184,7 @@ The highest-value experiment remains a paired **oral-versus-hemocoel-injection**
 
 The same animals should receive isotope-labelled toxin with LC-MS/MS time courses in crop, midgut lumen, gut wall, hemolymph, brain, Malpighian tubules, feces, regurgitated nectar, and honey.
 
-The new gut lead makes the following follow-ups especially valuable:
+The source audit changes the ordering of gene-focused work. First establish the phenotype and whether candidate differences recur across independent colonies, documented tissues, and matched viral burden. Subsequent possibilities include:
 
 1. replicated midgut, fat-body, Malpighian-tubule, glial, and brain RNA-seq/proteomics before and after field-realistic GTX exposure;
 2. histology and permeability measurements of the laboriosa peritrophic matrix, plus direct GTX flux across isolated midgut;
@@ -194,12 +196,12 @@ The new gut lead makes the following follow-ups especially valuable:
 ## Interpretation limits
 
 - No controlled *A. laboriosa* toxin challenge, tissue pharmacokinetic dataset, or expressed-channel assay was found.
-- The expression comparison has no biological replicates, uses different collection locations, pools three whole workers per species, and has no toxin treatment. It cannot support a formal differential-expression claim.
+- The expression comparison has no biological replicates, uses different collection locations, pools three individuals per species with belly excluded according to GEO, and has no toxin treatment. The new raw-read check reveals a major BQCV RNA imbalance. It cannot support a formal differential-expression claim.
 - The de novo consensus can miss low-frequency and tissue-specific RNA editing; raw SRA data total roughly 20 GB compressed and 52 Gbp.
 - Current Chinese references may not represent Nepalese populations; substantial population structure is documented.
 - Annotation releases differ among species, and name-based gene-family counts are screening tests.
 - The eastern assembly publishes genomic FASTA without the MAKER GFF, so the three population candidates are inferred from exact scaffold mapping plus current GO annotations.
-- Peritrophin abundance is a mechanistic lead. Direct grayanotoxin blocking has not been shown.
+- Peritrophin-like abundance is an unresolved sample contrast. Gut localization and direct grayanotoxin blocking have not been shown.
 
 ## Reproducibility outputs
 
@@ -214,7 +216,7 @@ Key scripts:
 - `analyze_selected_ion_channels.py` - DSC1/60E and Nach candidate tests
 - `analyze_detox_families.py` and `analyze_barrier_clearance.py` - parent-gene family screens
 - `qc_chitin_synthase_loci.py` - overlap and protein-length audit of the apparent chitin-synthase surplus
-- `analyze_constitutive_transcript_expression.py` - exact-probe whole-worker expression screen
+- `analyze_constitutive_transcript_expression.py` - exact-probe pooled-worker expression screen
 
 The `results/` directory contains all residue tables, scaffold mappings, transcript mismatches, gene-family counts, expression mappings/contrasts, and locus QC.
 

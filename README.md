@@ -8,7 +8,9 @@ Status: preliminary computational analysis. No controlled *A. laboriosa* grayano
 
 Current public sequence data provide little support for a species-specific grayanotoxin-resistant Para sodium channel in *A. laboriosa*.
 
-If the bee has systemic tolerance, the next mechanism to test is reduced internal exposure through crop handling, gut transport or binding, epithelial efflux, and excretion. A public whole-worker transcriptome contains a large peritrophin/chitin signal and smaller ABCC and organic-anion-transporter signals. That expression comparison has one pooled sample per species and cannot establish differential expression.
+**2026-09-05 correction:** The earlier gut-barrier interpretation is superseded by the [transcriptomic addendum](transcriptomic_addendum/). Both source samples are described as “whole body without belly.” Direct analysis of two million R1 reads per species finds black queen cell virus matches in 29.24% of the dorsata subset and 0.0094% of laboriosa. Large chitin-related RNA contrasts survive, but the elevated chitin synthase is closer to a cuticle/trachea reference enzyme. These libraries cannot identify an enhanced midgut barrier.
+
+Reduced internal exposure, transport, metabolism, and excretion remain possible mechanisms. One specific ABCC/MRP group remains an expression candidate, with 1,161 versus 54 raw reads. Species, collection conditions, tissue composition, and physiological state cannot be separated with one pool per species. No GTX transport or causal protection has been demonstrated.
 
 ## Tests at a glance
 
@@ -20,13 +22,21 @@ If the bee has systemic tolerance, the next mechanism to test is reduced interna
 | Fixed abundant Para RNA edit | Protein-changing consensus difference in processed laboriosa Para transcript | Align the complete 6,129-base CDS to the pooled transcriptome | Four mismatches, all synonymous | No fixed abundant protein-changing edit detected |
 | Para under reported sodium selection | Para maps to selected eastern scaffolds 8 or 25 | Map 29 independent exact Para probes into the eastern assembly | 29 of 29 probes map uniquely to scaffold 105 | Para excluded from that selected set |
 | Broad detoxification or barrier expansion | More detoxification, efflux, or barrier genes | Count parent genes in matched annotations | No broad laboriosa expansion | Copy-number explanation unsupported |
-| Constitutive gut or clearance program | Higher barrier or transporter transcripts | Exact-probe mapping into submitted pooled-worker transcriptomes | Peritrophin/chitin-binding 492.6x FPKM; chitin synthase 19.4x; ABCC 3.19x; organic-anion transport 3.88x | Candidate screen only; one pooled sample per species |
+| Constitutive gut or clearance program | Higher barrier or transporter transcripts | Original exact-probe screen, followed by source audit and symmetric raw-read mapping | Original family ratios reproduce; large focal RNA differences survive | Gut interpretation withdrawn: belly excluded, viral imbalance, tissue and function unresolved |
+
+## Transcriptomic addendum
+
+The [new report](transcriptomic_addendum/REPORT.md) tests mapping bias, library composition, viral sequence identity, individual transporter candidates, and chitin-synthase class. It also audits an independent GTX-I transcriptome for cross-species reuse. All counts, sensitivity analyses, scripts, input hashes, raw-read subsets, and agent instructions are preserved.
+
+```bash
+make -C transcriptomic_addendum all
+```
 
 ## Comparative addendum
 
 The [`comparative_addendum/`](comparative_addendum/) directory tests whether *A. laboriosa* and the directly measured orally tolerant *Bombus terrestris audax* share a broader coding pattern.
 
-The screen found zero exact shared focal states across 2,050 callable Para residues, no relevant shared gene-family expansion, and no enrichment in prespecified barrier, detoxification, or toxicokinetic gene sets. A weak NHE2/3-labelled exchanger lead remains after wider bee comparisons, with no corrected category-level enrichment and no direct grayanotoxin evidence. These results retain presystemic handling as the highest-priority working model and narrow the most useful experiment to oral versus injection exposure with tissue LC-MS/MS.
+The screen found zero exact shared focal states across 2,050 callable Para residues, no relevant shared gene-family expansion, and no enrichment in prespecified barrier, detoxification, or toxicokinetic gene sets. A weak NHE2/3-labelled exchanger lead remains after wider bee comparisons, with no corrected category-level enrichment and no direct grayanotoxin evidence. Presystemic handling remains open. Oral versus injection exposure with tissue LC-MS/MS would help distinguish it from systemic mechanisms.
 
 The addendum has its own pinned environment, input snapshot, scripts, validation assertions, result manifests, and agent instructions. Run it with:
 
@@ -37,11 +47,11 @@ make -C comparative_addendum all
 ## Key limitations
 
 - No controlled oral or injected grayanotoxin dose-response was found for *A. laboriosa*.
-- The transcriptome comparison has one untreated pool of three whole workers per species.
+- The transcriptome comparison has one untreated pool of three individuals per species, described by GEO as “whole body without belly,” with a large viral RNA imbalance.
 - FPKM and CPM ratios are descriptive. They are not a replicated differential-expression result.
 - The Chinese reference genomes and transcriptomes may not represent Nepalese mad-honey populations.
 - The eastern assembly has no published MAKER GFF. Candidate identities on scaffolds 8 and 25 are inferred from exact cross-assembly probes and current RefSeq GO annotations.
-- Processed whole-worker transcripts cannot exclude rare, tissue-specific, seasonal, or exposure-induced RNA editing.
+- Processed pooled-worker transcripts cannot exclude rare, tissue-specific, seasonal, or exposure-induced RNA editing.
 - Peritrophin cannot plausibly exclude a 0.37 to 0.41 kDa molecule by size alone. Honeybee peritrophic matrix permeability has been demonstrated for much larger molecules.
 
 ## Most discriminating unresolved test
@@ -69,6 +79,7 @@ Tissue-resolved LC-MS/MS measurements would show whether toxin reaches the hemol
 | [`scripts/`](scripts/) | Input retrieval, analyses, claim validation, and checksum verification |
 | [`results.sha256`](results.sha256) | Expected hashes for every generated result file |
 | [`comparative_addendum/`](comparative_addendum/) | Reproducible cross-bee convergence screen, controls, wider taxon checks, and result tables |
+| [`transcriptomic_addendum/`](transcriptomic_addendum/) | Tissue correction, raw-read validation, viral burden, focused transport candidates, and functional comparison |
 
 ## Key result tables
 
@@ -84,7 +95,7 @@ Tissue-resolved LC-MS/MS measurements would show whether toxin reaches the hemol
 - [Gene-family copy-number screen](results/detox_family_counts.tsv)
 - [Barrier and clearance copy-number screen](results/barrier_clearance_gene_counts.tsv)
 - [Chitin-synthase locus QC](results/chitin_synthase_locus_qc.tsv)
-- [Whole-worker expression contrasts](results/constitutive_expression_contrasts.tsv)
+- [Original pooled-worker expression contrasts, with interpretation corrected above](results/constitutive_expression_contrasts.tsv)
 
 ## Reproduce
 

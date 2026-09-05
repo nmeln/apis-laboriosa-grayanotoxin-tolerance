@@ -1,6 +1,6 @@
 # Reproducing the *Apis laboriosa* grayanotoxin analysis
 
-Updated: 2026-09-01
+Updated: 2026-09-05
 
 ## Fast path
 
@@ -41,6 +41,14 @@ This command restores and verifies the base inputs, fetches the six added inputs
 See [`comparative_addendum/REPRODUCE.md`](comparative_addendum/REPRODUCE.md) for the exact stages, pinned versions, expected values, snapshot workflow, and evidence limits.
 
 ## Run one stage at a time
+
+The separate raw-read and source-audit workflow is:
+
+```bash
+make -C transcriptomic_addendum all
+```
+
+It verifies the base inputs, restores ten new source files including deterministic R1 subsets, uses the frozen checked orthology tables, and reproduces 25 added result files. Linux x86-64, Python 3.11+, four threads, and about 4 GB free are required. See [its reproduction guide](transcriptomic_addendum/REPRODUCE.md). The original numerical outputs remain unchanged; the new report corrects their tissue description and gut-barrier interpretation.
 
 ```bash
 make setup
