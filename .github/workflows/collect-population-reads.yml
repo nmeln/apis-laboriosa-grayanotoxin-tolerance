@@ -7,12 +7,17 @@ on:
         description: 'all, or comma-separated deposited SRR accessions'
         required: true
         default: all
+      prior_run:
+        description: 'Optional earlier collection run to merge; requires all 57 workers in the final artifact'
+        required: false
+        default: ''
 
 permissions:
   contents: read
+  actions: read
 
 concurrency:
-  group: population-read-collection
+  group: population-read-collection-${{ inputs.prior_run || 'initial' }}
   cancel-in-progress: false
 
 jobs:
@@ -42,7 +47,7 @@ jobs:
     timeout-minutes: 60
     strategy:
       fail-fast: false
-      max-parallel: 8
+      max-parallel: 12
       matrix:
         run: ${{ fromJson(needs.plan.outputs.runs) }}
     steps:
@@ -58,6 +63,10 @@ jobs:
         run: |
           python -m pip install zstandard==0.25.0
           python population_addendum/scripts/setup_tools.py
+      - name: Download complete source files with bounded parallel transfers
+        env:
+          SAMPLE_RUN: ${{ matrix.run }}
+        run: python population_addendum/scripts/download_parallel.py --run "$SAMPLE_RUN" --connections 4
       - name: Verify complete FASTQs and retain candidate pairs
         env:
           SAMPLE_RUN: ${{ matrix.run }}
@@ -80,33 +89,25 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           pattern: population-SRR*
-          path: population_addendum/work/gathered
+          path: population_addendum/work/current_batch
           merge-multiple: true
-      - name: Check all requested libraries completed
+      - name: Retrieve earlier completed libraries
+        if: inputs.prior_run != ''
+        uses: actions/download-artifact@v4
+        with:
+          pattern: population-SRR*
+          path: population_addendum/work/prior_batch
+          merge-multiple: true
+          run-id: ${{ inputs.prior_run }}
+          github-token: ${{ github.token }}
+      - name: Check and merge all expected libraries
         env:
-          EXPECTED_RUNS: ${{ needs.plan.outputs.runs }}
+          REQUESTED_RUNS: ${{ inputs.runs }}
+          PRIOR_RUN: ${{ inputs.prior_run }}
         run: |
-          python - <<'PY'
-          from pathlib import Path
-          import hashlib, json, os
-          root = Path('population_addendum/work/gathered')
-          expected = json.loads(os.environ['EXPECTED_RUNS'])
-          missing = []
-          for run in expected:
-              manifest = root / run / 'collection.json'
-              if not manifest.exists():
-                  missing.append(run)
-                  continue
-              data = json.loads(manifest.read_text())
-              assert data['run_accession'] == run and data['complete_source_files_verified']
-              for item in data['selected_files']:
-                  path = manifest.parent / item['name']
-                  assert path.stat().st_size == item['size_bytes']
-                  assert hashlib.file_digest(path.open('rb'), 'sha256').hexdigest() == item['sha256']
-          (root / 'collection_status.json').write_text(json.dumps({'expected': expected, 'missing': missing}, indent=2) + '\n')
-          assert not missing, 'Incomplete libraries: ' + ','.join(missing)
-          print('Verified complete-source extraction for', len(expected), 'libraries.')
-          PY
+          expected="$REQUESTED_RUNS"
+          if [ -n "$PRIOR_RUN" ]; then expected=all; fi
+          python population_addendum/scripts/gather_evidence.py --source population_addendum/work/prior_batch --source population_addendum/work/current_batch --destination population_addendum/work/gathered --expected "$expected"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
