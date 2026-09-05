@@ -1,0 +1,207 @@
+[
+  {
+    "bytes": 18723,
+    "file": "dorsata_ena_runs.tsv",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=tax_eq%287462%29&fields=run_accession%2Cstudy_accession%2Csample_accession%2Cscientific_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_layout%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_md5%2Cfastq_bytes%2Cstudy_title%2Csample_title%2Cexperiment_title&format=tsv&limit=0"
+  },
+  {
+    "bytes": 15615,
+    "file": "laboriosa_ena_runs.tsv",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=scientific_name%3D%22Apis+laboriosa%22&fields=run_accession%2Cstudy_accession%2Csample_accession%2Cscientific_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_layout%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_md5%2Cfastq_bytes%2Cstudy_title%2Csample_title%2Cexperiment_title&format=tsv&limit=0"
+  },
+  {
+    "bytes": 11601,
+    "file": "dorsata_assemblies.json",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/Apis%20dorsata/dataset_report?page_size=1000"
+  },
+  {
+    "bytes": 6524,
+    "file": "laboriosa_assemblies.json",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/Apis%20laboriosa/dataset_report?page_size=1000"
+  },
+  {
+    "bytes": 1051,
+    "file": "lin2021_pmc_query.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1093/gbe/evab227&format=json"
+  },
+  {
+    "bytes": 1384797,
+    "file": "Dmel_ABCC_domain.json",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A7227%20AND%20xref%3Ainterpro-IPR050173&format=json&size=500"
+  },
+  {
+    "bytes": 7011272,
+    "file": "GCF_910591885.1_protein.faa.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/910/591/885/GCF_910591885.1_iyBomTerr1.2/GCF_910591885.1_iyBomTerr1.2_protein.faa.gz"
+  },
+  {
+    "bytes": 68818,
+    "file": "PMC8536543.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8536543/fullTextXML"
+  },
+  {
+    "bytes": 134115,
+    "file": "PMC9991589.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9991589/fullTextXML"
+  },
+  {
+    "bytes": 381,
+    "file": "dorsata_rna_subtree.tsv",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=tax_tree%287462%29+AND+library_source%3D%22TRANSCRIPTOMIC%22&fields=run_accession%2Cstudy_accession%2Csample_accession%2Cscientific_name%2Cstudy_title%2Csample_title%2Cexperiment_title&format=tsv&limit=0"
+  },
+  {
+    "bytes": 410,
+    "file": "laboriosa_rna_ncbi.json",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=txid183418%5BOrganism%3Aexp%5D%20AND%20transcriptomic%5BSource%5D&retmode=json&retmax=1000"
+  },
+  {
+    "bytes": 70838699,
+    "file": "GCA_009792835.1_genomic.fna.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/009/792/835/GCA_009792835.1_RUTG_Adors_1.0/GCA_009792835.1_RUTG_Adors_1.0_genomic.fna.gz"
+  },
+  {
+    "bytes": 69605002,
+    "file": "GCF_000469605.1_genomic.fna.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/469/605/GCF_000469605.1_Apis_dorsata_1.3/GCF_000469605.1_Apis_dorsata_1.3_genomic.fna.gz"
+  },
+  {
+    "bytes": 3093403,
+    "file": "Dmel_Mrp_family.json",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A7227+AND+%28gene%3AMrp%2A+OR+protein_name%3A%22multidrug+resistance-associated%22%29&format=json&size=500"
+  },
+  {
+    "bytes": 90000,
+    "file": "PMC3814894.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3814894/fullTextXML"
+  },
+  {
+    "bytes": 71786,
+    "file": "PMC12130247.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12130247/fullTextXML"
+  },
+  {
+    "bytes": 4601,
+    "file": "miniprot_v0.18_release.json",
+    "url": "https://api.github.com/repos/lh3/miniprot/releases/latest"
+  },
+  {
+    "error": "HTTP Error 403: Forbidden",
+    "file": "ins70157_tableS1.xlsx",
+    "url": "https://onlinelibrary.wiley.com/doi/suppl/10.1111/1744-7917.70157/supinfo/ins70157-sup-0002-tables1.xlsx"
+  },
+  {
+    "error": "HTTP Error 403: Forbidden",
+    "file": "ins70157_tableS3.xlsx",
+    "url": "https://onlinelibrary.wiley.com/doi/suppl/10.1111/1744-7917.70157/supinfo/ins70157-sup-0004-tables3.xlsx"
+  },
+  {
+    "bytes": 389,
+    "file": "laboriosa_rna_subtree.tsv",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=tax_tree%28183418%29%20AND%20library_source%3D%22TRANSCRIPTOMIC%22&fields=run_accession,study_accession,sample_accession,scientific_name,study_title,sample_title,experiment_title&format=tsv&limit=0"
+  },
+  {
+    "bytes": 406,
+    "file": "dorsata_rna_ncbi.json",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=txid7462%5BOrganism:exp%5D%20AND%20transcriptomic%5BSource%5D&retmode=json&retmax=1000"
+  },
+  {
+    "bytes": 1049,
+    "file": "gut_proteome_epmc_query.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038/s41598-025-26662-1&format=json"
+  },
+  {
+    "bytes": 554590,
+    "file": "gut_proteome_article.html",
+    "url": "https://www.nature.com/articles/s41598-025-26662-1"
+  },
+  {
+    "error": "HTTP Error 403: Forbidden",
+    "file": "abc_development_preprint.html",
+    "url": "https://www.authorea.com/doi/full/10.22541/au.173746687.74569861"
+  },
+  {
+    "bytes": 1651727,
+    "file": "Human_ABCC_reviewed.json",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606%20AND%20reviewed%3Atrue%20AND%20gene%3AABCC%2A&format=json&size=100"
+  },
+  {
+    "bytes": 24011,
+    "file": "Dmel_P91660.json",
+    "url": "https://rest.uniprot.org/uniprotkb/P91660.json"
+  },
+  {
+    "bytes": 32612,
+    "file": "Dmel_Q9VGM1.json",
+    "url": "https://rest.uniprot.org/uniprotkb/Q9VGM1.json"
+  },
+  {
+    "bytes": 211535,
+    "file": "PMC12753784.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12753784/fullTextXML"
+  },
+  {
+    "bytes": 140492,
+    "file": "gut_proteome_tables.xlsx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-025-26662-1/MediaObjects/41598_2025_26662_MOESM1_ESM.xlsx"
+  },
+  {
+    "bytes": 7913,
+    "file": "gut_proteome_figshare.json",
+    "url": "https://api.figshare.com/v2/articles/28706999/versions/1"
+  },
+  {
+    "error": "HTTP Error 403: Forbidden",
+    "error_detail": "The public redirect supplied an expired S3 signature.",
+    "file": "gut_psm.csv",
+    "url": "https://ndownloader.figshare.com/files/53356778?download=1&retrieved=20260905"
+  },
+  {
+    "error": "HTTP Error 403: Forbidden",
+    "error_detail": "The public redirect supplied an expired S3 signature.",
+    "file": "gut_peptide.csv",
+    "url": "https://ndownloader.figshare.com/files/53356781?download=1&retrieved=20260905"
+  },
+  {
+    "error": "HTTP Error 403: Forbidden",
+    "error_detail": "The public redirect supplied an expired S3 signature.",
+    "file": "gut_protein_peptides.csv",
+    "url": "https://ndownloader.figshare.com/files/53356799?download=1&retrieved=20260905"
+  },
+  {
+    "error": "HTTP Error 403: Forbidden",
+    "error_detail": "The public redirect supplied an expired S3 signature.",
+    "file": "gut_proteins.csv",
+    "url": "https://ndownloader.figshare.com/files/53356796?download=1&retrieved=20260905"
+  },
+  {
+    "error": "HTTP Error 403: Forbidden",
+    "file": "gut_protein_peptides.csv",
+    "url": "https://api.figshare.com/v2/file/download/53356799"
+  },
+  {
+    "error": "HTTP Error 403: Forbidden",
+    "file": "gut_proteins.csv",
+    "url": "https://api.figshare.com/v2/file/download/53356796"
+  },
+  {
+    "bytes": 0,
+    "file": "gut_peptide.csv",
+    "url": "https://figshare.com/ndownloader/files/53356781"
+  },
+  {
+    "bytes": 0,
+    "file": "gut_psm.csv",
+    "url": "https://figshare.com/ndownloader/files/53356778"
+  },
+  {
+    "bytes": 1000549,
+    "file": "Dmel_ABCC_panel.json",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A7227%20AND%20%28xref%3Ainterpro-IPR005292%20OR%20protein_name%3A%22multidrug%20resistance%22%20OR%20protein_name%3A%22ATP-binding%20cassette%20sub-family%20C%22%20OR%20gene%3ASur%20OR%20gene%3ACftr%29&format=json&size=500"
+  },
+  {
+    "error": "HTTP Error 403: Forbidden",
+    "error_detail": "The public redirect supplied an expired S3 signature.",
+    "file": "gut_protein_peptides.csv",
+    "url": "https://ndownloader.figshare.com/files/53356799?nonce=1788634844174820796"
+  }
+]
