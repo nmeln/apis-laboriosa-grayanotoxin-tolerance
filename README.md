@@ -4,6 +4,8 @@ Public-data tests of proposed tolerance mechanisms.
 
 Status: preliminary computational analysis. No controlled *A. laboriosa* grayanotoxin challenge data were found. The repository contains hypotheses, tests, generated tables, source accessions, checksums, and deterministic scripts.
 
+The analyses were developed and run with Codex. Experimental data come from the cited public studies; no wet-lab experiments were performed for this repository.
+
 ## Result
 
 Current public sequence data provide little support for a species-specific grayanotoxin-resistant Para sodium channel in *A. laboriosa*.
@@ -11,6 +13,12 @@ Current public sequence data provide little support for a species-specific graya
 **2026-09-05 correction:** The earlier gut-barrier interpretation is superseded by the [transcriptomic addendum](transcriptomic_addendum/). Both source samples are described as “whole body without belly.” Direct analysis of two million R1 reads per species finds black queen cell virus matches in 29.24% of the dorsata subset and 0.0094% of laboriosa. Large chitin-related RNA contrasts survive, but the elevated chitin synthase is closer to a cuticle/trachea reference enzyme. These libraries cannot identify an enhanced midgut barrier.
 
 Reduced internal exposure, transport, metabolism, and excretion remain possible mechanisms. One specific ABCC/MRP group remains an expression candidate, with 1,161 versus 54 raw reads. Species, collection conditions, tissue composition, and physiological state cannot be separated with one pool per species. No GTX transport or causal protection has been demonstrated.
+
+The [focused candidate follow-up](candidate_followup/REPORT.md) adds an independent Thai dorsata genome and tests that ABCC gene directly. Its complete 14-exon structure is recovered from two assemblies per focal species. Reference swaps retain a 17.43 to 17.60 host-normalized RNA ratio. Three laboriosa coding substitutions survive the independent genome comparison. A separate published experiment detected the exact mellifera counterpart in all six tested midgut membrane preparations. These observations support a specific transport-activity test; GTX cargo, laboriosa tissue localization and causal protection remain unresolved.
+
+```bash
+make -C candidate_followup all
+```
 
 ## Tests at a glance
 
@@ -80,6 +88,7 @@ Tissue-resolved LC-MS/MS measurements would show whether toxin reaches the hemol
 | [`results.sha256`](results.sha256) | Expected hashes for every generated result file |
 | [`comparative_addendum/`](comparative_addendum/) | Reproducible cross-bee convergence screen, controls, wider taxon checks, and result tables |
 | [`transcriptomic_addendum/`](transcriptomic_addendum/) | Tissue correction, raw-read validation, viral burden, focused transport candidates, and functional comparison |
+| [`candidate_followup/`](candidate_followup/) | Independent genomes, ABCC reference swaps, exact markers, coding variants, gut-protein evidence and untested sequence designs |
 
 ## Key result tables
 

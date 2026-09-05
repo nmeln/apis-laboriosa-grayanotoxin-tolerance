@@ -4,6 +4,8 @@ Updated: 2026-09-05
 
 The [transcriptomic addendum](transcriptomic_addendum/REPORT.md) corrects the original tissue description and gut-barrier interpretation. All original numerical results still reproduce byte for byte. GEO describes both samples as “whole body without belly.” Direct raw-read analysis finds a major BQCV RNA imbalance and retains several large, functionally unresolved gene contrasts. The elevated chitin synthase favors a cuticle/trachea sequence comparator. These samples do not establish an enhanced midgut barrier.
 
+The subsequent [ABCC candidate follow-up](candidate_followup/REPORT.md) recovers the complete candidate from an independent Thai dorsata genome and both available laboriosa assemblies. The RNA contrast survives separate species references and an exact shared-sequence control. Three laboriosa coding substitutions distinguish the two focal assemblies from the other five bee references. Independent published proteomics reports the exact mellifera counterpart in all three adult and all three larval midgut membrane preparations. This strengthens the case for testing this particular transporter, while its GTX substrate, laboriosa localization, normal species regulation and causal role remain unmeasured.
+
 ## Conclusion
 
 This analysis tests proposed genomic and physiological explanations for grayanotoxin tolerance against the *Apis laboriosa* reference genome, five comparative bee proteomes, an independent *A. laboriosa* assembly, a 2023 population-genomic supplement, and public pooled *A. laboriosa* and *A. dorsata* transcriptomes.

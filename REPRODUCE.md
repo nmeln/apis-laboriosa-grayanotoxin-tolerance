@@ -28,6 +28,14 @@ This command:
 
 The analysis uses no randomness.
 
+## Focused ABCC follow-up
+
+```bash
+make -C candidate_followup all
+```
+
+This restores 28 added source files, including complete additional dorsata genomes and the original gut-proteomics workbook, and reproduces 33 new result files. It uses the checked earlier inputs and fixed R1 prefixes. Linux x86-64, Python 3.11+, four logical threads and about 5 GB free disk space are sufficient. The [reproduction guide](candidate_followup/REPRODUCE.md) explains the reference swaps, exact markers, independent genomic translations, coding candidates, gut-protein extraction and explicitly untested variant designs.
+
 ## Comparative addendum
 
 The cross-bee orthology and exact-state screen has a separate pinned bioinformatics environment and input snapshot. From the same clone, run:

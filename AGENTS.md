@@ -20,6 +20,8 @@ For cross-bee orthology, convergence, or wider-taxon work, also read `comparativ
 
 For any expression or physiological interpretation, read `transcriptomic_addendum/AGENTS.md` and `transcriptomic_addendum/REPORT.md`. That addendum supersedes the original gut-barrier interpretation and corrects the tissue metadata.
 
+For the specific ABCC candidate, independent dorsata assemblies, tissue evidence or proposed sequence variants, also read `candidate_followup/AGENTS.md` and `candidate_followup/REPORT.md`. Its gut-protein evidence concerns mellifera; its variant FASTAs are untested designs. It does not establish GTX transport or a replicated laboriosa expression effect.
+
 ## Scientific guardrails
 
 - Keep observation, inference, and speculation separate.
