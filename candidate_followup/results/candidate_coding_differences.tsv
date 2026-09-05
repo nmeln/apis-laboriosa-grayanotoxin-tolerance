@@ -1,0 +1,12 @@
+alignment_column_1based	AL_position_1based	kind	AL_Shangrila	AD_Malaysia	AM	AC	AF	BT	AD_Thailand	AL_Pingbian	consistent_across_two_assemblies_each	AL_state_absent_from_other_four_bees	human_ABCC4_position	projected_human_features
+307	254	substitution	L	F	F	F	F	F	F	L	True	True	239	Transmembrane:Helical; Name=3;Domain:ABC transmembrane type-1 1
+477	424	gap_column	R	-	-	R	R	K	-	R	True	False	401	
+478	425	gap_column	S	-	-	S	S	P	-	S	True	False	402	
+500	447	gap_column	Q	-	-	-	-	-	-	Q	True	True		
+527	474	substitution	Q	K	Q	Q	K	H	K	Q	True	False	424	Domain:ABC transporter 1
+602	549	substitution	L	F	F	F	M	M	F	L	True	True	499	Domain:ABC transporter 1
+770	717	substitution	A	T	T	T	A	A	T	A	True	False	673	
+780	727	substitution	A	V	A	A	A	A	V	A	True	False	687	
+819	766	substitution	L	F	L	F	L	L	F	L	True	False	727	Transmembrane:Helical; Name=7;Domain:ABC transmembrane type-1 2
+876	822	substitution	I	V	I	I	I	V	I	I	False	False	781	Transmembrane:Helical; Name=8;Domain:ABC transmembrane type-1 2
+1189	1134	substitution	F	L	L	L	L	L	L	F	True	True	1091	Domain:ABC transporter 2

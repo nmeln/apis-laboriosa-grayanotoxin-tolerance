@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "AD": 15,
+    "AL": 258
+  },
+  "excluded_non150nt_reads": {
+    "AD": 0,
+    "AL": 0
+  },
+  "excluded_nonspecific_markers": 0,
+  "input_reads_each": 2000000,
+  "limitation": "Exact-match subset; these are technical counts from the same two pools, without additional biological replication.",
+  "marker_length": 100,
+  "raw_AL_AD_ratio": 17.2,
+  "read_interval_1based": "26-125",
+  "shared_markers_before_specificity_filter": 1064,
+  "specific_shared_markers": 1064
+}

@@ -1,0 +1,3 @@
+reference	AL_reads	AD_reads	raw_ratio	background_groups	background_median_AL_AD	normalized_ratio
+AL	1161	54	21.5	6141	1.2333333333333334	17.43243243243243
+AD	1158	54	21.444444444444443	6040	1.21875	17.595441595441596

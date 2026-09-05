@@ -1,0 +1,5 @@
+original_name	file_id	expected_size_bytes	expected_md5	source_url	retrieved	retrieval_result
+DB search psm.csv	53356778	15571856	a26a871a998b6da30821e0f82eff2738	https://ndownloader.figshare.com/files/53356778	False	Public downloads returned expired S3 signatures; no peptide-level reanalysis claimed
+peptide.csv	53356781	2435789	58c90dce19f7d4de8286f6ef0c3cc47a	https://ndownloader.figshare.com/files/53356781	False	Public downloads returned expired S3 signatures; no peptide-level reanalysis claimed
+protein-peptides.csv	53356799	4798480	1578447051603c16f97efb3c55ca6e4b	https://ndownloader.figshare.com/files/53356799	False	Public downloads returned expired S3 signatures; no peptide-level reanalysis claimed
+proteins.csv	53356796	526731	648cb0b9453fae1881d1cf7dc37fea5f	https://ndownloader.figshare.com/files/53356796	False	Public downloads returned expired S3 signatures; no peptide-level reanalysis claimed

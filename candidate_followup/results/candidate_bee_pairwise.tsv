@@ -1,0 +1,9 @@
+reference	comparator	paired_columns	identical_aa	identity_in_paired_columns	gap_columns
+AL_Shangrila	AL_Shangrila	1336	1336	1.0	0
+AL_Shangrila	AD_Malaysia	1333	1325	0.9939984996249063	3
+AL_Shangrila	AM	1333	1294	0.9707426856714179	3
+AL_Shangrila	AC	1334	1288	0.9655172413793104	50
+AL_Shangrila	AF	1335	1292	0.9677902621722847	49
+AL_Shangrila	BT	1327	1066	0.8033157498116051	64
+AL_Shangrila	AD_Thailand	1333	1326	0.994748687171793	3
+AL_Shangrila	AL_Pingbian	1336	1335	0.999251497005988	0

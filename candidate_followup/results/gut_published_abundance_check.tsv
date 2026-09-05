@@ -1,0 +1,4 @@
+accession	stage	replicate	S4_reported_hybrid	S6_reported_hybrid	same_value	interpretation
+XP_393750.5	adult	1	0.000183602	0.000447536	False	Do not use inconsistent hybrid values for an abundance comparison
+XP_393750.5	adult	2	0.000124948	0.000445641	False	Do not use inconsistent hybrid values for an abundance comparison
+XP_393750.5	adult	3	0.0001153	0.00045077	False	Do not use inconsistent hybrid values for an abundance comparison

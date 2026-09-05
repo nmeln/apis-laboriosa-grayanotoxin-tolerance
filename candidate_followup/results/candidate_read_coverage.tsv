@@ -1,0 +1,5 @@
+sample	reference	candidate_length_nt	reads	distinct_strand_start_end	covered_nt	covered_fraction	covered_at_5	median_depth	max_depth
+AL	AL	4008	1161	833	4001	0.998253493013972	3993	43.0	77
+AD	AL	4008	54	50	3280	0.8183632734530938	198	2.0	5
+AL	AD	3999	1158	831	3992	0.9982495623905977	3984	43	77
+AD	AD	3999	54	50	3280	0.8202050512628157	198	2	5

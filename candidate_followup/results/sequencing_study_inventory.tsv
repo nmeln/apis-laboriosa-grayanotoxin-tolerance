@@ -1,0 +1,11 @@
+species	study	strategy	library_source	runs	distinct_samples	title	use
+Apis dorsata	PRJNA1157564	AMPLICON	METAGENOMIC	1	1	Metagenomics - Characterization of gut bacteria of Apis dorsata	Does not measure host RNA expression
+Apis dorsata	PRJNA174631	WGS	GENOMIC	4	1	Apis dorsata Genome Sequencing Project	Does not measure host RNA expression
+Apis dorsata	PRJNA279123	WGS	GENOMIC	1	1	Apis dorsata Genome sequencing and assembly	Does not measure host RNA expression
+Apis dorsata	PRJNA508620	AMPLICON	GENOMIC	1	1	Molecular evolution of major royal jelly protein (mrjp) genes within the genus Apis	Does not measure host RNA expression
+Apis dorsata	PRJNA542114	RNA-Seq	TRANSCRIPTOMIC	1	1	Towards understanding the genetic basis of high-elevation adaptation in Himalayan giant honey bee	Host expression
+Apis dorsata	PRJNA577936	WGS	GENOMIC	2	1	Apis dorsata drones from Chiang Mai, Thailand: Genome sequencing and assembly	Does not measure host RNA expression
+Apis dorsata	PRJNA931733	WGS	GENOMIC	28	28	Population genomics data of two giant honeybees	Does not measure host RNA expression
+Apis laboriosa	PRJNA279131	WGS	GENOMIC	1	1	Apis laboriosa Genome sequencing and assembly	Does not measure host RNA expression
+Apis laboriosa	PRJNA542114	RNA-Seq	TRANSCRIPTOMIC	1	1	Towards understanding the genetic basis of high-elevation adaptation in Himalayan giant honey bee	Host expression
+Apis laboriosa	PRJNA931733	WGS	GENOMIC	29	29	Population genomics data of two giant honeybees	Does not measure host RNA expression

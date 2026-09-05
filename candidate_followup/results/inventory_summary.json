@@ -1,0 +1,11 @@
+{
+  "dna_rna_distinction": "Host cells in the head or thorax contain the gut genes. Their DNA can reconstruct a gut transporter; gut activity needs RNA/protein from that tissue.",
+  "dorsata_NCBI_assembly_records": 3,
+  "dorsata_distinct_assembly_sources": 2,
+  "focal_RNA_runs": {
+    "Apis dorsata": 1,
+    "Apis laboriosa": 1
+  },
+  "reason_inference": "Reducing gut microbes and food-derived material is a plausible explanation of contamination avoidance, not an additional statement of intent by the authors.",
+  "removal_reason_source": "Cao et al. 2023 explicitly states abdomen removal to avoid contamination for DNA extraction. GEO records belly exclusion for RNA; the paper does not separately give the RNA-dissection rationale."
+}

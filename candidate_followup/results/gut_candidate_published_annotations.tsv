@@ -1,0 +1,3 @@
+stage	accession	BUSCA_prediction	Phobius_predicted_helices	Phobius_topology	fly_protein_matches	source_sheet	limitation
+adult	XP_393750.5	plasma membrane	11	i107-129o149-172i223-245o251-269i329-355o375-396i747-764o803-825i873-894o900-920i986-1008o	*FBpp0071545,*FBpp0084755,*FBpp0271768	Table S2	Membrane architecture and exact orientation are computational predictions
+larva	XP_393750.5	plasma membrane	11	i107-129o149-172i223-245o251-269i329-355o375-396i747-764o803-825i873-894o900-920i986-1008o	*FBpp0071545,*FBpp0084755,*FBpp0271768	Table S3	Membrane architecture and exact orientation are computational predictions

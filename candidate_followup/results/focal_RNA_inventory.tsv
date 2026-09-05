@@ -1,0 +1,3 @@
+species	search_date	ena_taxonomic_subtree_transcriptomic_runs	ncbi_sra_transcriptomic_records	runs	tissue	independent_usable_gut_host_RNA_datasets_found	scope
+Apis dorsata	2026-09-05	1	1	SRR9034696	whole body without belly	0	Saved ENA taxonomic-subtree transcriptomic search and NCBI SRA Organism:exp/Source search; not proof no unindexed or unsubmitted data exist
+Apis laboriosa	2026-09-05	1	1	SRR9034695	whole body without belly	0	Saved ENA taxonomic-subtree transcriptomic search and NCBI SRA Organism:exp/Source search; not proof no unindexed or unsubmitted data exist

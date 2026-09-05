@@ -1,0 +1,4 @@
+design	AL_position_1based	AD_position_1based	original_codon	replacement_codon	original_aa	replacement_aa	status
+AL_L254F	254	254	CTT	TTT	L	F	Untested sequence design; no function or transport result
+AL_L549F	549	546	TTG	ttt	L	F	Untested sequence design; no function or transport result
+AL_F1134L	1134	1131	TTT	CTT	F	L	Untested sequence design; no function or transport result

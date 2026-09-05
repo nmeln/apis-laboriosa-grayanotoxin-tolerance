@@ -1,0 +1,9 @@
+label	accession	length_aa	source
+AL_Shangrila	XP_043798878.1	1336	RefSeq primary protein in OG0000499
+AD_Malaysia	XP_006621542.1	1333	RefSeq primary protein in OG0000499
+AM	XP_393750.5	1333	RefSeq primary protein in OG0000499
+AC	XP_061938405.1	1382	RefSeq primary protein in OG0000499
+AF	XP_086761534.1	1383	RefSeq primary protein in OG0000499
+BT	XP_048266277.1	1382	RefSeq primary protein in OG0000499
+AD_Thailand	AD_Thailand	1333	Translation of genomic CDS reconstructed with miniprot
+AL_Pingbian	AL_Pingbian	1336	Translation of genomic CDS reconstructed with miniprot
