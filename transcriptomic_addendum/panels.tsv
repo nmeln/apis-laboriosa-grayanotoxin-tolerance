@@ -1,0 +1,23 @@
+panel	pattern	interpretation_limit
+peritrophin_chitin_binding	peritrophin|peritrophic matrix|chitin-binding protein	chitin binding does not imply exclusion of small toxins
+chitin_synthase	chitin synthase	chitin synthesis can serve gut or cuticle
+ABCC	ATP-binding cassette sub-family C|multidrug resistance-associated protein	substrate and transport direction unknown
+ABCB	ATP-binding cassette sub-family B|P-glycoprotein|multidrug resistance protein(?!-associated)	substrate and tissue unknown
+ABCG	ATP-binding cassette sub-family G|white protein|scarlet protein|brown protein	pigment and lipid functions also possible
+OATP	organic anion transport(?:er|ing polypeptide)	uptake and clearance cannot be distinguished
+P450	cytochrome P450	includes endogenous lipid metabolism
+esterase	carboxylesterase|carboxylic ester hydrolase|esterase E4	annotation does not establish GTX deacetylation
+UGT	UDP[- ](?:glycosyl|glucuronosyl)transferase	substrate unknown
+GST	glutathione S-transferase	substrate unknown
+cuticle	cuticular protein|cuticle protein|apicortin|apidirmin|apidermin	cuticle-associated annotation panel
+chitinase	chitinase	gut turnover and cuticle remodeling both possible
+digestive_protease	trypsin|chymotrypsin|aminopeptidase N|carboxypeptidase B	functional marker panel, not exclusive tissue markers
+carbohydrate_digestion	alpha-amylase|alpha-glucosidase|maltase	gut and gland functions may overlap
+lipase	lipase|lipase-like	broad lipid processing panel
+royal_jelly	major royal jelly protein	gland/worker-state marker panel
+vitellogenin	vitellogenin	age, nutrition and worker physiology can change abundance
+muscle_contractile	myosin heavy chain|troponin|tropomyosin|paramyosin|flightin	muscle-associated functional panel
+ribosome	(?:40S|60S) ribosomal protein	translation machinery control
+mitochondrial_respiration	cytochrome c oxidase|NADH dehydrogenase|ATP synthase	energy physiology, not an invariant housekeeping set
+immune_effector	defensin|hymenoptaecin|abaecin|apidaecin|lysozyme	immune and microbial-state marker panel
+Para	sodium (?:voltage-gated channel paralytic|channel protein (?:para|paralytic))	low whole-worker abundance can hide tissue-specific effects

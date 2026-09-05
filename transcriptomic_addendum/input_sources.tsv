@@ -1,0 +1,11 @@
+relative_path	source_url	retrieval_method	size_bytes	sha256
+inputs/Dmel_Chs2_uniprot.faa	https://rest.uniprot.org/uniprotkb/stream?format=fasta&query=organism_id%3A7227%20AND%20gene_exact%3AChs2	direct	3721	e90e5451598c49462ed833f4fbd99db2564894363b02e901ad7004d308a8ec01
+inputs/Dmel_kkv_uniprot.faa	https://rest.uniprot.org/uniprotkb/stream?format=fasta&query=organism_id%3A7227%20AND%20gene_exact%3Akkv	direct	7782	d63a21d3bf7ce9ce78890c357b104d103211fbdd3cc6855ea2baa5a51c33f897
+inputs/GSE130963.soft.txt	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130963&targ=all&form=text&view=full	direct	11804	71a33ef10ba8fbdd9ab7472ebc168109e5fdaa31e108878e3f61354d9d35c0c7
+inputs/KY741959.gb	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KY741959.1&rettype=gb&retmode=text	direct	16020	95c7ca0a6c6198b8658dc35fd1c3816098fdf06484f60717eb62139d4493c1df
+inputs/OR496406.gb	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=OR496406.1&rettype=gb&retmode=text	direct	16139	0efb42521838ad94e38f1b0c592dc303e99828f2f260a3e28f3f417ad028c876
+inputs/PMC10710133.xml	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10710133/fullTextXML	direct	126477	7b164c76c834fc548fa39739ca9cfb9f2b638d74d273fcca830de0983dc446af
+inputs/PRJNA542114_runs.tsv	https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA542114&result=read_run&fields=run_accession,sample_accession,scientific_name,library_layout,read_count,base_count,fastq_ftp,fastq_md5,fastq_bytes&format=tsv	direct	716	c4cedc7c65798f14ebe00e189f53e1019b4170643bb2b17c6fb09e537e17f81e
+inputs/SRR9034695.first_2000000.R1.fastq.gz	https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR903/005/SRR9034695/SRR9034695_1.fastq.gz	first_2000000_R1_records_gzip_mtime0_level6	160134622	181e16607e8a35465d85c3e4f7aa2f4050776ef644e839d398633781630aa98b
+inputs/SRR9034696.first_2000000.R1.fastq.gz	https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR903/006/SRR9034696/SRR9034696_1.fastq.gz	first_2000000_R1_records_gzip_mtime0_level6	157574513	042c0470ff5ce1722cd5d11a2c3d2bd4abc7b1a5c4ad1d3d18fc371ff3ce1d7b
+inputs/peerj-11-16238-s002.xlsx	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10710133/supplementaryFiles	zip_member:peerj-11-16238-s002.xlsx	36818	cac180f828259f08446fa1e238cfbc1bda27c5d68d76c12b92be66f4f7494fda
