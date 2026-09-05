@@ -8,6 +8,10 @@ from collect_reads import count_fastq
 def main():
     rows=[]
     inventory=table(OUT/'sample_inventory.tsv')
+    batches=json.loads((INPUT/'selected_reads/collection_status.json').read_text())
+    assert not batches['missing'] and sorted(batches['expected'])==sorted(r['run_accession'] for r in inventory)
+    assert all(r['identical_selected_records'] for r in batches['duplicate_collections_compared'])
+    json_write(OUT/'collection_batch_merge.json',batches)
     for sample in inventory:
         run=sample['run_accession'];source=INPUT/'selected_reads'/run
         data=json.loads((source/'collection.json').read_text())
@@ -42,7 +46,7 @@ def main():
         actual=digest(HERE/name)
         assert actual==expected, 'Independent full-library recollection differed from the local pilot'
         pilot_checks.append(dict(path=name,expected_sha256=expected,recollected_sha256=actual,match=True))
-    json_write(OUT/'independent_capture_reproduction.json',dict(run_accession='SRR23343443',files=pilot_checks,all_match=True))
+    json_write(OUT/'independent_capture_reproduction.json',dict(run_accessions=sorted({p['path'].split('/')[-2] for p in pilot_checks}),files=pilot_checks,all_match=True))
     print('Verified selected original records and complete-source checksums for all 57 libraries.')
 
 if __name__=='__main__':main()

@@ -37,6 +37,20 @@ def main():
         else:assert d['all_positive_pairs_retained'] and d['all_negative_pairs_excluded'] and d['retained_R1']==d['retained_R2']==6912 and d['read_sequences_and_qualities_preserved'] and d['unmatched_mates_preserved']
     d=json.loads((OUT/'collection_summary.json').read_text());assert d['verified_libraries']==57 and d['total_source_compressed_bytes']==269858255055
     assert json.loads((OUT/'independent_capture_reproduction.json').read_text())['all_match']
+    # Frozen observed findings, checked separately from structural invariants.
+    for r in species:
+        if r['role']=='primary':
+            n=28 if r['species']=='Apis laboriosa' else {'254':27,'549':26,'1134':28}[r['focal_AL_position']]
+            assert int(r['callable_workers'])==n and int(r['reference_state_homozygotes'])==n
+            assert int(r['reference_state_allele_copies'])==2*n
+    observed={(r['species'],r['focal_AL_position'],r['profile']):r for r in species}
+    assert observed['Apis laboriosa','452','primary']['amino_acid_genotype_counts']=='R/R:1;R/T:2;T/T:24'
+    assert observed['Apis dorsata','822','primary']['amino_acid_genotype_counts']=='I/I:25;I/V:3'
+    assert Counter(r['status'] for r in consensus if r['profile']=='primary')=={'PASS':497,'reference_quality_failure':16}
+    assert Counter(r['comparison'] for r in table(OUT/'bcftools_base_crosscheck.tsv'))=={'agree':2982,'codon_call_filtered':96}
+    profiles=table(OUT/'individual_primary_profiles.tsv')
+    assert sum(r['callable_primary_sites']=='3' for r in profiles)==53
+    assert {r['run_accession'] for r in consensus if r['profile']=='primary' and r['role']=='primary' and r['status']!='PASS'}=={'SRR23343440','SRR23343455','SRR23343460','SRR23343476'}
     print('Validated 57-worker denominators, 2,052 codon calls, missing-data handling and collection controls.')
 
 if __name__=='__main__':main()

@@ -101,13 +101,13 @@ def restore_original_records(source, captured, output):
     return reads, bases, len(seen)
 
 
-def collect(run, delete_raw=False):
+def collect(run, delete_raw=False, output_root=None):
     assert re.fullmatch(r'SRR[0-9]+', run)
     rows = table(INPUT / 'ena_population_runs.tsv') if (INPUT / 'ena_population_runs.tsv').exists() else table(OUT / 'sample_inventory.tsv')
     row = next(r for r in rows if r['run_accession'] == run)
     # Large temporary sources do not need to occupy the shared artifact tree.
     rawdir = Path(tempfile.gettempdir()) / 'bee_population_raw' / run
-    destination = INPUT / 'selected_reads' / run
+    destination = (Path(output_root) if output_root else INPUT / 'selected_reads') / run
     destination.mkdir(parents=True, exist_ok=True)
     urls = ['https://' + u.removeprefix('https://') for u in row['fastq_ftp'].split(';')]
     sizes, md5s = list(map(int, row['fastq_bytes'].split(';'))), row['fastq_md5'].split(';')
@@ -160,5 +160,6 @@ if __name__ == '__main__':
     p = argparse.ArgumentParser()
     p.add_argument('--run', required=True)
     p.add_argument('--delete-raw', action='store_true', help='Remove verified large downloads after successful capture')
+    p.add_argument('--output-root', help='Separate destination for an independent recollection')
     a = p.parse_args()
-    collect(a.run, a.delete_raw)
+    collect(a.run, a.delete_raw, a.output_root)

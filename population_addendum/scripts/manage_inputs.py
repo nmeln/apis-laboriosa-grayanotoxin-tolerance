@@ -37,6 +37,8 @@ def manifest():
     for r in table(HERE/'metadata_sources.tsv'):
         p=HERE/r['path'];assert digest(p)==r['sha256']
         rows.append(dict(relative_path=str(p.relative_to(ROOT)),source_url=r['source_url'],size_bytes=p.stat().st_size,sha256=digest(p),role='population_metadata'))
+    p=INPUT/'selected_reads/collection_status.json'
+    rows.append(dict(relative_path=str(p.relative_to(ROOT)),source_url='https://github.com/nmeln/apis-laboriosa-grayanotoxin-tolerance/actions/runs/33994894621',size_bytes=p.stat().st_size,sha256=digest(p),role='collection_batch_merge_record'))
     inventory=table(HERE/'results/sample_inventory.tsv')
     for sample in inventory:
         run=sample['run_accession'];folder=INPUT/'selected_reads'/run
