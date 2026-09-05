@@ -1,0 +1,32 @@
+{
+  "alignment_qc": {
+    "AD": {
+      "ambiguous_group": 3265,
+      "failed_alignment_filters": 129631,
+      "reads_with_reported_alignment": 941577,
+      "unique_group_reads": 808681
+    },
+    "AL": {
+      "ambiguous_group": 6980,
+      "failed_alignment_filters": 185814,
+      "reads_with_reported_alignment": 1362579,
+      "unique_group_reads": 1169785
+    }
+  },
+  "input_R1_reads_each": 2000000,
+  "limit": "Two unreplicated pools, belly excluded according to GEO; deterministic R1 prefixes; technical counts only.",
+  "median_AL_AD_ratio": 1.2272727272727273,
+  "median_log2_AL_AD_ratio": 0.2954558835261713,
+  "normalization_background_groups": 6157,
+  "peritrophin_OG0001109": {
+    "AD_per_million_input_R1": 0.0,
+    "AD_reads": 0,
+    "AL_per_million_input_R1": 1475.0,
+    "AL_reads": 2950,
+    "descriptions": "XP_003251779.1 peritrophin-1 [Apis mellifera]; XP_003393341.1 peritrophin-1 [Bombus terrestris]; XP_006608353.1 peritrophin-1-like [Apis dorsata]; XP_012344429.1 peritrophin-1 [Apis florea]; XP_016918864.2 peritrophin-1 [Apis cerana]; XP_043794209.1 peritrophin-1-like [Apis laboriosa]",
+    "median_normalized_ratio": null,
+    "orthogroup": "OG0001109",
+    "panels": "peritrophin_chitin_binding",
+    "raw_ratio": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "additional_source_issue": "Article methods and results say 1.25% while Figure 4 says 1.25 mg/L; exact exposure concentration needs clarification.",
+  "all_tested_genes_available_in_this_file": false,
+  "columns": [
+    "id",
+    "baseMean",
+    "baseMean_CK",
+    "baseMean_MZM",
+    "foldChange(MZM/CK)",
+    "log2FoldChange",
+    "pval",
+    "padj"
+  ],
+  "decision": "Do not recompute DE or pathway enrichment from this preselected subset. No cross-species validation claim.",
+  "genes_in_supplied_table": 282,
+  "genes_reported_in_article": 285,
+  "paper": "10.7717/peerj.16238",
+  "replicate_count_matrix_available_in_this_file": false,
+  "rows_published_adjusted_p_below_0_05": 43,
+  "rows_published_adjusted_p_below_0_10": 60,
+  "rows_raw_p_below_0_05": 282,
+  "sheet_name": "read_count.Control vs GTXI",
+  "source": "https://doi.org/10.7717/peerj.16238/supp-2"
+}

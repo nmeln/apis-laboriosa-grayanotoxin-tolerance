@@ -1,0 +1,30 @@
+[
+  {
+    "bases": 300000000,
+    "first_header": "@SRR9034695.1 1/1",
+    "full_source_md5_not_verified": "466bfbc20d704f008cfb664d4ec7db47",
+    "gzip_bytes": 160134622,
+    "gzip_sha256": "181e16607e8a35465d85c3e4f7aa2f4050776ef644e839d398633781630aa98b",
+    "last_header": "@SRR9034695.2000000 2000000/1",
+    "raw_fastq_sha256": "77ba6c23a3dd9da7581c32d20d1f92de288def53ab5b446c17ac08d43fe9d3fe",
+    "read_end": "R1",
+    "reads": 2000000,
+    "run": "SRR9034695",
+    "selection": "first records in ENA FASTQ order",
+    "source_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR903/005/SRR9034695/SRR9034695_1.fastq.gz"
+  },
+  {
+    "bases": 300000000,
+    "first_header": "@SRR9034696.1 1/1",
+    "full_source_md5_not_verified": "b4bbffa60cfd45c209cd0a433a657522",
+    "gzip_bytes": 157574513,
+    "gzip_sha256": "042c0470ff5ce1722cd5d11a2c3d2bd4abc7b1a5c4ad1d3d18fc371ff3ce1d7b",
+    "last_header": "@SRR9034696.2000000 2000000/1",
+    "raw_fastq_sha256": "475a5c9aad0e0a0f6462cd16f8e7c2d640385ed6748fa53fc68944452cb9aab1",
+    "read_end": "R1",
+    "reads": 2000000,
+    "run": "SRR9034696",
+    "selection": "first records in ENA FASTQ order",
+    "source_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR903/006/SRR9034696/SRR9034696_1.fastq.gz"
+  }
+]

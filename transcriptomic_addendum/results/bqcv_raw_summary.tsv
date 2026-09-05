@@ -1,0 +1,3 @@
+sample	input_R1_reads	BQCV_matching_reads	fraction_of_input_R1	OR496406_matching_reads	KY741959_matching_reads	credible_competing_bee_CDS_reads	OR496406_bases_spanned	OR496406_reference_length	OR496406_mean_alignment_span_depth
+AL	2000000	188	9.4e-05	180	178	0	7953	8440	3.185663507109005
+AD	2000000	584834	0.292417	564470	542305	0	8440	8440	10005.056279620852
