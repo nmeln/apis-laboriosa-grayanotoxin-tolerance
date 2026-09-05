@@ -1,0 +1,117 @@
+name: Collect ABCC population reads
+
+on:
+  workflow_dispatch:
+    inputs:
+      runs:
+        description: 'all, or comma-separated deposited SRR accessions'
+        required: true
+        default: all
+
+permissions:
+  contents: read
+
+concurrency:
+  group: population-read-collection
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      runs: ${{ steps.matrix.outputs.runs }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: matrix
+        env:
+          REQUESTED_RUNS: ${{ inputs.runs }}
+        run: |
+          python - <<'PY'
+          import csv, json, os
+          with open('population_addendum/results/sample_inventory.tsv') as f:
+              available = sorted(r['run_accession'] for r in csv.DictReader(f, delimiter='\t'))
+          requested = os.environ['REQUESTED_RUNS'].strip()
+          selected = available if requested == 'all' else sorted(set(requested.split(',')))
+          assert selected and set(selected) <= set(available), 'Unknown accession'
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write('runs=' + json.dumps(selected) + '\n')
+          PY
+  collect:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        run: ${{ fromJson(needs.plan.outputs.runs) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Install pinned capture tool
+        run: |
+          python -m pip install zstandard==0.25.0
+          python population_addendum/scripts/setup_tools.py
+      - name: Verify complete FASTQs and retain candidate pairs
+        env:
+          SAMPLE_RUN: ${{ matrix.run }}
+        run: python population_addendum/scripts/collect_reads.py --run "$SAMPLE_RUN" --delete-raw
+      - name: Preserve selected read pairs and capture log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: population-${{ matrix.run }}
+          path: population_addendum/inputs/selected_reads/
+          retention-days: 30
+          compression-level: 6
+          overwrite: true
+  gather:
+    needs: [plan, collect]
+    if: always() && !cancelled() && needs.plan.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: population-SRR*
+          path: population_addendum/work/gathered
+          merge-multiple: true
+      - name: Check all requested libraries completed
+        env:
+          EXPECTED_RUNS: ${{ needs.plan.outputs.runs }}
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, json, os
+          root = Path('population_addendum/work/gathered')
+          expected = json.loads(os.environ['EXPECTED_RUNS'])
+          missing = []
+          for run in expected:
+              manifest = root / run / 'collection.json'
+              if not manifest.exists():
+                  missing.append(run)
+                  continue
+              data = json.loads(manifest.read_text())
+              assert data['run_accession'] == run and data['complete_source_files_verified']
+              for item in data['selected_files']:
+                  path = manifest.parent / item['name']
+                  assert path.stat().st_size == item['size_bytes']
+                  assert hashlib.file_digest(path.open('rb'), 'sha256').hexdigest() == item['sha256']
+          (root / 'collection_status.json').write_text(json.dumps({'expected': expected, 'missing': missing}, indent=2) + '\n')
+          assert not missing, 'Incomplete libraries: ' + ','.join(missing)
+          print('Verified complete-source extraction for', len(expected), 'libraries.')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: population-evidence-all
+          path: population_addendum/work/gathered/
+          retention-days: 30
+          compression-level: 6
+          overwrite: true
