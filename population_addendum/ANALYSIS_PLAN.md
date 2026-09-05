@@ -61,3 +61,39 @@ can occur at a candidate position. Include unexpected states and failures.
 No claim of species-wide fixation, positive selection, GTX transport or
 causal tolerance follows from this population comparison. Geographic
 sampling and relatedness constrain frequency estimates.
+
+## Capture control finding before population genotyping
+
+The actual BBDuk 39.91 control retained the intended sequences but reset high
+quality values at synthetic N bases to zero, including with `changequality=f`.
+The collection stage therefore uses BBDuk to identify read names, then makes
+a second sequential pass through the original verified FASTQs to copy exact
+records. Genotyping uses those original records. The control requires their
+sequences and qualities to remain unchanged and tests retention of an unmatched
+mate when its partner matches a bait.
+
+## Codon caller details before population genotype inspection
+
+The caller considers all 64 codons and all 2,080 unordered diploid codon pairs.
+For each observed codon it multiplies the three base-call probabilities,
+using the recorded Phred scores with a minimum per-base error probability of
+0.001. A heterozygote gives each allele probability 0.5. Genotype quality is
+10 times the log10 likelihood ratio between the best and second-best genotype,
+capped at 99; it is a likelihood separation, without a population prior.
+
+Use one eligible read per physical fragment, choosing the larger minimum
+codon-base quality, then total codon quality, then read 1 when mates agree.
+Exclude a fragment if eligible mates disagree. Preserve forward and reverse
+read support. A one-strand-only call remains visible but is excluded from the
+primary cross-reference consensus. No additional read-length or read-end
+filter is applied. Both reference mappings use the same evidence files.
+
+## Independent caller check
+
+Before the remaining 56 workers are available, add an independent BCFtools
+1.21 SNP call at all three bases of every tested codon, using both mappings.
+Use MAPQ 30, base quality 30, default BAQ and overlap handling, the same
+alignment flag exclusions, and diploid multiallelic calls per individual.
+Include covered reference sites. Preserve absent positions and disagreements.
+This is a supplementary implementation check; the fragment-based codon rules
+above continue to determine the primary calls.
