@@ -53,6 +53,26 @@ def main():
     selected,conflicts=collapse_fragments({'conflict':sample})
     assert not selected and conflicts==['conflict']
     cases.append(dict(test='conflicting_mates_excluded',passed=True))
+    # Two identical fragment coordinates within one sample are duplicates;
+    # the same coordinates in a different worker remain independent evidence.
+    header2=dict(HD={'VN':'1.6'},SQ=[dict(SN='chr1',LN=1000)],RG=[dict(ID=x,SM=x,LB=x) for x in ('workerA','workerB')])
+    dupraw=directory/'duplicates.raw.bam'
+    with pysam.AlignmentFile(str(dupraw),'wb',header=header2) as out:
+        for name,group in [('pairA1','workerA'),('pairA2','workerA'),('pairB1','workerB')]:
+            for mate in (1,2):
+                r=pysam.AlignedSegment(out.header);r.query_name=name;r.query_sequence='A'*150
+                r.query_qualities=pysam.qualitystring_to_array('I'*150)
+                r.flag=99 if mate==1 else 147;r.reference_id=r.next_reference_id=0
+                r.reference_start=100 if mate==1 else 300;r.next_reference_start=300 if mate==1 else 100
+                r.template_length=350 if mate==1 else -350;r.cigarstring='150M';r.mapping_quality=60;r.set_tag('RG',group);out.write(r)
+    named,fixed,sorted_dup,marked=[directory/('duplicates.'+x+'.bam') for x in ('name','fix','sorted','marked')]
+    pysam.sort('-n','-o',str(named),str(dupraw));pysam.fixmate('-m',str(named),str(fixed))
+    pysam.sort('-o',str(sorted_dup),str(fixed));pysam.markdup('--use-read-groups',str(sorted_dup),str(marked))
+    from collections import Counter
+    with pysam.AlignmentFile(str(marked),'rb') as f:
+        duplicates=Counter(r.get_tag('RG') for r in f if r.is_duplicate)
+    assert duplicates=={'workerA':2},duplicates
+    cases.append(dict(test='samtools_marks_within_worker_duplicates_and_retains_other_worker',passed=True))
     json_write(OUT/'genotype_tool_validation.json',dict(tests=cases,all_passed=True))
     print('Passed',len(cases),'known-truth genotype controls.')
 
